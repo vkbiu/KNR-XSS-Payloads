@@ -1,2 +1,2 @@
 # KNR-XSS-Payloads
-Payloads For XSS
+Latest Payloads For XSS
