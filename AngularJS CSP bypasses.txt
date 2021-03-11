@@ -1,0 +1,5 @@
+<input autofocus ng-focus="$event.path|orderBy:'[].constructor.from([1],alert)'">
+<input id=x ng-focus=$event.path|orderBy:'(z=alert)(1)'>
+<input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'">
+<div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div>
+<input ng-cut=$event.path|orderBy:'(y=alert)(1)'>

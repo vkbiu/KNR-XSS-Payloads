@@ -1,0 +1,6 @@
+<math><x href="javascript:alert(1)">blah
+<math><brute href=javascript:alert(1)>click
+<math><brute xlink:href=javascript:alert(1)>click
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<math href="javascript:javascript:alert(1)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com"
+

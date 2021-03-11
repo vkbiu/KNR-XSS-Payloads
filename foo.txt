@@ -1,0 +1,7 @@
+<? foo="><script>javascript:alert(1)</script>">
+<! foo="><script>javascript:alert(1)</script>">
+</ foo="><script>javascript:alert(1)</script>">
+<? foo="><x foo='?><script>javascript:alert(1)</script>'>">
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(1)</script>">
+<% foo><x foo="%><script>javascript:alert(1)</script>">
+

