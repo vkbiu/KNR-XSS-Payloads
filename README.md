@@ -1,4 +1,3 @@
 # KNR-XSS-Payloads
-Latest Payloads For XSS
-
+Almost all XSS Payloads.
 "XSS All" file contain all the XSS Payloads. 
